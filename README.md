@@ -1,7 +1,7 @@
 # SLIDE-x-ML
 **S**ystem-**L**evel **I**nfrastructure for HW/SW **D**ataset **E**-**x**traction and **M**achine **L**earning Model Building
 
-<p><img src="img/logo_NEW.png" width="250" height="250"></p>
+<p><img src="img/SLIDE-x-ML-logo.png" width="250" height="250"></p>
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 

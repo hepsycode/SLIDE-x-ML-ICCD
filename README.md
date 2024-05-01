@@ -1,4 +1,13 @@
-# SLIDE-x-ML
+# SLIDE-x
+**S**ystem-**L**evel **I**nfrastructure for HW/SW **D**ataset **E**-**x**traction
+
+<p><img src="img/logo_NEW.png" width="250" height="250"></p>
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+## Installation instructions
+
+### OVERVIEW
 SLIDE-x-ML is an open-source Python tool that facilitates the System-Level HW/SW Co-Design of embedded systems and Cyber-Physical Systems (CPSs) through the creation of HW/SW ML models using machine learning frameworks and tools, including MATLAB Statistics and Machine Learning Toolbox (for MATLAB) and TensorFlow/Keras/PyTorch/Scikit-Learn (for Python). These HW/SW ML models can be used to evaluate HW/SW performance, select the most suitable embedded platform, and perform HW/SW trade-off analysis.
 
 ### SLIDE-x Main Components

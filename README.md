@@ -13,7 +13,7 @@ SLIDE-x-ML is an open-source Python tool that facilitates the System-Level HW/SW
 ### SLIDE-x Main Components
 SLIDE-x consists of the following components:
 
-1. **00-SLIDE-x-Ingestion**: Extensible Python Dataset Ingestion component for collecting datasets generated during the SLIDE-x Profiling/Simulation framework. It also offers functionalities for implementing unified HW/SW metrics (e.g., CC4CS, CC4IR, CC4SSA, CC4OPT, Affinity), performing statistical analysis, and comparing different platforms. The SLIDE-x-Ingestion is composed of:
+1. **SLIDE-x-Ingestion**: Extensible Python Dataset Ingestion component for collecting datasets generated during the SLIDE-x Profiling/Simulation framework. It also offers functionalities for implementing unified HW/SW metrics (e.g., CC4CS, CC4IR, CC4SSA, CC4OPT, Affinity), performing statistical analysis, and comparing different platforms. The SLIDE-x-Ingestion is composed of:
     - **SILDE-x-Data-Collect-Cleaning**: WIP
     - **SILDE-x-Feature-Engineering**: WIP
     - **SILDE-x-Data-Ingestion**: WIP

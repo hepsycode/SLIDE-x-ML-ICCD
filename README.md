@@ -68,19 +68,19 @@ Research publications are available at https://hepsycode.github.io/ and http://w
 If you use SLIDE-x in your research, please cite:
 ```
 @inproceedings{10.1145/3427921.3450258,
-author = {Muttillo, Vittoriano and Giammatteo, Paolo and Stoico, Vincenzo},
-title = {Statement-Level Timing Estimation for Embedded System Design Using Machine Learning Techniques},
-year = {2021},
-isbn = {9781450381949},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3427921.3450258},
-doi = {10.1145/3427921.3450258},
-booktitle = {Proceedings of the ACM/SPEC International Conference on Performance Engineering},
-pages = {257–264},
-numpages = {8},
-keywords = {timing performance prediction, machine learning, feature analysis, embedded system},
-location = {Virtual Event, France},
-series = {ICPE '21}
+        author = {Muttillo, Vittoriano and Giammatteo, Paolo and Stoico, Vincenzo},
+        title = {Statement-Level Timing Estimation for Embedded System Design Using Machine Learning Techniques},
+        year = {2021},
+        isbn = {9781450381949},
+        publisher = {Association for Computing Machinery},
+        address = {New York, NY, USA},
+        url = {https://doi.org/10.1145/3427921.3450258},
+        doi = {10.1145/3427921.3450258},
+        booktitle = {Proceedings of the ACM/SPEC International Conference on Performance Engineering},
+        pages = {257–264},
+        numpages = {8},
+        keywords = {timing performance prediction, machine learning, feature analysis, embedded system},
+        location = {Virtual Event, France},
+        series = {ICPE '21}
 }
 ```

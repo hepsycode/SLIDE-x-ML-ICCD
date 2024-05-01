@@ -13,15 +13,15 @@ SLIDE-x-ML is an open-source Python tool that facilitates the System-Level HW/SW
 ### SLIDE-x Main Components
 SLIDE-x consists of the following components:
 
-1. **SLIDE-x-Ingestion**: Extensible Python Dataset Ingestion component for collecting datasets generated during the SLIDE-x Profiling/Simulation framework. It also offers functionalities for implementing unified HW/SW metrics (e.g., CC4CS, CC4IR, CC4SSA, CC4OPT, Affinity), performing statistical analysis, and comparing different platforms. The SLIDE-x-Ingestion is composed of:
-    - **SILDE-x-Data-Collect-Cleaning**: WIP
-    - **SILDE-x-Feature-Engineering**: WIP
-    - **SILDE-x-Data-Ingestion**: WIP
-3. **SLIDE-x-Model-Engineering**: HW/SW ML-based component for creating System-Level HW/SW Co-Design models using machine learning frameworks and tools. The SLIDE-x-Model-Engineering is composed of:
-    - **SILDE-x-Data-Analysis**: WIP
-    - **SILDE-x-Data-Preparation**: WIP
-    - **SILDE-x-Model-Training-and-Validation**: WIP (Best algorithm Selection and Hyperparameter tuning).
-    - **SILDE-x-Model-Export**: WIP
+1. **SLIDE-x-00-Ingestion**: Extensible Python Dataset Ingestion component for collecting datasets generated during the SLIDE-x Profiling/Simulation framework. It also offers functionalities for implementing unified HW/SW metrics (e.g., CC4CS, CC4IR, CC4SSA, CC4OPT, Affinity), performing statistical analysis, and comparing different platforms. The SLIDE-x-Ingestion is composed of:
+    - **SILDE-x-00-Data-Collect-Cleaning**: WIP
+    - **SILDE-x-01-Feature-Engineering**: WIP
+    - **SILDE-x-02-Data-Ingestion**: WIP
+3. **SLIDE-x-01-Model-Engineering**: HW/SW ML-based component for creating System-Level HW/SW Co-Design models using machine learning frameworks and tools. The SLIDE-x-Model-Engineering is composed of:
+    - **SILDE-x-00-Data-Analysis**: WIP
+    - **SILDE-x-01-Data-Preparation**: WIP
+    - **SILDE-x-02-Model-Training-and-Validation**: WIP (Best algorithm Selection and Hyperparameter tuning).
+    - **SILDE-x-03-Model-Export**: WIP
 
 ### WEBSITE
 [www.HEPSYCODE.com](https://hepsycode.github.io/)

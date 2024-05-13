@@ -1,0 +1,239 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c (with preprocessing)
+[metrics] Defined functions (3)
+          =====================
+           bellmanford (1 call); main (0 call); make_oriented (1 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 60
+          Decision point = 12
+          Global variables = 4
+          If = 12
+          Loop = 6
+          Goto = 2
+          Assignment = 24
+          Exit point = 3
+          Function = 3
+          Function call = 2
+          Pointer dereferencing = 3
+          Cyclomatic complexity = 15
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  a[0][0] ∈ {17}
+   [0][1] ∈ {-125}
+   [0][2] ∈ {17}
+   [0][3] ∈ {5}
+   [0][4] ∈ {55}
+   [0][5] ∈ {82}
+   [0][6] ∈ {-44}
+   [0][7] ∈ {41}
+   [0][8] ∈ {48}
+   [0][9] ∈ {-12}
+   [0][10] ∈ {51}
+   [0][11] ∈ {74}
+   [0][12] ∈ {56}
+   [1][0] ∈ {-126}
+   [1][1] ∈ {78}
+   [1][2] ∈ {-12}
+   [1][3] ∈ {117}
+   [1][4] ∈ {-113}
+   [1][5] ∈ {-16}
+   [1][6] ∈ {49}
+   [1][7] ∈ {-48}
+   [1][8] ∈ {-65}
+   [1][9] ∈ {-19}
+   [1][10] ∈ {-29}
+   [1][11] ∈ {118}
+   [1][12] ∈ {123}
+   [2][0] ∈ {-34}
+   [2][1] ∈ {118}
+   [2][2] ∈ {-65}
+   [2][3] ∈ {75}
+   [2][4] ∈ {103}
+   [2][5] ∈ {-80}
+   [2][6] ∈ {107}
+   [2][7] ∈ {122}
+   [2][8] ∈ {112}
+   [2][9] ∈ {-56}
+   [2][10] ∈ {-98}
+   [2][11] ∈ {-101}
+   [2][12] ∈ {-79}
+   [3][0] ∈ {-83}
+   [3][1] ∈ {-103}
+   [3][2] ∈ {-120}
+   [3][3] ∈ {93}
+   [3][4] ∈ {64}
+   [3][5] ∈ {-117}
+   [3][6] ∈ {65}
+   [3][7] ∈ {39}
+   [3][8] ∈ {-81}
+   [3][9] ∈ {65}
+   [3][10] ∈ {123}
+   [3][11] ∈ {66}
+   [3][12] ∈ {-74}
+   [4][0] ∈ {-64}
+   [4][1] ∈ {-67}
+   [4][2] ∈ {-101}
+   [4][3] ∈ {90}
+   [4][4] ∈ {54}
+   [4][5] ∈ {125}
+   [4][6] ∈ {-9}
+   [4][7] ∈ {13}
+   [4][8] ∈ {80}
+   [4][9] ∈ {36}
+   [4][10] ∈ {39}
+   [4][11] ∈ {-111}
+   [4][12] ∈ {-20}
+   [5][0] ∈ {-46}
+   [5][1] ∈ {103}
+   [5][2] ∈ {111}
+   [5][3] ∈ {-97}
+   [5][4] ∈ {-43}
+   [5][5] ∈ {-101}
+   [5][6] ∈ {-11}
+   [5][7] ∈ {1}
+   [5][8] ∈ {-9}
+   [5][9] ∈ {112}
+   [5][10] ∈ {69}
+   [5][11] ∈ {28}
+   [5][12] ∈ {-76}
+   [6][0] ∈ {-20}
+   [6][1] ∈ {1}
+   [6][2] ∈ {35}
+   [6][3] ∈ {-87}
+   [6][4] ∈ {35}
+   [6][5] ∈ {-1}
+   [6][6] ∈ {-31}
+   [6][7] ∈ {50}
+   [6][8] ∈ {-100}
+   [6][9] ∈ {122}
+   [6][10] ∈ {-37}
+   [6][11] ∈ {-13}
+   [6][12] ∈ {-87}
+   [7][0] ∈ {-35}
+   [7][1] ∈ {-93}
+   [7][2] ∈ {11}
+   [7][3] ∈ {-17}
+   [7][4..5] ∈ {27}
+   [7][6] ∈ {6}
+   [7][7] ∈ {33}
+   [7][8] ∈ {97}
+   [7][9] ∈ {-124}
+   [7][10] ∈ {-18}
+   [7][11] ∈ {26}
+   [7][12] ∈ {-46}
+   [8][0] ∈ {-45}
+   [8][1] ∈ {86}
+   [8][2] ∈ {-111}
+   [8][3] ∈ {43}
+   [8][4] ∈ {-16}
+   [8][5] ∈ {-107}
+   [8][6] ∈ {-2}
+   [8][7] ∈ {124}
+   [8][8] ∈ {88}
+   [8][9] ∈ {-95}
+   [8][10] ∈ {92}
+   [8][11] ∈ {54}
+   [8][12] ∈ {78}
+   [9][0] ∈ {119}
+   [9][1] ∈ {-6}
+   [9][2] ∈ {-116}
+   [9][3] ∈ {75}
+   [9][4] ∈ {-55}
+   [9][5] ∈ {26}
+   [9][6] ∈ {-118}
+   [9][7] ∈ {31}
+   [9][8] ∈ {-11}
+   [9][9] ∈ {9}
+   [9][10] ∈ {-1}
+   [9][11] ∈ {110}
+   [9][12] ∈ {-53}
+   [10][0] ∈ {-33}
+   [10][1] ∈ {38}
+   [10][2] ∈ {82}
+   [10][3] ∈ {-73}
+   [10][4] ∈ {-9}
+   [10][5] ∈ {20}
+   [10][6] ∈ {1}
+   [10][7] ∈ {123}
+   [10][8] ∈ {-109}
+   [10][9] ∈ {-94}
+   [10][10] ∈ {99}
+   [10][11] ∈ {54}
+   [10][12] ∈ {3}
+   [11][0] ∈ {-92}
+   [11][1] ∈ {62}
+   [11][2] ∈ {80}
+   [11][3] ∈ {63}
+   [11][4] ∈ {-4}
+   [11][5] ∈ {-67}
+   [11][6] ∈ {124}
+   [11][7] ∈ {-116}
+   [11][8] ∈ {-14}
+   [11][9] ∈ {-8}
+   [11][10] ∈ {2}
+   [11][11] ∈ {106}
+   [11][12] ∈ {-65}
+   [12][0] ∈ {15}
+   [12][1] ∈ {-113}
+   [12][2] ∈ {-45}
+   [12][3] ∈ {93}
+   [12][4] ∈ {10}
+   [12][5] ∈ {37}
+   [12][6] ∈ {78}
+   [12][7] ∈ {-11}
+   [12][8] ∈ {-30}
+   [12][9] ∈ {104}
+   [12][10] ∈ {-33}
+   [12][11] ∈ {13}
+   [12][12] ∈ {81}
+  dist[0..12] ∈ {0}
+  i ∈ {0}
+  j ∈ {0}
+[value] computing for function make_oriented <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c:69.
+../../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c:42:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c:49:[value] entering loop for the first time
+[value] Recording results for make_oriented
+[value] Done for function make_oriented
+[value] computing for function bellmanford <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c:70.
+../../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c:16:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c:21:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c:28:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c:30:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c:32:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+i))[j]);
+../../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c:32:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+i))[j]);
+../../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c:33:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+i))[j]);
+[value] Recording results for bellmanford
+[value] Done for function bellmanford
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 3 (out of 3)
+          Semantically reached functions = 3
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          60 stmts in analyzed functions, 60 stmts analyzed (100.0%)
+          main: 3 stmts out of 3 (100.0%)
+          make_oriented: 25 stmts out of 25 (100.0%)
+          bellmanford: 32 stmts out of 32 (100.0%)

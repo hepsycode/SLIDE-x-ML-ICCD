@@ -1,0 +1,66 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 168 
+          Distinct operators: 26 
+          Total_operands: 51 
+          Distinct operands: 15 
+          Program length: 219 
+          Vocabulary size: 41 
+          Program volume: 1173.30 
+          Effort: 51860.03 
+          Program level: 0.02 
+          Difficulty level: 44.20 
+          Time to implement: 2881.11 
+          Bugs delivered: 0.46 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 2
+            if: 1
+            for: 3
+            ): 4
+            ,: 6
+            {: 3
+            (: 4
+            }: 3
+            []: 12
+            ;: 14
+            +: 2
+            ++: 3
+            <: 4
+            =: 4
+            short: 4
+            enum  { size2 }: 1
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 3
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            h: 8
+            a: 8
+            floydwarshall: 1
+            Frama_C_bzero: 1
+            j: 8
+            size: 6
+            Frama_C_copy_block: 1
+            i: 8
+            FC_BUILTIN: 2
+            99: 1
+            2: 1
+            84: 1
+            0: 3
+            28: 1
+            60: 1

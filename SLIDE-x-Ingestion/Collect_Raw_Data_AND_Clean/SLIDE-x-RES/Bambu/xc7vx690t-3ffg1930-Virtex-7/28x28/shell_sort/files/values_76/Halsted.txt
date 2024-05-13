@@ -1,0 +1,87 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 197 
+          Distinct operators: 35 
+          Total_operands: 68 
+          Distinct operands: 27 
+          Program length: 265 
+          Vocabulary size: 62 
+          Program volume: 1577.86 
+          Effort: 69542.81 
+          Program level: 0.02 
+          Difficulty level: 44.07 
+          Time to implement: 3863.49 
+          Bugs delivered: 0.56 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 1
+            break: 1
+            if: 1
+            for: 1
+            while: 3
+            do: 2
+            ): 5
+            ,: 16
+            {: 4
+            (: 5
+            }: 4
+            []: 5
+            ;: 19
+            ++: 3
+            -: 11
+            /=: 1
+            <: 2
+            =: 5
+            *=: 1
+            <=: 1
+            -=: 1
+            >: 2
+            TARGET_TYPE: 1
+            enum  { size15 }: 1
+            short: 4
+            long: 16
+            int: 11
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            shell_sort: 1
+            Frama_C_bzero: 1
+            inc: 11
+            v: 4
+            arr: 7
+            j: 8
+            size: 4
+            Frama_C_copy_block: 1
+            i: 6
+            FC_BUILTIN: 2
+            125: 1
+            59: 1
+            115: 1
+            15: 1
+            117: 1
+            87: 1
+            1: 2
+            3: 2
+            45: 1
+            97: 1
+            72: 1
+            85: 2
+            0: 3
+            47: 2
+            26: 1
+            48: 1
+            108: 1

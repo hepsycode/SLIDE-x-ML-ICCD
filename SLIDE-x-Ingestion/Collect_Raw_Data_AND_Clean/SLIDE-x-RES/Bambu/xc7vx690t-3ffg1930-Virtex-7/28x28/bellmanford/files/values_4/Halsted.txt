@@ -1,0 +1,187 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 701 
+          Distinct operators: 35 
+          Total_operands: 404 
+          Distinct operands: 127 
+          Program length: 1105 
+          Vocabulary size: 162 
+          Program volume: 8110.53 
+          Effort: 451507.69 
+          Program level: 0.02 
+          Difficulty level: 55.67 
+          Time to implement: 25083.76 
+          Bugs delivered: 1.96 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 3
+            sizeof: 1
+            if: 3
+            for: 6
+            ): 10
+            ,: 307
+            {: 6
+            (: 10
+            }: 6
+            []: 28
+            ;: 31
+            +: 2
+            &&: 3
+            ++: 6
+            -: 145
+            !=: 3
+            <: 8
+            =: 14
+            *=: 2
+            *: 1
+            -=: 1
+            >=: 1
+            enum  { size17 }: 1
+            TARGET_TYPE: 2
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 2
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            a: 13
+            bellmanford: 1
+            make_oriented: 1
+            Frama_C_bzero: 1
+            up: 5
+            j: 19
+            size: 10
+            Frama_C_copy_block: 1
+            dist: 7
+            i: 29
+            FC_BUILTIN: 2
+            11: 8
+            2: 3
+            66: 2
+            59: 4
+            123: 1
+            113: 3
+            67: 2
+            15: 1
+            91: 3
+            10: 2
+            117: 1
+            77: 2
+            8: 4
+            42: 2
+            102: 5
+            41: 3
+            109: 3
+            63: 2
+            1: 12
+            81: 1
+            100: 1
+            4: 7
+            58: 2
+            25: 4
+            116: 2
+            44: 1
+            5: 3
+            122: 2
+            18: 1
+            71: 2
+            124: 3
+            110: 2
+            22: 2
+            70: 3
+            89: 2
+            111: 6
+            31: 5
+            115: 5
+            50: 1
+            23: 3
+            27: 3
+            69: 1
+            54: 1
+            105: 4
+            101: 4
+            87: 2
+            57: 1
+            16: 2
+            14: 2
+            3: 2
+            34: 2
+            19: 1
+            121: 1
+            96: 3
+            6: 2
+            47: 1
+            28: 2
+            120: 1
+            52: 1
+            26: 4
+            29: 1
+            99: 4
+            94: 2
+            119: 3
+            125: 1
+            95: 1
+            64: 4
+            13: 2
+            112: 2
+            76: 3
+            84: 2
+            49: 2
+            33: 3
+            73: 3
+            103: 1
+            7: 3
+            38: 2
+            61: 1
+            82: 2
+            88: 2
+            43: 2
+            86: 5
+            36: 2
+            85: 3
+            93: 5
+            55: 1
+            46: 2
+            37: 4
+            60: 3
+            80: 2
+            118: 3
+            39: 2
+            75: 3
+            24: 1
+            20: 1
+            79: 2
+            32: 2
+            62: 3
+            90: 3
+            12: 2
+            107: 1
+            56: 9
+            17: 2
+            40: 2
+            45: 2
+            97: 2
+            72: 2
+            35: 1
+            9: 6
+            0: 15
+            65: 6
+            74: 2
+            78: 3
+            106: 2
+            126: 2
+            21: 2

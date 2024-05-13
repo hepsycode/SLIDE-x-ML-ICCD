@@ -1,0 +1,137 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 294 
+          Distinct operators: 26 
+          Total_operands: 168 
+          Distinct operands: 86 
+          Program length: 462 
+          Vocabulary size: 112 
+          Program volume: 3145.00 
+          Effort: 79868.32 
+          Program level: 0.04 
+          Difficulty level: 25.40 
+          Time to implement: 4437.13 
+          Bugs delivered: 0.62 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 2
+            if: 1
+            for: 3
+            ): 4
+            ,: 132
+            {: 3
+            (: 4
+            }: 3
+            []: 12
+            ;: 14
+            +: 2
+            ++: 3
+            <: 4
+            =: 4
+            enum  { size11 }: 1
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 3
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            h: 8
+            a: 8
+            floydwarshall: 1
+            Frama_C_bzero: 1
+            j: 8
+            size: 6
+            Frama_C_copy_block: 1
+            i: 8
+            FC_BUILTIN: 2
+            11: 1
+            2: 1
+            53: 1
+            66: 1
+            59: 3
+            113: 1
+            67: 1
+            114: 4
+            15: 2
+            77: 3
+            42: 1
+            117: 2
+            41: 1
+            109: 3
+            63: 1
+            81: 1
+            100: 2
+            4: 1
+            58: 1
+            116: 2
+            25: 1
+            5: 1
+            44: 1
+            71: 1
+            124: 1
+            111: 2
+            23: 2
+            27: 2
+            69: 1
+            101: 2
+            54: 2
+            57: 3
+            3: 2
+            14: 2
+            121: 1
+            92: 1
+            6: 1
+            47: 2
+            120: 2
+            52: 1
+            48: 1
+            29: 2
+            119: 1
+            95: 2
+            76: 2
+            112: 2
+            49: 1
+            33: 1
+            38: 2
+            7: 1
+            82: 2
+            88: 1
+            86: 2
+            36: 1
+            68: 2
+            93: 3
+            46: 2
+            51: 1
+            39: 2
+            75: 1
+            24: 1
+            20: 1
+            79: 2
+            90: 2
+            62: 1
+            107: 3
+            17: 1
+            56: 1
+            97: 2
+            45: 1
+            35: 3
+            0: 3
+            65: 1
+            74: 2
+            126: 1
+            21: 1
+            104: 3

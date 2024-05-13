@@ -1,0 +1,206 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 770 
+          Distinct operators: 35 
+          Total_operands: 606 
+          Distinct operands: 146 
+          Program length: 1376 
+          Vocabulary size: 181 
+          Program volume: 10319.79 
+          Effort: 749598.30 
+          Program level: 0.01 
+          Difficulty level: 72.64 
+          Time to implement: 41644.35 
+          Bugs delivered: 2.75 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 3
+            for: 3
+            if: 5
+            while: 2
+            return: 1
+            ): 13
+            ,: 483
+            {: 10
+            (: 13
+            }: 10
+            []: 24
+            ;: 44
+            &&: 2
+            +: 2
+            ++: 5
+            -: 10
+            !=: 6
+            %: 2
+            <: 3
+            =: 19
+            >: 3
+            --: 1
+            TARGET_TYPE: 1
+            short: 4
+            long: 16
+            int: 10
+            enum  { size21 }: 1
+            signed: 14
+            TARGET_INDEX: 4
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 3
+            uint8_t: 1
+            
+          Operands
+          --------
+            a: 16
+            depth_first_searchF: 1
+            depth_first_search: 1
+            current: 9
+            enqueue: 2
+            tail: 13
+            array: 13
+            Frama_C_bzero: 1
+            bfsdfsF: 1
+            dequeue: 1
+            par: 1
+            head: 11
+            element: 3
+            size: 12
+            Frama_C_copy_block: 1
+            bfsdfs: 1
+            clean_input: 1
+            clean_inputF: 1
+            i: 23
+            FC_BUILTIN: 2
+            11: 4
+            2: 8
+            53: 4
+            66: 7
+            59: 2
+            113: 5
+            123: 4
+            67: 2
+            91: 3
+            114: 1
+            15: 3
+            10: 2
+            102: 4
+            8: 5
+            42: 3
+            77: 1
+            117: 3
+            109: 2
+            41: 3
+            127: 3
+            1: 5
+            81: 4
+            100: 5
+            63: 7
+            4: 6
+            25: 2
+            58: 4
+            116: 7
+            5: 7
+            44: 3
+            122: 8
+            18: 4
+            71: 4
+            124: 4
+            110: 4
+            22: 7
+            89: 4
+            70: 2
+            31: 7
+            30: 3
+            111: 3
+            50: 1
+            23: 6
+            27: 7
+            87: 2
+            54: 2
+            105: 2
+            69: 2
+            101: 2
+            57: 4
+            34: 2
+            3: 1
+            14: 6
+            16: 3
+            96: 3
+            121: 5
+            19: 2
+            92: 7
+            28: 5
+            47: 5
+            6: 5
+            52: 2
+            26: 3
+            48: 4
+            120: 2
+            29: 5
+            99: 7
+            94: 1
+            125: 3
+            119: 6
+            83: 2
+            95: 1
+            64: 3
+            112: 1
+            76: 3
+            84: 3
+            13: 7
+            49: 2
+            73: 2
+            33: 5
+            38: 4
+            103: 2
+            7: 2
+            82: 4
+            61: 3
+            43: 5
+            88: 3
+            36: 2
+            85: 3
+            86: 6
+            68: 5
+            93: 7
+            55: 3
+            37: 7
+            60: 1
+            46: 3
+            80: 5
+            51: 2
+            118: 4
+            39: 4
+            75: 6
+            20: 2
+            62: 1
+            79: 1
+            24: 1
+            32: 6
+            90: 6
+            12: 3
+            107: 2
+            17: 7
+            56: 5
+            40: 9
+            97: 4
+            35: 4
+            72: 7
+            9: 5
+            0: 18
+            65: 1
+            98: 4
+            74: 6
+            78: 2
+            104: 2
+            108: 3
+            106: 3
+            126: 3
+            21: 3

@@ -1,0 +1,121 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c (with preprocessing)
+../../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:52:[kernel] warning: Floating-point constant 3.14159 is not represented exactly. Will use 0x1.921f9f01b866ep1. See documentation for option -warn-decimal-float
+[metrics] Halstead metrics
+          ================
+          Total operators: 452 
+          Distinct operators: 45 
+          Total_operands: 248 
+          Distinct operands: 50 
+          Program length: 700 
+          Vocabulary size: 95 
+          Program volume: 4598.90 
+          Effort: 513237.12 
+          Program level: 0.01 
+          Difficulty level: 111.60 
+          Time to implement: 28513.17 
+          Bugs delivered: 2.14 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 1
+            for: 3
+            break: 1
+            if: 4
+            while: 6
+            return: 4
+            ): 36
+            ,: 14
+            {: 8
+            (: 36
+            }: 8
+            []: 18
+            ;: 68
+            &&: 1
+            +: 18
+            ||: 6
+            ++: 2
+            -: 12
+            +=: 7
+            <<: 2
+            ==: 7
+            <: 3
+            =: 37
+            <=: 1
+            /: 3
+            *: 26
+            -=: 2
+            >: 4
+            >>=: 1
+            --: 1
+            >=: 3
+            TARGET_TYPE: 6
+            enum  { size3 }: 1
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            enum  { isign-1 }: 1
+            unsigned: 14
+            char: 6
+            int8_t: 3
+            uint8_t: 1
+            
+          Operands
+          --------
+            nn: 12
+            rad: 9
+            theta: 4
+            n: 8
+            wpr: 4
+            f: 4
+            data: 20
+            wtemp: 6
+            wpi: 4
+            diff: 9
+            Frama_C_bzero: 1
+            wr: 7
+            m: 11
+            inc: 7
+            mysin: 2
+            tempr: 8
+            j: 17
+            is_power_of_two: 1
+            size: 2
+            Frama_C_copy_block: 1
+            fft: 1
+            wi: 8
+            istep: 4
+            isign: 2
+            mmax: 8
+            app: 7
+            tempi: 4
+            i: 17
+            myabs: 1
+            FC_BUILTIN: 2
+            0.00001: 1
+            2: 9
+            32: 1
+            64: 1
+            6.28318530717959: 1
+            8: 1
+            1.0: 3
+            81: 1
+            1: 20
+            7: 1
+            3.14159: 4
+            4: 1
+            0.5: 1
+            16: 1
+            14: 1
+            3: 1
+            0.0: 1
+            2.0: 5
+            0: 2
+            78: 1

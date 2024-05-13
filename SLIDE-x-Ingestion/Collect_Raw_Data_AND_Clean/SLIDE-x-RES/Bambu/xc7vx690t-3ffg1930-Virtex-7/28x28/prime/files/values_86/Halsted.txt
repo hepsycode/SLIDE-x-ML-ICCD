@@ -1,0 +1,69 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/prime/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 152 
+          Distinct operators: 27 
+          Total_operands: 39 
+          Distinct operands: 17 
+          Program length: 191 
+          Vocabulary size: 44 
+          Program volume: 1042.75 
+          Effort: 32294.63 
+          Program level: 0.03 
+          Difficulty level: 30.97 
+          Time to implement: 1794.15 
+          Bugs delivered: 0.34 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            for: 1
+            if: 2
+            return: 6
+            ): 8
+            {: 1
+            (: 8
+            }: 1
+            ;: 12
+            -: 2
+            +=: 1
+            ==: 2
+            =: 1
+            <=: 1
+            /: 1
+            *: 2
+            >: 1
+            TARGET_TYPE: 3
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            prime: 1
+            a: 2
+            n: 9
+            my_fmod: 1
+            divides: 2
+            b: 2
+            Frama_C_bzero: 1
+            m: 1
+            Frama_C_copy_block: 1
+            even: 1
+            quot: 2
+            i: 6
+            FC_BUILTIN: 2
+            2: 3
+            1: 2
+            3: 1
+            0: 2

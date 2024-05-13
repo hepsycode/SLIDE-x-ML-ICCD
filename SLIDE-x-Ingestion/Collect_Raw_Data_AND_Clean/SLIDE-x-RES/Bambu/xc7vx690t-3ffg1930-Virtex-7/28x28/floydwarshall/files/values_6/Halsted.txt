@@ -1,0 +1,188 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 812 
+          Distinct operators: 26 
+          Total_operands: 672 
+          Distinct operands: 137 
+          Program length: 1484 
+          Vocabulary size: 163 
+          Program volume: 10905.51 
+          Effort: 695405.53 
+          Program level: 0.02 
+          Difficulty level: 63.77 
+          Time to implement: 38633.64 
+          Bugs delivered: 2.62 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 2
+            if: 1
+            for: 3
+            ): 4
+            ,: 650
+            {: 3
+            (: 4
+            }: 3
+            []: 12
+            ;: 14
+            +: 2
+            ++: 3
+            <: 4
+            =: 4
+            enum  { size25 }: 1
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 3
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            h: 8
+            a: 8
+            floydwarshall: 1
+            Frama_C_bzero: 1
+            j: 8
+            size: 6
+            Frama_C_copy_block: 1
+            i: 8
+            FC_BUILTIN: 2
+            11: 4
+            2: 7
+            53: 4
+            66: 3
+            123: 3
+            113: 4
+            59: 5
+            67: 2
+            91: 5
+            114: 4
+            10: 5
+            15: 6
+            77: 1
+            42: 3
+            102: 9
+            8: 6
+            117: 7
+            109: 3
+            41: 5
+            127: 7
+            1: 6
+            63: 8
+            81: 2
+            100: 7
+            4: 2
+            116: 6
+            58: 12
+            25: 4
+            5: 5
+            44: 12
+            122: 3
+            18: 5
+            71: 6
+            124: 8
+            22: 2
+            110: 4
+            89: 2
+            70: 4
+            111: 2
+            31: 7
+            30: 4
+            115: 1
+            23: 4
+            50: 6
+            27: 6
+            69: 9
+            101: 7
+            87: 3
+            105: 4
+            54: 7
+            57: 3
+            34: 2
+            3: 4
+            16: 4
+            14: 4
+            92: 3
+            19: 6
+            121: 5
+            96: 5
+            28: 2
+            6: 2
+            47: 9
+            52: 2
+            26: 6
+            120: 8
+            48: 4
+            29: 5
+            99: 5
+            94: 8
+            125: 2
+            119: 4
+            95: 4
+            83: 2
+            64: 2
+            13: 3
+            112: 6
+            76: 4
+            84: 5
+            49: 9
+            73: 4
+            33: 10
+            7: 1
+            38: 2
+            103: 3
+            82: 4
+            61: 3
+            43: 8
+            88: 2
+            86: 5
+            36: 3
+            85: 5
+            68: 3
+            93: 6
+            46: 6
+            60: 3
+            37: 4
+            55: 10
+            80: 6
+            39: 6
+            51: 8
+            118: 9
+            75: 5
+            32: 2
+            90: 3
+            79: 3
+            20: 5
+            24: 7
+            62: 6
+            12: 5
+            107: 8
+            17: 7
+            56: 4
+            40: 6
+            35: 3
+            72: 2
+            45: 5
+            97: 8
+            9: 4
+            0: 3
+            65: 7
+            98: 2
+            74: 3
+            78: 6
+            108: 4
+            21: 2
+            126: 10
+            106: 10
+            104: 9

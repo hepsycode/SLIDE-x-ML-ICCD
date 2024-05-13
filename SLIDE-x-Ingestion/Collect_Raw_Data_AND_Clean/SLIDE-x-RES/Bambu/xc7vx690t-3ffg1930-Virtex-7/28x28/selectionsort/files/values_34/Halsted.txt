@@ -1,0 +1,85 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/selectionsort/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 181 
+          Distinct operators: 28 
+          Total_operands: 66 
+          Distinct operands: 32 
+          Program length: 247 
+          Vocabulary size: 60 
+          Program volume: 1459.00 
+          Effort: 42128.68 
+          Program level: 0.03 
+          Difficulty level: 28.88 
+          Time to implement: 2340.48 
+          Bugs delivered: 0.40 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 1
+            if: 1
+            for: 2
+            ): 3
+            ,: 22
+            {: 1
+            (: 3
+            }: 1
+            []: 6
+            ;: 13
+            +: 1
+            ++: 2
+            -: 13
+            <: 3
+            =: 7
+            TARGET_TYPE: 1
+            enum  { size20 }: 1
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            a: 8
+            selectionsort: 1
+            temp: 3
+            Frama_C_bzero: 1
+            min_idx: 6
+            j: 6
+            size: 4
+            Frama_C_copy_block: 1
+            i: 8
+            FC_BUILTIN: 2
+            94: 1
+            90: 1
+            32: 1
+            66: 1
+            20: 1
+            113: 1
+            111: 1
+            112: 1
+            115: 1
+            49: 1
+            54: 1
+            1: 2
+            17: 1
+            82: 1
+            57: 1
+            14: 1
+            58: 1
+            19: 2
+            0: 3
+            120: 1
+            74: 1
+            126: 1

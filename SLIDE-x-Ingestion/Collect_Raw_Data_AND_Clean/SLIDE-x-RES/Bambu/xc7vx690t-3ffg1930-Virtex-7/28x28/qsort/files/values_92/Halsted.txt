@@ -1,0 +1,102 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/qsort/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 438 
+          Distinct operators: 37 
+          Total_operands: 213 
+          Distinct operands: 40 
+          Program length: 651 
+          Vocabulary size: 77 
+          Program volume: 4079.68 
+          Effort: 401899.28 
+          Program level: 0.01 
+          Difficulty level: 98.51 
+          Time to implement: 22327.74 
+          Bugs delivered: 1.82 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 2
+            break: 3
+            if: 8
+            for: 4
+            while: 2
+            ): 35
+            ,: 24
+            {: 11
+            (: 35
+            }: 11
+            []: 43
+            ;: 64
+            +: 16
+            ++: 3
+            -: 18
+            +=: 1
+            ==: 1
+            <: 3
+            =: 35
+            <=: 2
+            >>: 1
+            >: 4
+            --: 5
+            >=: 2
+            TARGET_TYPE: 2
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 3
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            enum  { n19 }: 1
+            
+          Operands
+          --------
+            a: 8
+            l: 26
+            k: 4
+            n: 3
+            istack: 7
+            ir: 15
+            temp: 11
+            Frama_C_bzero: 1
+            arr: 39
+            j: 18
+            Frama_C_copy_block: 1
+            flag: 2
+            qsort: 1
+            jstack: 9
+            i: 18
+            FC_BUILTIN: 2
+            99: 1
+            80: 1
+            94: 1
+            2: 1
+            119: 2
+            113: 1
+            30: 1
+            59: 1
+            67: 1
+            84: 1
+            10: 1
+            27: 1
+            127: 1
+            7: 1
+            1: 22
+            63: 1
+            43: 1
+            5: 1
+            19: 1
+            0: 3
+            65: 1
+            98: 1
+            47: 1
+            46: 1

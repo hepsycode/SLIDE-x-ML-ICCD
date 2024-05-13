@@ -1,0 +1,85 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/binarysearch/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 170 
+          Distinct operators: 31 
+          Total_operands: 58 
+          Distinct operands: 29 
+          Program length: 228 
+          Vocabulary size: 60 
+          Program volume: 1346.77 
+          Effort: 41749.90 
+          Program level: 0.03 
+          Difficulty level: 31 
+          Time to implement: 2319.44 
+          Bugs delivered: 0.40 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 1
+            if: 2
+            return: 2
+            while: 1
+            ): 4
+            ,: 19
+            {: 1
+            (: 4
+            }: 1
+            []: 2
+            ;: 8
+            +: 2
+            -: 13
+            ==: 1
+            =: 2
+            <: 1
+            /: 1
+            <=: 1
+            enum  { n19 }: 1
+            TARGET_TYPE: 2
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 3
+            uint8_t: 1
+            
+          Operands
+          --------
+            l: 5
+            n: 3
+            key: 4
+            binarysearch: 1
+            Frama_C_bzero: 1
+            m: 6
+            arr: 4
+            Frama_C_copy_block: 1
+            r: 4
+            FC_BUILTIN: 2
+            99: 1
+            51: 1
+            39: 1
+            2: 2
+            22: 1
+            66: 1
+            95: 4
+            83: 1
+            23: 1
+            1: 4
+            82: 1
+            4: 1
+            72: 2
+            14: 1
+            85: 1
+            19: 1
+            0: 1
+            93: 1
+            71: 1

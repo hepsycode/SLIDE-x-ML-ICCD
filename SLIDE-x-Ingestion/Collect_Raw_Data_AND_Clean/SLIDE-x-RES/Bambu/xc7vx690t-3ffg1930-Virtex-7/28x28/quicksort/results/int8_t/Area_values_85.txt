@@ -1,0 +1,176 @@
+ ==  Bambu executed with: bambu -I/home/dews/Scrivania/bambu-hls/RESULTS/Bambu/xc7vx690t-3ffg1930-Virtex-7/28x28/quicksort/includes/values_85 --simulate --simulator=VERILATOR --clock-period=5 --device-name=xc7vx690t-3ffg1930-VVD /home/dews/Scrivania/bambu-hls/cc4cs_bambu/benchmarkBasic/quicksort/thrd.c 
+
+
+********************************************************************************
+                    ____                  _
+                   | __ )  __ _ _ __ ___ | |_   _   _
+                   |  _ \ / _` | '_ ` _ \| '_ \| | | |
+                   | |_) | (_| | | | | | | |_) | |_| |
+                   |____/ \__,_|_| |_| |_|_.__/ \__,_|
+
+********************************************************************************
+                         High-Level Synthesis Tool
+
+                         Politecnico di Milano - DEIB
+                          System Architectures Group
+********************************************************************************
+                Copyright (C) 2004-2020 Politecnico di Milano
+    Version: PandA 0.9.6 - Revision 891ec3caed502474cab0813cc4a9fc678deabaa5
+
+Target technology = FPGA
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  The top function inferred from the specification is: main
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+  Functions to be synthesized:
+    quicksortF
+    main
+
+
+  Memory allocation information:
+  SIZE bus bitsize: 0
+    BRAM bitsize: 8
+    Spec may not exploit DATA bus width
+    All the data have a known address
+    Internal data may be accessed
+    DATA bus bitsize: 8
+    ADDRESS bus bitsize: 7
+    SIZE bus bitsize: 4
+    Internally allocated memory (no private memories): 32
+    Internally allocated memory: 42
+  Time to perform memory allocation: 0.00 seconds
+
+
+  Memory allocation information:
+  SIZE bus bitsize: 0
+    BRAM bitsize: 8
+    Spec may not exploit DATA bus width
+    All the data have a known address
+    Internal data may be accessed
+    DATA bus bitsize: 8
+    ADDRESS bus bitsize: 7
+    SIZE bus bitsize: 4
+    Internally allocated memory (no private memories): 32
+    Internally allocated memory: 42
+  Time to perform memory allocation: 0.00 seconds
+
+
+  Module allocation information for function quicksortF:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.08 seconds
+
+
+  Scheduling Information of function quicksortF:
+    Number of control steps: 25
+    Minimum slack: 0.82399999899998799
+    Estimated max frequency (MHz): 239.46360147522356
+  Time to perform scheduling: 0.01 seconds
+
+
+  State Transition Graph Information of function quicksortF:
+    Number of states: 26
+    Done port is registered
+  Time to perform creation of STG: 0.00 seconds
+
+
+  Easy binding information for function quicksortF:
+    Bound operations:81/125
+  Time to perform easy binding: 0.00 seconds
+
+
+  Storage Value Information of function quicksortF:
+    Number of storage values inserted: 39
+  Time to compute storage value information: 0.00 seconds
+
+
+  Register binding information for function quicksortF:
+    Register allocation algorithm obtains a sub-optimal result: 25 registers(LB:17)
+  Time to perform register binding: 0.01 seconds
+
+
+  Register binding information for function quicksortF:
+    Register allocation algorithm obtains a sub-optimal result: 31 registers(LB:17)
+  Time to perform register binding: 0.00 seconds
+
+
+  Register binding information for function quicksortF:
+    Register allocation algorithm obtains a sub-optimal result: 31 registers(LB:17)
+  Time to perform register binding: 0.00 seconds
+
+
+  Module binding information for function quicksortF:
+    Number of modules instantiated: 110
+    Number of possible conflicts for possible false paths introduced by resource sharing: 6
+    Estimated resources area (no Muxes and address logic): 2483
+    Estimated area of MUX21: 292
+    Total estimated area: 2775
+    Estimated number of DSPs: 0
+    Slack computed in 0.00 seconds
+    False-loop computation completed in 0.00 seconds
+    Weight computation completed in 0.01 seconds
+    Clique covering computation completed in 0.00 seconds
+  Time to perform module binding: 0.01 seconds
+
+
+  Register binding information for function quicksortF:
+    Register allocation algorithm obtains a sub-optimal result: 31 registers(LB:17)
+  Time to perform register binding: 0.00 seconds
+
+
+  Connection Binding Information for function quicksortF:
+    Number of allocated multiplexers (2-to-1 equivalent): 28
+  Time to perform interconnection binding: 0.00 seconds
+
+  Total number of flip-flops in function quicksortF: 263
+
+  Module allocation information for function main:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.01 seconds
+
+
+  Scheduling Information of function main:
+    Number of control steps: 5
+    Minimum slack: 6.106226635438361e-16
+    Estimated max frequency (MHz): 200.00000000000003
+  Time to perform scheduling: 0.00 seconds
+
+
+  State Transition Graph Information of function main:
+    Number of states: 4
+    Done port is registered
+  Time to perform creation of STG: 0.00 seconds
+
+
+  Easy binding information for function main:
+    Bound operations:6/6
+  Time to perform easy binding: 0.00 seconds
+
+
+  Storage Value Information of function main:
+    Number of storage values inserted: 1
+  Time to compute storage value information: 0.00 seconds
+
+
+  Module binding information for function main:
+    Number of modules instantiated: 6
+    Number of possible conflicts for possible false paths introduced by resource sharing: 0
+    Estimated resources area (no Muxes and address logic): 2004
+    Estimated area of MUX21: 0
+    Total estimated area: 2004
+    Estimated number of DSPs: 0
+    Slack computed in 0.00 seconds
+  Time to perform module binding: 0.00 seconds
+
+
+  Register binding information for function main:
+    Register allocation algorithm obtains an optimal result: 1 registers
+  Time to perform register binding: 0.00 seconds
+
+  Total number of flip-flops in function main: 32
+[0mWarning: XML file "test.xml" cannot be opened, creating a stub with random values
+Warning: Simulation completed but it is not possible to determine if it is correct!
+  Total cycles             : 204 cycles
+  Number of executions     : 1
+  Average execution        : 204 cycles

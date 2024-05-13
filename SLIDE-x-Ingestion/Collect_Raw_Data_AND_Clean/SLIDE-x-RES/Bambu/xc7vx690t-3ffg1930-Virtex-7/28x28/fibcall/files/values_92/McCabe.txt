@@ -1,0 +1,129 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/fibcall/thrd.c (with preprocessing)
+[metrics] Defined functions (2)
+          =====================
+           fibcall (1 call); main (0 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (3)
+          =============================
+           __FC_errno; __fc_stdin; __fc_stdout
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 16
+          Decision point = 1
+          Global variables = 6
+          If = 1
+          Loop = 1
+          Goto = 0
+          Assignment = 8
+          Exit point = 2
+          Function = 2
+          Function call = 2
+          Pointer dereferencing = 0
+          Cyclomatic complexity = 3
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  n ∈ {5}
+  __FC_errno ∈ [--..--]
+  __fc_stdin ∈ {{ NULL ; &S___fc_stdin[0] }}
+  __fc_stdout ∈ {{ NULL ; &S___fc_stdout[0] }}
+  __fc_fopen[0..511] ∈ {0}
+  __p_fc_fopen ∈ {{ &__fc_fopen[0] }}
+  S___fc_stdin[0]{.__fc_stdio_id; .__fc_position; .__fc_error; .__fc_eof} ∈
+              [--..--]
+              [0].[bits 80 to 95] ∈ UNINITIALIZED
+              [0].__fc_flags ∈ [--..--]
+              [0].__fc_inode ∈ {{ NULL ; &S___fc_inode_0_S___fc_stdin[0] }}
+              [0].__fc_real_data ∈
+              {{ NULL ; &S___fc_real_data_0_S___fc_stdin[0] }}
+              {[0].__fc_real_data_max_size; [1]{.__fc_stdio_id; .__fc_position; .__fc_error; .__fc_eof}} ∈
+              [--..--]
+              [1].[bits 80 to 95] ∈ UNINITIALIZED
+              [1].__fc_flags ∈ [--..--]
+              [1].__fc_inode ∈ {{ NULL ; &S___fc_inode_1_S___fc_stdin[0] }}
+              [1].__fc_real_data ∈
+              {{ NULL ; &S___fc_real_data_1_S___fc_stdin[0] }}
+              [1].__fc_real_data_max_size ∈ [--..--]
+  S___fc_inode_0_S___fc_stdin[0..1] ∈ [--..--]
+  S___fc_real_data_0_S___fc_stdin[0..1] ∈ [--..--]
+  S___fc_inode_1_S___fc_stdin[0..1] ∈ [--..--]
+  S___fc_real_data_1_S___fc_stdin[0..1] ∈ [--..--]
+  S___fc_stdout[0]{.__fc_stdio_id; .__fc_position; .__fc_error; .__fc_eof} ∈
+               [--..--]
+               [0].[bits 80 to 95] ∈ UNINITIALIZED
+               [0].__fc_flags ∈ [--..--]
+               [0].__fc_inode ∈
+               {{ NULL ; &S___fc_inode_0_S___fc_stdout[0] }}
+               [0].__fc_real_data ∈
+               {{ NULL ; &S___fc_real_data_0_S___fc_stdout[0] }}
+               {[0].__fc_real_data_max_size; [1]{.__fc_stdio_id; .__fc_position; .__fc_error; .__fc_eof}} ∈
+               [--..--]
+               [1].[bits 80 to 95] ∈ UNINITIALIZED
+               [1].__fc_flags ∈ [--..--]
+               [1].__fc_inode ∈
+               {{ NULL ; &S___fc_inode_1_S___fc_stdout[0] }}
+               [1].__fc_real_data ∈
+               {{ NULL ; &S___fc_real_data_1_S___fc_stdout[0] }}
+               [1].__fc_real_data_max_size ∈ [--..--]
+  S___fc_inode_0_S___fc_stdout[0..1] ∈ [--..--]
+  S___fc_real_data_0_S___fc_stdout[0..1] ∈ [--..--]
+  S___fc_inode_1_S___fc_stdout[0..1] ∈ [--..--]
+  S___fc_real_data_1_S___fc_stdout[0..1] ∈ [--..--]
+[value] computing for function fibcall <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/fibcall/thrd.c:77.
+../../../../../../../cc4cs_bambu/benchmarkBasic/fibcall/thrd.c:60:[value] entering loop for the first time
+[value] computing for function printf <- fibcall <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/fibcall/thrd.c:67.
+[value] using specification for function printf
+[value] Done for function printf
+[value] computing for function printf <- fibcall <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/fibcall/thrd.c:67.
+[value] Done for function printf
+[value] computing for function printf <- fibcall <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/fibcall/thrd.c:67.
+[value] Done for function printf
+[value] computing for function printf <- fibcall <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/fibcall/thrd.c:67.
+[value] Done for function printf
+[value] computing for function printf <- fibcall <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/fibcall/thrd.c:67.
+[value] Done for function printf
+[value] computing for function printf <- fibcall <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/fibcall/thrd.c:67.
+[value] Done for function printf
+[value] computing for function printf <- fibcall <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/fibcall/thrd.c:67.
+[value] Done for function printf
+[value] computing for function printf <- fibcall <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/fibcall/thrd.c:67.
+[value] Done for function printf
+[value] computing for function printf <- fibcall <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/fibcall/thrd.c:67.
+[value] Done for function printf
+[value] Recording results for fibcall
+[value] Done for function fibcall
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 3 (out of 2)
+          Semantically reached functions = 3
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          16 stmts in analyzed functions, 16 stmts analyzed (100.0%)
+          main: 2 stmts out of 2 (100.0%)
+          fibcall: 14 stmts out of 14 (100.0%)

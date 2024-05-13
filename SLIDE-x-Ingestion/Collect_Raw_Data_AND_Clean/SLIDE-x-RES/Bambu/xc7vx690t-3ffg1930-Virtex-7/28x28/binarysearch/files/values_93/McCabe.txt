@@ -1,0 +1,71 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/binarysearch/thrd.c (with preprocessing)
+[metrics] Defined functions (2)
+          =====================
+           binarysearch (1 call); main (0 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 17
+          Decision point = 3
+          Global variables = 2
+          If = 3
+          Loop = 1
+          Goto = 1
+          Assignment = 7
+          Exit point = 2
+          Function = 2
+          Function call = 1
+          Pointer dereferencing = 2
+          Cyclomatic complexity = 5
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  key ∈ {-108}
+  arr[0] ∈ {42}
+     [1] ∈ {-101}
+     [2] ∈ {109}
+     [3] ∈ {-4}
+     [4] ∈ {38}
+     [5] ∈ {0}
+     [6] ∈ {111}
+     [7] ∈ {-92}
+     [8] ∈ {-39}
+     [9] ∈ {-81}
+     [10] ∈ {53}
+     [11] ∈ {41}
+     [12] ∈ {-77}
+     [13] ∈ {-78}
+     [14] ∈ {4}
+[value] computing for function binarysearch <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/binarysearch/thrd.c:61.
+../../../../../../../cc4cs_bambu/benchmarkBasic/binarysearch/thrd.c:42:[value] entering loop for the first time
+[value] Recording results for binarysearch
+[value] Done for function binarysearch
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 2 (out of 2)
+          Semantically reached functions = 2
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          17 stmts in analyzed functions, 14 stmts analyzed (82.4%)
+          main: 2 stmts out of 2 (100.0%)
+          binarysearch: 12 stmts out of 15 (80.0%)

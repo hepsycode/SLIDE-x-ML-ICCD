@@ -1,0 +1,92 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/bubblesort/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 207 
+          Distinct operators: 30 
+          Total_operands: 78 
+          Distinct operands: 37 
+          Program length: 285 
+          Vocabulary size: 67 
+          Program volume: 1728.84 
+          Effort: 54668.58 
+          Program level: 0.03 
+          Difficulty level: 31.62 
+          Time to implement: 3037.14 
+          Bugs delivered: 0.48 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 1
+            break: 1
+            if: 2
+            for: 2
+            ): 4
+            ,: 21
+            {: 3
+            (: 4
+            }: 3
+            []: 6
+            ;: 23
+            +: 2
+            ++: 2
+            -: 14
+            <: 2
+            =: 9
+            >: 1
+            TARGET_TYPE: 6
+            enum  { dim21 }: 1
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            a: 8
+            lastSwap: 3
+            dim: 4
+            currentSwap: 4
+            index_1: 2
+            b: 2
+            Frama_C_bzero: 1
+            j: 4
+            Frama_C_copy_block: 1
+            is_sorted: 4
+            bubblesort: 1
+            swap: 1
+            index_2: 2
+            i: 9
+            FC_BUILTIN: 2
+            51: 1
+            94: 1
+            110: 1
+            89: 2
+            27: 1
+            42: 1
+            117: 1
+            87: 1
+            41: 1
+            54: 1
+            1: 5
+            58: 1
+            72: 1
+            14: 1
+            9: 1
+            36: 1
+            0: 4
+            74: 1
+            68: 1
+            120: 1
+            78: 1
+            21: 1

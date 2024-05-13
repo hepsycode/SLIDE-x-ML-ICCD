@@ -17,7 +17,7 @@ SLIDE-x consists of the following components:
     - **Collect Raw Data & Clean**: Clean and store the dataset as a CSV file for interoperability between tools (from Python to Matlab or other tools)
 2. **SLIDE-x-Feature-Engineering**: Extensible Python component dedicated to the steps of feature creation, data analysis, and feature selection to create datasets useful for ML prediction. The SLIDE-x-Feature-Engineering is composed of:
     - **SILDE-x-Feature-Creation**: WIP
-    - **SILDE-x-Data-Analysis**: WIP
+    - **SILDE-x-Data-Analysis**: WIP (TODO)
     - **SILDE-x-Feature-Selection**: WIP
 3. **SLIDE-x-Model-Engineering**: HW/SW ML-based component for creating System-Level HW/SW Co-Design models using machine learning frameworks and tools. The SLIDE-x-Model-Engineering is composed of:
     - **SILDE-x-Data-Preparation**: WIP

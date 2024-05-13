@@ -1,0 +1,89 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../cc4cs_bambu/benchmarkBasic/bubblesort/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 199 
+          Distinct operators: 30 
+          Total_operands: 74 
+          Distinct operands: 34 
+          Program length: 273 
+          Vocabulary size: 64 
+          Program volume: 1638 
+          Effort: 53475.88 
+          Program level: 0.03 
+          Difficulty level: 32.65 
+          Time to implement: 2970.88 
+          Bugs delivered: 0.47 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 1
+            break: 1
+            if: 2
+            for: 2
+            ): 4
+            ,: 17
+            {: 3
+            (: 4
+            }: 3
+            []: 6
+            ;: 23
+            +: 2
+            ++: 2
+            -: 10
+            <: 2
+            =: 9
+            >: 1
+            TARGET_TYPE: 6
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            enum  { dim17 }: 1
+            
+          Operands
+          --------
+            a: 8
+            lastSwap: 3
+            dim: 4
+            currentSwap: 4
+            index_1: 2
+            b: 2
+            Frama_C_bzero: 1
+            j: 4
+            Frama_C_copy_block: 1
+            is_sorted: 4
+            bubblesort: 1
+            swap: 1
+            index_2: 2
+            i: 9
+            FC_BUILTIN: 2
+            22: 1
+            31: 1
+            13: 1
+            67: 2
+            112: 1
+            15: 1
+            8: 1
+            1: 5
+            81: 1
+            38: 1
+            63: 1
+            17: 1
+            61: 1
+            34: 1
+            19: 1
+            92: 1
+            0: 3
+            126: 1
+            108: 1

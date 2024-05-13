@@ -1,0 +1,205 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 924 
+          Distinct operators: 34 
+          Total_operands: 548 
+          Distinct operands: 146 
+          Program length: 1472 
+          Vocabulary size: 180 
+          Program volume: 11028.01 
+          Effort: 703677.54 
+          Program level: 0.02 
+          Difficulty level: 63.81 
+          Time to implement: 39093.20 
+          Bugs delivered: 2.64 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 3
+            break: 1
+            if: 8
+            for: 12
+            return: 3
+            ): 20
+            ,: 380
+            {: 13
+            (: 20
+            }: 13
+            []: 33
+            ;: 63
+            &&: 3
+            ++: 13
+            -: 182
+            !=: 6
+            ==: 2
+            <: 13
+            =: 25
+            *=: 1
+            <=: 1
+            TARGET_TYPE: 3
+            short: 4
+            enum  { size19 }: 1
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 6
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            a: 16
+            find: 2
+            count_edges: 1
+            min: 4
+            k: 14
+            edge_number: 3
+            z: 10
+            kruskalF: 1
+            find_min: 1
+            y: 7
+            union_sets: 1
+            make_set: 1
+            node: 3
+            union_find: 8
+            Frama_C_bzero: 1
+            is_connected: 1
+            x: 7
+            init_union_find: 1
+            j: 19
+            size: 16
+            Frama_C_copy_block: 1
+            make_non_oriented: 1
+            kruskal: 1
+            i: 32
+            FC_BUILTIN: 2
+            11: 3
+            2: 4
+            66: 2
+            53: 5
+            113: 2
+            59: 4
+            67: 3
+            91: 3
+            10: 4
+            114: 2
+            15: 3
+            77: 2
+            8: 1
+            102: 3
+            117: 4
+            42: 3
+            127: 2
+            41: 2
+            81: 3
+            100: 2
+            1: 14
+            63: 4
+            4: 2
+            25: 2
+            58: 2
+            116: 1
+            5: 2
+            44: 1
+            122: 2
+            18: 4
+            71: 5
+            124: 3
+            110: 2
+            22: 3
+            89: 1
+            70: 2
+            30: 4
+            111: 4
+            31: 5
+            23: 4
+            115: 1
+            50: 1
+            27: 1
+            69: 4
+            54: 3
+            105: 2
+            101: 6
+            87: 2
+            57: 2
+            34: 4
+            16: 5
+            14: 1
+            3: 6
+            96: 1
+            92: 5
+            121: 1
+            19: 5
+            6: 3
+            28: 6
+            47: 4
+            48: 4
+            120: 3
+            26: 5
+            52: 2
+            29: 1
+            99: 3
+            94: 3
+            119: 3
+            125: 4
+            95: 5
+            83: 3
+            64: 3
+            112: 2
+            84: 2
+            13: 2
+            49: 3
+            33: 3
+            103: 3
+            38: 2
+            61: 2
+            82: 5
+            88: 2
+            86: 4
+            36: 8
+            85: 6
+            93: 2
+            68: 2
+            60: 1
+            46: 2
+            55: 2
+            37: 3
+            80: 3
+            118: 3
+            39: 3
+            51: 2
+            75: 4
+            62: 1
+            20: 3
+            32: 2
+            90: 2
+            79: 2
+            24: 3
+            12: 3
+            107: 2
+            17: 2
+            56: 5
+            40: 6
+            35: 1
+            45: 1
+            97: 2
+            72: 4
+            98: 1
+            0: 25
+            65: 4
+            74: 5
+            78: 5
+            108: 3
+            21: 2
+            126: 3
+            104: 4
+            106: 6

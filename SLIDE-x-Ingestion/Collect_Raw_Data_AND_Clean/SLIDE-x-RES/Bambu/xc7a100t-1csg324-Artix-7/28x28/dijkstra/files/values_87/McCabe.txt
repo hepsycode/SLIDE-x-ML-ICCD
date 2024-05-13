@@ -1,0 +1,238 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c (with preprocessing)
+[metrics] Defined functions (3)
+          =====================
+           dijkstra (1 call); dijkstraF (1 call); main (0 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 70
+          Decision point = 15
+          Global variables = 2
+          If = 15
+          Loop = 8
+          Goto = 1
+          Assignment = 29
+          Exit point = 3
+          Function = 3
+          Function call = 2
+          Pointer dereferencing = 12
+          Cyclomatic complexity = 18
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  a[0][0] ∈ {113}
+   [0][1] ∈ {-107}
+   [0][2] ∈ {66}
+   [0][3] ∈ {17}
+   [0][4] ∈ {11}
+   [0][5] ∈ {15}
+   [0][6] ∈ {-9}
+   [0][7] ∈ {-28}
+   [0][8] ∈ {-104}
+   [0][9] ∈ {114}
+   [0][10] ∈ {112}
+   [0][11] ∈ {-70}
+   [0][12] ∈ {86}
+   [1][0] ∈ {49}
+   [1][1] ∈ {3}
+   [1][2] ∈ {-116}
+   [1][3] ∈ {-19}
+   [1][4] ∈ {-114}
+   [1][5] ∈ {-116}
+   [1][6] ∈ {-63}
+   [1][7] ∈ {-54}
+   [1][8] ∈ {-42}
+   [1][9] ∈ {-109}
+   [1][10] ∈ {4}
+   [1][11] ∈ {55}
+   [1][12] ∈ {-16}
+   [2][0] ∈ {85}
+   [2][1] ∈ {66}
+   [2][2] ∈ {0}
+   [2][3] ∈ {77}
+   [2][4] ∈ {123}
+   [2][5] ∈ {40}
+   [2][6] ∈ {-90}
+   [2][7] ∈ {45}
+   [2][8] ∈ {26}
+   [2][9] ∈ {63}
+   [2][10] ∈ {-77}
+   [2][11] ∈ {76}
+   [2][12] ∈ {-103}
+   [3][0] ∈ {-106}
+   [3][1] ∈ {-111}
+   [3][2] ∈ {-8}
+   [3][3] ∈ {3}
+   [3][4] ∈ {23}
+   [3][5] ∈ {33}
+   [3][6] ∈ {4}
+   [3][7] ∈ {-60}
+   [3][8] ∈ {35}
+   [3][9] ∈ {-70}
+   [3][10] ∈ {75}
+   [3][11] ∈ {100}
+   [3][12] ∈ {-73}
+   [4][0] ∈ {-4}
+   [4][1] ∈ {89}
+   [4][2] ∈ {-28}
+   [4][3] ∈ {-25}
+   [4][4] ∈ {118}
+   [4][5] ∈ {95}
+   [4][6] ∈ {57}
+   [4][7] ∈ {65}
+   [4][8] ∈ {1}
+   [4][9] ∈ {30}
+   [4][10] ∈ {53}
+   [4][11] ∈ {-38}
+   [4][12] ∈ {89}
+   [5][0] ∈ {-110}
+   [5][1] ∈ {-122}
+   [5][2] ∈ {35}
+   [5][3] ∈ {44}
+   [5][4] ∈ {20}
+   [5][5] ∈ {78}
+   [5][6] ∈ {27}
+   [5][7] ∈ {115}
+   [5][8] ∈ {35}
+   [5][9] ∈ {-64}
+   [5][10] ∈ {-12}
+   [5][11] ∈ {15}
+   [5][12] ∈ {78}
+   [6][0] ∈ {50}
+   [6][1] ∈ {-49}
+   [6][2] ∈ {17}
+   [6][3] ∈ {88}
+   [6][4] ∈ {-89}
+   [6][5] ∈ {25}
+   [6][6] ∈ {5}
+   [6][7] ∈ {91}
+   [6][8] ∈ {95}
+   [6][9] ∈ {-38}
+   [6][10] ∈ {50}
+   [6][11] ∈ {12}
+   [6][12] ∈ {99}
+   [7][0] ∈ {77}
+   [7][1] ∈ {-103}
+   [7][2] ∈ {56}
+   [7][3] ∈ {-2}
+   [7][4] ∈ {117}
+   [7][5] ∈ {111}
+   [7][6] ∈ {12}
+   [7][7] ∈ {-96}
+   [7][8] ∈ {-70}
+   [7][9] ∈ {42}
+   [7][10] ∈ {52}
+   [7][11] ∈ {94}
+   [7][12] ∈ {-103}
+   [8][0] ∈ {-74}
+   [8][1] ∈ {49}
+   [8][2] ∈ {-88}
+   [8][3] ∈ {78}
+   [8][4] ∈ {-87}
+   [8][5] ∈ {73}
+   [8][6] ∈ {36}
+   [8][7] ∈ {-125}
+   [8][8] ∈ {-89}
+   [8][9] ∈ {-20}
+   [8][10] ∈ {-84}
+   [8][11] ∈ {-96}
+   [8][12] ∈ {95}
+   [9][0] ∈ {84}
+   [9][1] ∈ {-69}
+   [9][2] ∈ {74}
+   [9][3] ∈ {-76}
+   [9][4] ∈ {39}
+   [9][5] ∈ {-90}
+   [9][6] ∈ {-32}
+   [9][7] ∈ {56}
+   [9][8] ∈ {50}
+   [9][9] ∈ {77}
+   [9][10] ∈ {54}
+   [9][11] ∈ {106}
+   [9][12] ∈ {-59}
+   [10][0] ∈ {-33}
+   [10][1] ∈ {111}
+   [10][2] ∈ {13}
+   [10][3] ∈ {54}
+   [10][4] ∈ {-94}
+   [10][5] ∈ {-115}
+   [10][6] ∈ {-87}
+   [10][7] ∈ {70}
+   [10][8] ∈ {73}
+   [10][9] ∈ {104}
+   [10][10] ∈ {-60}
+   [10][11] ∈ {49}
+   [10][12] ∈ {-28}
+   [11][0] ∈ {-8}
+   [11][1] ∈ {-103}
+   [11][2] ∈ {-38}
+   [11][3] ∈ {13}
+   [11][4] ∈ {-121}
+   [11][5] ∈ {-75}
+   [11][6] ∈ {-79}
+   [11][7] ∈ {1}
+   [11][8] ∈ {85}
+   [11][9] ∈ {41}
+   [11][10] ∈ {87}
+   [11][11] ∈ {120}
+   [11][12] ∈ {-117}
+   [12][0] ∈ {121}
+   [12][1] ∈ {106}
+   [12][2] ∈ {64}
+   [12][3] ∈ {-80}
+   [12][4] ∈ {71}
+   [12][5] ∈ {-93}
+   [12][6] ∈ {93}
+   [12][7] ∈ {-72}
+   [12][8] ∈ {12}
+   [12][9] ∈ {-27}
+   [12][10] ∈ {64}
+   [12][11] ∈ {17}
+   [12][12] ∈ {-33}
+  dist[0..12] ∈ {0}
+[value] computing for function dijkstra <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c:92.
+[value] computing for function dijkstraF <- dijkstra <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c:87.
+../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c:15:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c:20:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c:22:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c:37:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c:43:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c:46:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c:54:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c:46:[kernel] warning: accessing out of bounds index [0..13]. assert i < size;
+../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c:71:[value] entering loop for the first time
+[value] Recording results for dijkstraF
+[value] Done for function dijkstraF
+[value] Recording results for dijkstra
+[value] Done for function dijkstra
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 3 (out of 3)
+          Semantically reached functions = 3
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          70 stmts in analyzed functions, 66 stmts analyzed (94.3%)
+          dijkstraF: 64 stmts out of 66 (97.0%)
+          main: 1 stmts out of 2 (50.0%)
+          dijkstra: 1 stmts out of 2 (50.0%)

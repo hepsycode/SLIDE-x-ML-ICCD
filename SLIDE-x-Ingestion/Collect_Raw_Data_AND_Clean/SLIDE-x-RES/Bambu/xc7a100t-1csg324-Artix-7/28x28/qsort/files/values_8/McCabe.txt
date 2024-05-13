@@ -1,0 +1,85 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/qsort/thrd.c (with preprocessing)
+[metrics] Defined functions (2)
+          =====================
+           main (0 call); qsort (1 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 81
+          Decision point = 12
+          Global variables = 2
+          If = 12
+          Loop = 6
+          Goto = 0
+          Assignment = 49
+          Exit point = 2
+          Function = 2
+          Function call = 1
+          Pointer dereferencing = 37
+          Cyclomatic complexity = 14
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  arr[0] ∈ {-35}
+     [1] ∈ {-116}
+     [2] ∈ {-4}
+     [3] ∈ {52}
+     [4] ∈ {22}
+     [5] ∈ {42}
+     [6] ∈ {-79}
+     [7] ∈ {-7}
+     [8] ∈ {-71}
+     [9] ∈ {91}
+     [10] ∈ {-55}
+     [11] ∈ {51}
+     [12] ∈ {-126}
+     [13] ∈ {-70}
+     [14] ∈ {-17}
+     [15] ∈ {-20}
+     [16] ∈ {80}
+     [17] ∈ {91}
+     [18] ∈ {-27}
+     [19] ∈ {-62}
+     [20] ∈ {59}
+     [21] ∈ {21}
+     [22] ∈ {85}
+     [23] ∈ {20}
+     [24] ∈ {-57}
+     [25] ∈ {55}
+     [26] ∈ {-81}
+  istack[0..9] ∈ {0}
+[value] computing for function qsort <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/qsort/thrd.c:153.
+../../../../../../../cc4cs_bambu/benchmarkBasic/qsort/thrd.c:65:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/qsort/thrd.c:99:[kernel] warning: out of bounds read. assert \valid_read(arr_0+ir);
+[value] Recording results for qsort
+[value] Done for function qsort
+[value] Recording results for main
+[value] done for function main
+../../../../../../../cc4cs_bambu/benchmarkBasic/qsort/thrd.c:99:[value] Assertion 'Value,mem_access' got final status invalid.
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 2 (out of 2)
+          Semantically reached functions = 2
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          81 stmts in analyzed functions, 12 stmts analyzed (14.8%)
+          main: 1 stmts out of 2 (50.0%)
+          qsort: 11 stmts out of 79 (13.9%)

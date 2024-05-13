@@ -1,0 +1,124 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../cc4cs_bambu/benchmarkBasic/bubblesort/thrd.c (with preprocessing)
+[metrics] Defined functions (3)
+          =====================
+           bubblesort (1 call); main (0 call); swap (1 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 29
+          Decision point = 4
+          Global variables = 1
+          If = 4
+          Loop = 2
+          Goto = 0
+          Assignment = 13
+          Exit point = 3
+          Function = 3
+          Function call = 2
+          Pointer dereferencing = 2
+          Cyclomatic complexity = 7
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  a[0] ∈ {-55}
+   [1] ∈ {-76}
+   [2] ∈ {-63}
+   [3] ∈ {7}
+   [4] ∈ {125}
+   [5] ∈ {75}
+   [6] ∈ {99}
+   [7] ∈ {-102}
+   [8..9] ∈ {110}
+   [10] ∈ {16}
+   [11] ∈ {-48}
+   [12] ∈ {116}
+   [13] ∈ {-52}
+   [14] ∈ {-42}
+   [15] ∈ {115}
+   [16] ∈ {29}
+   [17] ∈ {-82}
+   [18] ∈ {-32}
+   [19] ∈ {-41}
+[value] computing for function bubblesort <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/bubblesort/thrd.c:58.
+../../../../../../cc4cs_bambu/benchmarkBasic/bubblesort/thrd.c:33:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/bubblesort/thrd.c:39:[value] entering loop for the first time
+[value] computing for function swap <- bubblesort <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/bubblesort/thrd.c:45.
+[value] Recording results for swap
+[value] Done for function swap
+[value] computing for function swap <- bubblesort <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/bubblesort/thrd.c:45.
+[value] Recording results for swap
+[value] Done for function swap
+[value] computing for function swap <- bubblesort <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/bubblesort/thrd.c:45.
+[value] Recording results for swap
+[value] Done for function swap
+[value] computing for function swap <- bubblesort <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/bubblesort/thrd.c:45.
+[value] Recording results for swap
+[value] Done for function swap
+[value] computing for function swap <- bubblesort <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/bubblesort/thrd.c:45.
+[value] Recording results for swap
+[value] Done for function swap
+[value] computing for function swap <- bubblesort <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/bubblesort/thrd.c:45.
+[value] Recording results for swap
+[value] Done for function swap
+[value] computing for function swap <- bubblesort <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/bubblesort/thrd.c:45.
+[value] Recording results for swap
+[value] Done for function swap
+[value] computing for function swap <- bubblesort <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/bubblesort/thrd.c:45.
+[value] Recording results for swap
+[value] Done for function swap
+[value] computing for function swap <- bubblesort <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/bubblesort/thrd.c:45.
+[value] Recording results for swap
+[value] Done for function swap
+[value] computing for function swap <- bubblesort <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/bubblesort/thrd.c:45.
+[value] Recording results for swap
+[value] Done for function swap
+[value] computing for function swap <- bubblesort <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/bubblesort/thrd.c:45.
+[value] Recording results for swap
+[value] Done for function swap
+[value] computing for function swap <- bubblesort <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/bubblesort/thrd.c:45.
+[value] Recording results for swap
+[value] Done for function swap
+[value] Recording results for bubblesort
+[value] Done for function bubblesort
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 3 (out of 3)
+          Semantically reached functions = 3
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          29 stmts in analyzed functions, 29 stmts analyzed (100.0%)
+          main: 2 stmts out of 2 (100.0%)
+          bubblesort: 23 stmts out of 23 (100.0%)
+          swap: 4 stmts out of 4 (100.0%)

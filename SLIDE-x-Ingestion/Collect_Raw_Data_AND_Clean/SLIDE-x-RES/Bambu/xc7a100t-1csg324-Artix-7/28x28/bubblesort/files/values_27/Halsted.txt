@@ -1,0 +1,82 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../cc4cs_bambu/benchmarkBasic/bubblesort/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 191 
+          Distinct operators: 30 
+          Total_operands: 67 
+          Distinct operands: 27 
+          Program length: 258 
+          Vocabulary size: 57 
+          Program volume: 1504.89 
+          Effort: 56015.19 
+          Program level: 0.03 
+          Difficulty level: 37.22 
+          Time to implement: 3111.95 
+          Bugs delivered: 0.49 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 1
+            break: 1
+            if: 2
+            for: 2
+            ): 4
+            ,: 10
+            {: 3
+            (: 4
+            }: 3
+            []: 6
+            ;: 23
+            +: 2
+            ++: 2
+            -: 9
+            <: 2
+            =: 9
+            >: 1
+            TARGET_TYPE: 6
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            enum  { dim10 }: 1
+            uint8_t: 1
+            
+          Operands
+          --------
+            a: 8
+            lastSwap: 3
+            dim: 4
+            currentSwap: 4
+            index_1: 2
+            b: 2
+            Frama_C_bzero: 1
+            j: 4
+            Frama_C_copy_block: 1
+            is_sorted: 4
+            bubblesort: 1
+            swap: 1
+            index_2: 2
+            i: 9
+            FC_BUILTIN: 2
+            84: 1
+            10: 1
+            102: 1
+            101: 1
+            1: 5
+            4: 1
+            9: 1
+            0: 3
+            98: 2
+            48: 1
+            52: 1
+            60: 1

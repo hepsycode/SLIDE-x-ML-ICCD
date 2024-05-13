@@ -1,0 +1,207 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c (with preprocessing)
+[metrics] Defined functions (2)
+          =====================
+           floydwarshall (1 call); main (0 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 23
+          Decision point = 4
+          Global variables = 1
+          If = 4
+          Loop = 3
+          Goto = 0
+          Assignment = 7
+          Exit point = 2
+          Function = 2
+          Function call = 1
+          Pointer dereferencing = 6
+          Cyclomatic complexity = 6
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  a[0][0] ∈ {112}
+   [0][1] ∈ {57}
+   [0][2] ∈ {69}
+   [0][3] ∈ {85}
+   [0][4] ∈ {40}
+   [0][5] ∈ {38}
+   [0][6] ∈ {97}
+   [0][7] ∈ {82}
+   [0][8] ∈ {51}
+   [0][9] ∈ {33}
+   [0][10] ∈ {117}
+   [0][11] ∈ {100}
+   [1][0] ∈ {12}
+   [1][1] ∈ {113}
+   [1][2] ∈ {122}
+   [1][3] ∈ {28}
+   [1][4] ∈ {22}
+   [1][5] ∈ {10}
+   [1][6] ∈ {98}
+   [1][7] ∈ {2}
+   [1][8] ∈ {38}
+   [1][9] ∈ {29}
+   [1][10] ∈ {11}
+   [1][11] ∈ {46}
+   [2][0] ∈ {72}
+   [2][1] ∈ {47}
+   [2][2] ∈ {21}
+   [2][3] ∈ {114}
+   [2][4] ∈ {2}
+   [2][5] ∈ {66}
+   [2][6] ∈ {100}
+   [2][7] ∈ {13}
+   [2][8] ∈ {17}
+   [2][9] ∈ {72}
+   [2][10] ∈ {60}
+   [2][11] ∈ {127}
+   [3][0] ∈ {66}
+   [3][1] ∈ {8}
+   [3][2] ∈ {41}
+   [3][3] ∈ {95}
+   [3][4] ∈ {21}
+   [3][5] ∈ {63}
+   [3][6] ∈ {90}
+   [3][7] ∈ {76}
+   [3][8] ∈ {82}
+   [3][9] ∈ {92}
+   [3][10] ∈ {25}
+   [3][11] ∈ {113}
+   [4][0] ∈ {74}
+   [4][1] ∈ {124}
+   [4][2] ∈ {15}
+   [4][3] ∈ {26}
+   [4][4] ∈ {38}
+   [4][5] ∈ {34}
+   [4][6] ∈ {75}
+   [4][7] ∈ {59}
+   [4][8] ∈ {50}
+   [4][9] ∈ {55}
+   [4][10] ∈ {87}
+   [4][11] ∈ {15}
+   [5][0] ∈ {1}
+   [5][1] ∈ {87}
+   [5][2] ∈ {19}
+   [5][3] ∈ {20}
+   [5][4] ∈ {2}
+   [5][5] ∈ {31}
+   [5][6] ∈ {124}
+   [5][7] ∈ {61}
+   [5][8] ∈ {36}
+   [5][9] ∈ {125}
+   [5][10] ∈ {119}
+   [5][11] ∈ {21}
+   [6][0] ∈ {62}
+   [6][1] ∈ {101}
+   [6][2] ∈ {83}
+   [6][3] ∈ {126}
+   [6][4] ∈ {75}
+   [6][5] ∈ {64}
+   [6][6] ∈ {45}
+   [6][7] ∈ {38}
+   [6][8] ∈ {114}
+   [6][9] ∈ {26}
+   [6][10] ∈ {32}
+   [6][11] ∈ {120}
+   [7][0] ∈ {117}
+   [7][1] ∈ {16}
+   [7][2] ∈ {99}
+   [7][3] ∈ {6}
+   [7][4] ∈ {93}
+   [7][5] ∈ {85}
+   [7][6] ∈ {22}
+   [7][7] ∈ {126}
+   [7][8] ∈ {43}
+   [7][9] ∈ {117}
+   [7][10] ∈ {61}
+   [7][11] ∈ {127}
+   [8][0] ∈ {68}
+   [8][1] ∈ {94}
+   [8][2] ∈ {52}
+   [8][3] ∈ {18}
+   [8][4] ∈ {73}
+   [8][5] ∈ {63}
+   [8][6] ∈ {61}
+   [8][7] ∈ {21}
+   [8][8] ∈ {26}
+   [8][9] ∈ {46}
+   [8][10] ∈ {36}
+   [8][11] ∈ {83}
+   [9][0] ∈ {109}
+   [9][1] ∈ {121}
+   [9][2] ∈ {115}
+   [9][3] ∈ {58}
+   [9][4] ∈ {82}
+   [9][5] ∈ {87}
+   [9][6] ∈ {88}
+   [9][7] ∈ {60}
+   [9][8] ∈ {17}
+   [9][9] ∈ {112}
+   [9][10] ∈ {94}
+   [9][11] ∈ {23}
+   [10][0] ∈ {124}
+   [10][1] ∈ {14}
+   [10][2] ∈ {30}
+   [10][3] ∈ {20}
+   [10][4] ∈ {18}
+   [10][5] ∈ {6}
+   [10][6] ∈ {114}
+   [10][7] ∈ {89}
+   [10][8] ∈ {72}
+   [10][9] ∈ {84}
+   [10][10] ∈ {68}
+   [10][11] ∈ {65}
+   [11][0] ∈ {107}
+   [11][1] ∈ {76}
+   [11][2] ∈ {103}
+   [11][3] ∈ {105}
+   [11][4] ∈ {65}
+   [11][5] ∈ {48}
+   [11][6] ∈ {13}
+   [11][7] ∈ {120}
+   [11][8] ∈ {75}
+   [11][9] ∈ {95}
+   [11][10] ∈ {85}
+   [11][11] ∈ {33}
+[value] computing for function floydwarshall <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:46.
+../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:24:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:28:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:32:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:36:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+i))[h]);
+../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:36:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+h))[j]);
+../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:36:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+i))[j]);
+../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:37:[kernel] warning: out of bounds write. assert \valid(&(*(a_0+i))[j]);
+../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:37:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+i))[h]);
+../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:37:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+h))[j]);
+[value] Recording results for floydwarshall
+[value] Done for function floydwarshall
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 2 (out of 2)
+          Semantically reached functions = 2
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          23 stmts in analyzed functions, 23 stmts analyzed (100.0%)
+          main: 2 stmts out of 2 (100.0%)
+          floydwarshall: 21 stmts out of 21 (100.0%)

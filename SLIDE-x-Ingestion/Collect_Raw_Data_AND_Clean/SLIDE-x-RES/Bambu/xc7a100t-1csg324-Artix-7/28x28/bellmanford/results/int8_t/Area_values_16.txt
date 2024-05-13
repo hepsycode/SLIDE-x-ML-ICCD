@@ -1,0 +1,222 @@
+ ==  Bambu executed with: bambu -I/home/dews/Scrivania/bambu-hls/RESULTS/BAMBU/28x28/bellmanford/includes/values_16 --simulate --simulator=VERILATOR --clock-period=5 --device-name=xc7a100t-1csg324-VVD /home/dews/Scrivania/bambu-hls/cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c 
+
+
+********************************************************************************
+                    ____                  _
+                   | __ )  __ _ _ __ ___ | |_   _   _
+                   |  _ \ / _` | '_ ` _ \| '_ \| | | |
+                   | |_) | (_| | | | | | | |_) | |_| |
+                   |____/ \__,_|_| |_| |_|_.__/ \__,_|
+
+********************************************************************************
+                         High-Level Synthesis Tool
+
+                         Politecnico di Milano - DEIB
+                          System Architectures Group
+********************************************************************************
+                Copyright (C) 2004-2020 Politecnico di Milano
+    Version: PandA 0.9.6 - Revision 891ec3caed502474cab0813cc4a9fc678deabaa5
+
+Target technology = FPGA
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  The top function inferred from the specification is: main
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+  Functions to be synthesized:
+    bellmanford
+    make_oriented
+    main
+
+
+  Memory allocation information:
+  SIZE bus bitsize: 0
+    BRAM bitsize: 16
+    Spec may not exploit DATA bus width
+    All the data have a known address
+    Internal data may be accessed
+    DATA bus bitsize: 32
+    ADDRESS bus bitsize: 12
+    SIZE bus bitsize: 6
+    Internally allocated memory (no private memories): 2048
+    Internally allocated memory: 2048
+  Time to perform memory allocation: 0.00 seconds
+
+
+  Module allocation information for function bellmanford:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.05 seconds
+
+
+  Module allocation information for function make_oriented:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.06 seconds
+
+
+  Scheduling Information of function bellmanford:
+    Number of control steps: 20
+    Minimum slack: 0.27379999999999971
+    Estimated max frequency (MHz): 211.5864753924929
+  Time to perform scheduling: 0.01 seconds
+
+
+  State Transition Graph Information of function bellmanford:
+    Number of states: 20
+    Done port is registered
+  Time to perform creation of STG: 0.00 seconds
+
+
+  Scheduling Information of function make_oriented:
+    Number of control steps: 17
+    Minimum slack: 0.41299999900000028
+    Estimated max frequency (MHz): 218.00741220448936
+  Time to perform scheduling: 0.00 seconds
+
+
+  State Transition Graph Information of function make_oriented:
+    Number of states: 15
+    Done port is registered
+  Time to perform creation of STG: 0.01 seconds
+
+
+  Easy binding information for function bellmanford:
+    Bound operations:62/84
+  Time to perform easy binding: 0.00 seconds
+
+
+  Easy binding information for function make_oriented:
+    Bound operations:64/79
+  Time to perform easy binding: 0.00 seconds
+
+
+  Storage Value Information of function bellmanford:
+    Number of storage values inserted: 40
+  Time to compute storage value information: 0.00 seconds
+
+
+  Storage Value Information of function make_oriented:
+    Number of storage values inserted: 27
+  Time to compute storage value information: 0.00 seconds
+
+
+  Register binding information for function bellmanford:
+    Register allocation algorithm obtains a sub-optimal result: 30 registers(LB:19)
+  Time to perform register binding: 0.00 seconds
+
+
+  Register binding information for function bellmanford:
+    Register allocation algorithm obtains a sub-optimal result: 31 registers(LB:19)
+  Time to perform register binding: 0.00 seconds
+
+
+  Module binding information for function bellmanford:
+    Number of modules instantiated: 78
+    Number of possible conflicts for possible false paths introduced by resource sharing: 0
+    Estimated resources area (no Muxes and address logic): 1316
+    Estimated area of MUX21: 165
+    Total estimated area: 1481
+    Estimated number of DSPs: 0
+    Slack computed in 0.00 seconds
+    False-loop computation completed in 0.00 seconds
+    Weight computation completed in 0.00 seconds
+    Clique covering computation completed in 0.00 seconds
+  Time to perform module binding: 0.00 seconds
+
+
+  Register binding information for function bellmanford:
+    Register allocation algorithm obtains a sub-optimal result: 31 registers(LB:19)
+  Time to perform register binding: 0.00 seconds
+
+
+  Connection Binding Information for function bellmanford:
+    Number of allocated multiplexers (2-to-1 equivalent): 16
+  Time to perform interconnection binding: 0.00 seconds
+
+  Total number of flip-flops in function bellmanford: 555
+
+  Register binding information for function make_oriented:
+    Register allocation algorithm obtains a sub-optimal result: 22 registers(LB:19)
+  Time to perform register binding: 0.00 seconds
+
+
+  Register binding information for function make_oriented:
+    Register allocation algorithm obtains a sub-optimal result: 22 registers(LB:19)
+  Time to perform register binding: 0.00 seconds
+
+
+  Module binding information for function make_oriented:
+    Number of modules instantiated: 74
+    Number of possible conflicts for possible false paths introduced by resource sharing: 0
+    Estimated resources area (no Muxes and address logic): 186
+    Estimated area of MUX21: 133
+    Total estimated area: 319
+    Estimated number of DSPs: 0
+    Slack computed in 0.00 seconds
+    False-loop computation completed in 0.00 seconds
+    Weight computation completed in 0.00 seconds
+    Clique covering computation completed in 0.00 seconds
+  Time to perform module binding: 0.00 seconds
+
+
+  Register binding information for function make_oriented:
+    Register allocation algorithm obtains a sub-optimal result: 22 registers(LB:19)
+  Time to perform register binding: 0.00 seconds
+
+
+  Connection Binding Information for function make_oriented:
+    Number of allocated multiplexers (2-to-1 equivalent): 11
+  Time to perform interconnection binding: 0.00 seconds
+
+  Total number of flip-flops in function make_oriented: 254
+
+  Module allocation information for function main:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.01 seconds
+
+
+  Scheduling Information of function main:
+    Number of control steps: 5
+    Minimum slack: 1.1102230246251565e-16
+    Estimated max frequency (MHz): 200
+  Time to perform scheduling: 0.00 seconds
+
+
+  State Transition Graph Information of function main:
+    Number of states: 5
+    Done port is registered
+  Time to perform creation of STG: 0.00 seconds
+
+
+  Easy binding information for function main:
+    Bound operations:7/7
+  Time to perform easy binding: 0.00 seconds
+
+
+  Storage Value Information of function main:
+    Number of storage values inserted: 1
+  Time to compute storage value information: 0.00 seconds
+
+
+  Module binding information for function main:
+    Number of modules instantiated: 7
+    Number of possible conflicts for possible false paths introduced by resource sharing: 0
+    Estimated resources area (no Muxes and address logic): 4002
+    Estimated area of MUX21: 0
+    Total estimated area: 4002
+    Estimated number of DSPs: 0
+    Slack computed in 0.00 seconds
+  Time to perform module binding: 0.00 seconds
+
+
+  Register binding information for function main:
+    Register allocation algorithm obtains an optimal result: 1 registers
+  Time to perform register binding: 0.00 seconds
+
+  Total number of flip-flops in function main: 12
+[0mWarning: XML file "test.xml" cannot be opened, creating a stub with random values
+Warning: Simulation completed but it is not possible to determine if it is correct!
+  Total cycles             : 7937 cycles
+  Number of executions     : 1
+  Average execution        : 7937 cycles

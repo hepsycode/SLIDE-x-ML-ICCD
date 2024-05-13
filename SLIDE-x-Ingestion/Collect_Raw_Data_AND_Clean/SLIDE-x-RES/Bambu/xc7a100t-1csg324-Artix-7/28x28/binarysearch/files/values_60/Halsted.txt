@@ -1,0 +1,93 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../cc4cs_bambu/benchmarkBasic/binarysearch/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 175 
+          Distinct operators: 31 
+          Total_operands: 63 
+          Distinct operands: 37 
+          Program length: 238 
+          Vocabulary size: 68 
+          Program volume: 1448.82 
+          Effort: 38237.00 
+          Program level: 0.04 
+          Difficulty level: 26.39 
+          Time to implement: 2124.28 
+          Bugs delivered: 0.38 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 1
+            if: 2
+            return: 2
+            while: 1
+            ): 4
+            ,: 24
+            {: 1
+            (: 4
+            }: 1
+            []: 2
+            ;: 8
+            +: 2
+            -: 13
+            ==: 1
+            =: 2
+            <: 1
+            /: 1
+            <=: 1
+            TARGET_TYPE: 2
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 3
+            uint8_t: 1
+            enum  { n24 }: 1
+            
+          Operands
+          --------
+            l: 5
+            n: 3
+            key: 4
+            binarysearch: 1
+            Frama_C_bzero: 1
+            m: 6
+            arr: 4
+            Frama_C_copy_block: 1
+            r: 4
+            FC_BUILTIN: 2
+            2: 1
+            53: 1
+            95: 1
+            20: 1
+            24: 1
+            12: 1
+            112: 2
+            101: 1
+            41: 1
+            105: 1
+            38: 1
+            56: 1
+            1: 5
+            4: 1
+            82: 1
+            34: 1
+            72: 1
+            16: 1
+            86: 1
+            0: 1
+            98: 1
+            65: 1
+            6: 1
+            52: 1
+            104: 1
+            108: 1
+            29: 1

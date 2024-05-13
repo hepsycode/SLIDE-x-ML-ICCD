@@ -1,0 +1,148 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 506 
+          Distinct operators: 34 
+          Total_operands: 268 
+          Distinct operands: 89 
+          Program length: 774 
+          Vocabulary size: 123 
+          Program volume: 5373.51 
+          Effort: 275075.22 
+          Program level: 0.02 
+          Difficulty level: 51.19 
+          Time to implement: 15281.96 
+          Bugs delivered: 1.41 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 3
+            break: 1
+            if: 8
+            for: 12
+            return: 3
+            ): 20
+            ,: 90
+            {: 13
+            (: 20
+            }: 13
+            []: 33
+            ;: 63
+            &&: 3
+            ++: 13
+            -: 54
+            !=: 6
+            ==: 2
+            <: 13
+            =: 25
+            *=: 1
+            <=: 1
+            TARGET_TYPE: 3
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 6
+            enum  { size9 }: 1
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            a: 16
+            find: 2
+            count_edges: 1
+            min: 4
+            k: 14
+            edge_number: 3
+            z: 10
+            kruskalF: 1
+            find_min: 1
+            y: 7
+            union_sets: 1
+            make_set: 1
+            node: 3
+            union_find: 8
+            Frama_C_bzero: 1
+            is_connected: 1
+            x: 7
+            init_union_find: 1
+            j: 19
+            size: 16
+            Frama_C_copy_block: 1
+            make_non_oriented: 1
+            kruskal: 1
+            i: 32
+            FC_BUILTIN: 2
+            125: 2
+            2: 1
+            83: 1
+            66: 1
+            64: 2
+            76: 2
+            67: 2
+            114: 1
+            91: 1
+            10: 1
+            15: 1
+            117: 1
+            42: 2
+            8: 1
+            127: 1
+            109: 1
+            33: 1
+            1: 11
+            38: 1
+            61: 1
+            82: 2
+            116: 1
+            88: 3
+            43: 1
+            36: 1
+            122: 3
+            18: 1
+            71: 2
+            37: 1
+            124: 2
+            118: 1
+            39: 1
+            51: 1
+            22: 1
+            75: 1
+            70: 2
+            32: 1
+            24: 1
+            90: 1
+            62: 1
+            31: 1
+            111: 1
+            12: 1
+            50: 1
+            87: 1
+            105: 1
+            69: 1
+            56: 1
+            40: 1
+            57: 2
+            97: 1
+            19: 1
+            121: 1
+            9: 3
+            65: 2
+            0: 21
+            48: 1
+            74: 1
+            78: 2
+            52: 2
+            21: 1
+            126: 1
+            104: 1
+            29: 2

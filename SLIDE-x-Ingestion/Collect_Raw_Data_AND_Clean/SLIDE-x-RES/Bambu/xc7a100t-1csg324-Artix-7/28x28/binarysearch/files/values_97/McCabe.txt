@@ -1,0 +1,85 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../cc4cs_bambu/benchmarkBasic/binarysearch/thrd.c (with preprocessing)
+[metrics] Defined functions (2)
+          =====================
+           binarysearch (1 call); main (0 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 17
+          Decision point = 3
+          Global variables = 2
+          If = 3
+          Loop = 1
+          Goto = 1
+          Assignment = 7
+          Exit point = 2
+          Function = 2
+          Function call = 1
+          Pointer dereferencing = 2
+          Cyclomatic complexity = 5
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  key ∈ {-44}
+  arr[0] ∈ {104}
+     [1] ∈ {69}
+     [2] ∈ {124}
+     [3] ∈ {43}
+     [4] ∈ {-2}
+     [5] ∈ {70}
+     [6] ∈ {-88}
+     [7] ∈ {9}
+     [8] ∈ {-29}
+     [9] ∈ {-30}
+     [10] ∈ {123}
+     [11] ∈ {-102}
+     [12] ∈ {8}
+     [13] ∈ {-41}
+     [14] ∈ {-104}
+     [15] ∈ {78}
+     [16] ∈ {49}
+     [17] ∈ {124}
+     [18] ∈ {-34}
+     [19] ∈ {-106}
+     [20] ∈ {-108}
+     [21] ∈ {89}
+     [22] ∈ {81}
+     [23] ∈ {-50}
+     [24] ∈ {-1}
+     [25] ∈ {-101}
+     [26] ∈ {44}
+     [27] ∈ {58}
+[value] computing for function binarysearch <- main.
+        Called from ../../../../../cc4cs_bambu/benchmarkBasic/binarysearch/thrd.c:61.
+../../../../../cc4cs_bambu/benchmarkBasic/binarysearch/thrd.c:42:[value] entering loop for the first time
+../../../../../cc4cs_bambu/benchmarkBasic/binarysearch/thrd.c:47:[kernel] warning: out of bounds read. assert \valid_read(arr_0+m);
+[value] Recording results for binarysearch
+[value] Done for function binarysearch
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 2 (out of 2)
+          Semantically reached functions = 2
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          17 stmts in analyzed functions, 17 stmts analyzed (100.0%)
+          main: 2 stmts out of 2 (100.0%)
+          binarysearch: 15 stmts out of 15 (100.0%)

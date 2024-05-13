@@ -1,0 +1,81 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/selectionsort/thrd.c (with preprocessing)
+[metrics] Defined functions (2)
+          =====================
+           main (0 call); selectionsort (1 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 22
+          Decision point = 3
+          Global variables = 1
+          If = 3
+          Loop = 2
+          Goto = 0
+          Assignment = 11
+          Exit point = 2
+          Function = 2
+          Function call = 1
+          Pointer dereferencing = 6
+          Cyclomatic complexity = 5
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  a[0] ∈ {-17}
+   [1] ∈ {9}
+   [2] ∈ {-19}
+   [3] ∈ {-77}
+   [4] ∈ {-33}
+   [5] ∈ {33}
+   [6] ∈ {14}
+   [7] ∈ {-98}
+   [8] ∈ {-97}
+   [9] ∈ {75}
+   [10] ∈ {69}
+   [11] ∈ {124}
+   [12] ∈ {-89}
+   [13] ∈ {92}
+   [14] ∈ {-5}
+   [15] ∈ {38}
+   [16] ∈ {-107}
+   [17] ∈ {89}
+   [18] ∈ {-60}
+   [19] ∈ {-42}
+   [20] ∈ {-103}
+   [21] ∈ {-39}
+   [22] ∈ {-90}
+   [23] ∈ {-81}
+[value] computing for function selectionsort <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/selectionsort/thrd.c:29.
+../../../../../../../cc4cs_bambu/benchmarkBasic/selectionsort/thrd.c:12:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/selectionsort/thrd.c:16:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/selectionsort/thrd.c:22:[kernel] warning: out of bounds read. assert \valid_read(a_0+i);
+[value] Recording results for selectionsort
+[value] Done for function selectionsort
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 2 (out of 2)
+          Semantically reached functions = 2
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          22 stmts in analyzed functions, 22 stmts analyzed (100.0%)
+          main: 2 stmts out of 2 (100.0%)
+          selectionsort: 20 stmts out of 20 (100.0%)

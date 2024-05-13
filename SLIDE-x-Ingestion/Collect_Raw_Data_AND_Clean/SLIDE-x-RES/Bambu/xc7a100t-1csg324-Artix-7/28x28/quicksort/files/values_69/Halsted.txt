@@ -1,0 +1,108 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/quicksort/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 269 
+          Distinct operators: 36 
+          Total_operands: 122 
+          Distinct operands: 47 
+          Program length: 391 
+          Vocabulary size: 83 
+          Program volume: 2492.64 
+          Effort: 116464.65 
+          Program level: 0.02 
+          Difficulty level: 46.72 
+          Time to implement: 6470.26 
+          Bugs delivered: 0.79 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 2
+            if: 3
+            for: 1
+            while: 1
+            return: 1
+            ): 7
+            ,: 26
+            {: 5
+            (: 7
+            }: 5
+            []: 14
+            ;: 32
+            +: 4
+            ++: 8
+            -: 18
+            <: 1
+            =: 11
+            <=: 2
+            *: 4
+            >: 1
+            --: 2
+            >=: 1
+            &: 4
+            TARGET_TYPE: 3
+            short: 4
+            enum  { size26 }: 1
+            long: 17
+            int: 10
+            signed: 14
+            TARGET_INDEX: 5
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            quicksort: 1
+            h: 9
+            a: 5
+            stack: 9
+            l: 8
+            p: 5
+            t: 2
+            b: 2
+            Frama_C_bzero: 1
+            top: 10
+            arr: 7
+            x: 2
+            j: 6
+            size: 4
+            Frama_C_copy_block: 1
+            partition: 1
+            swap: 2
+            quicksortF: 1
+            i: 5
+            FC_BUILTIN: 2
+            11: 1
+            94: 2
+            110: 1
+            119: 1
+            22: 1
+            62: 1
+            90: 1
+            111: 1
+            123: 1
+            113: 1
+            115: 1
+            23: 1
+            13: 1
+            10: 1
+            77: 1
+            102: 1
+            73: 1
+            1: 10
+            44: 1
+            0: 2
+            122: 1
+            98: 1
+            48: 1
+            74: 1
+            26: 1
+            55: 1
+            108: 2

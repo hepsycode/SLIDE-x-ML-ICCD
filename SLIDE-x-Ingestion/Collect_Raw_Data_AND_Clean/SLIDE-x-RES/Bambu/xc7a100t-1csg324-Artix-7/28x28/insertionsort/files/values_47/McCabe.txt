@@ -1,0 +1,130 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../cc4cs_bambu/benchmarkBasic/insertionsort/thrd.c (with preprocessing)
+[metrics] Defined functions (2)
+          =====================
+           insertionsort (1 call); main (0 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (3)
+          =============================
+           __FC_errno; __fc_stdin; __fc_stdout
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 22
+          Decision point = 3
+          Global variables = 6
+          If = 3
+          Loop = 2
+          Goto = 0
+          Assignment = 9
+          Exit point = 2
+          Function = 2
+          Function call = 1
+          Pointer dereferencing = 5
+          Cyclomatic complexity = 5
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  __FC_errno ∈ [--..--]
+  __fc_stdin ∈ {{ NULL ; &S___fc_stdin[0] }}
+  __fc_stdout ∈ {{ NULL ; &S___fc_stdout[0] }}
+  __fc_fopen[0..511] ∈ {0}
+  __p_fc_fopen ∈ {{ &__fc_fopen[0] }}
+  a[0] ∈ {-115}
+   [1] ∈ {59}
+   [2] ∈ {-35}
+   [3] ∈ {-41}
+   [4..5] ∈ {-110}
+   [6] ∈ {8}
+   [7] ∈ {-8}
+   [8] ∈ {-62}
+   [9] ∈ {22}
+   [10] ∈ {-78}
+   [11] ∈ {65}
+   [12] ∈ {-38}
+   [13] ∈ {-121}
+   [14] ∈ {-16}
+   [15] ∈ {-109}
+   [16] ∈ {-71}
+   [17] ∈ {-121}
+   [18] ∈ {-120}
+   [19] ∈ {-40}
+   [20] ∈ {-19}
+   [21] ∈ {-64}
+   [22] ∈ {-76}
+   [23] ∈ {81}
+   [24] ∈ {-89}
+   [25] ∈ {93}
+   [26] ∈ {-3}
+  S___fc_stdin[0]{.__fc_stdio_id; .__fc_position; .__fc_error; .__fc_eof} ∈
+              [--..--]
+              [0].[bits 80 to 95] ∈ UNINITIALIZED
+              [0].__fc_flags ∈ [--..--]
+              [0].__fc_inode ∈ {{ NULL ; &S___fc_inode_0_S___fc_stdin[0] }}
+              [0].__fc_real_data ∈
+              {{ NULL ; &S___fc_real_data_0_S___fc_stdin[0] }}
+              {[0].__fc_real_data_max_size; [1]{.__fc_stdio_id; .__fc_position; .__fc_error; .__fc_eof}} ∈
+              [--..--]
+              [1].[bits 80 to 95] ∈ UNINITIALIZED
+              [1].__fc_flags ∈ [--..--]
+              [1].__fc_inode ∈ {{ NULL ; &S___fc_inode_1_S___fc_stdin[0] }}
+              [1].__fc_real_data ∈
+              {{ NULL ; &S___fc_real_data_1_S___fc_stdin[0] }}
+              [1].__fc_real_data_max_size ∈ [--..--]
+  S___fc_inode_0_S___fc_stdin[0..1] ∈ [--..--]
+  S___fc_real_data_0_S___fc_stdin[0..1] ∈ [--..--]
+  S___fc_inode_1_S___fc_stdin[0..1] ∈ [--..--]
+  S___fc_real_data_1_S___fc_stdin[0..1] ∈ [--..--]
+  S___fc_stdout[0]{.__fc_stdio_id; .__fc_position; .__fc_error; .__fc_eof} ∈
+               [--..--]
+               [0].[bits 80 to 95] ∈ UNINITIALIZED
+               [0].__fc_flags ∈ [--..--]
+               [0].__fc_inode ∈
+               {{ NULL ; &S___fc_inode_0_S___fc_stdout[0] }}
+               [0].__fc_real_data ∈
+               {{ NULL ; &S___fc_real_data_0_S___fc_stdout[0] }}
+               {[0].__fc_real_data_max_size; [1]{.__fc_stdio_id; .__fc_position; .__fc_error; .__fc_eof}} ∈
+               [--..--]
+               [1].[bits 80 to 95] ∈ UNINITIALIZED
+               [1].__fc_flags ∈ [--..--]
+               [1].__fc_inode ∈
+               {{ NULL ; &S___fc_inode_1_S___fc_stdout[0] }}
+               [1].__fc_real_data ∈
+               {{ NULL ; &S___fc_real_data_1_S___fc_stdout[0] }}
+               [1].__fc_real_data_max_size ∈ [--..--]
+  S___fc_inode_0_S___fc_stdout[0..1] ∈ [--..--]
+  S___fc_real_data_0_S___fc_stdout[0..1] ∈ [--..--]
+  S___fc_inode_1_S___fc_stdout[0..1] ∈ [--..--]
+  S___fc_real_data_1_S___fc_stdout[0..1] ∈ [--..--]
+[value] computing for function insertionsort <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/insertionsort/thrd.c:32.
+../../../../../../cc4cs_bambu/benchmarkBasic/insertionsort/thrd.c:14:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/insertionsort/thrd.c:20:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/insertionsort/thrd.c:20:[kernel] warning: out of bounds read. assert \valid_read(a_0+j);
+../../../../../../cc4cs_bambu/benchmarkBasic/insertionsort/thrd.c:22:[kernel] warning: out of bounds write. assert \valid(a_0+(int)(j+1));
+../../../../../../cc4cs_bambu/benchmarkBasic/insertionsort/thrd.c:26:[kernel] warning: out of bounds write. assert \valid(a_0+(int)(j+1));
+[value] Recording results for insertionsort
+[value] Done for function insertionsort
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 2 (out of 2)
+          Semantically reached functions = 2
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          22 stmts in analyzed functions, 22 stmts analyzed (100.0%)
+          main: 2 stmts out of 2 (100.0%)
+          insertionsort: 20 stmts out of 20 (100.0%)

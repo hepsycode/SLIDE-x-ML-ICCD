@@ -1,0 +1,231 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 591 
+          Distinct operators: 66 
+          Total_operands: 296 
+          Distinct operands: 129 
+          Program length: 887 
+          Vocabulary size: 195 
+          Program volume: 6747.70 
+          Effort: 510942.27 
+          Program level: 0.01 
+          Difficulty level: 75.72 
+          Time to implement: 28385.68 
+          Bugs delivered: 2.13 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 47
+            array: 6
+            break: 1
+            if: 7
+            for: 6
+            while: 1
+            return: 3
+            extern: 6
+            ): 16
+            ,: 30
+            {: 10
+            ?: 1
+            (: 16
+            :: 1
+            *: 16
+            }: 10
+            []: 47
+            ;: 51
+            +: 4
+            &&: 4
+            ++: 7
+            -: 19
+            !=: 4
+            ==: 2
+            <: 8
+            =: 20
+            *=: 1
+            /: 2
+            <=: 1
+            >: 3
+            --: 1
+            >=: 1
+            blkcnt_t: 1
+            FILE: 9
+            fpos_t: 1
+            enum  { goal117 }: 1
+            signed: 15
+            TARGET_INDEX: 4
+            void: 9
+            time_t: 3
+            unsigned: 38
+            int8_t: 3
+            off_t: 1
+            struct __fc_pos_t { unsigned long __fc_stdio_position; }: 1
+            mode_t: 1
+            nlink_t: 1
+            struct __fc_FILE {
+              unsigned int __fc_stdio_id; fpos_t __fc_position; char __fc_error; 
+              char __fc_eof; int __fc_flags; struct stat *__fc_inode; unsigned char
+              *__fc_real_data; int __fc_real_data_max_size; }: 1
+            TARGET_TYPE: 5
+            gid_t: 1
+            struct statfs {
+              unsigned int f_type; unsigned int f_bsize; unsigned int f_blocks;
+              unsigned int f_bfree; unsigned int f_bavail; unsigned int f_files;
+              unsigned int f_ffree; unsigned int f_fsid; unsigned int f_namelen;
+              unsigned int f_frsize; unsigned int f_flags; unsigned int f_spare[4]; }: 1
+            __builtin_va_list: 1
+            short: 4
+            blksize_t: 1
+            ino_t: 1
+            struct stat {
+              dev_t st_dev; ino_t st_ino; mode_t st_mode; nlink_t st_nlink; uid_t
+              st_uid; gid_t st_gid; dev_t st_rdev; off_t st_size; time_t st_atime;
+              time_t st_mtime; time_t st_ctime; blksize_t st_blksize; blkcnt_t
+              st_blocks; }: 1
+            struct __fc_FILE: 1
+            dev_t: 2
+            long: 22
+            int: 86
+            size_t: 4
+            struct __fc_pos_t: 1
+            uid_t: 1
+            enum  { size5 }: 1
+            char: 15
+            uint8_t: 1
+            struct stat: 1
+            
+          Operands
+          --------
+            astarF: 1
+            getchar_unlocked: 1
+            sprintf: 1
+            a: 23
+            min: 3
+            fgets_unlocked: 1
+            feof_unlocked: 1
+            __fc_stderr: 1
+            remove_min: 1
+            ftell: 1
+            goal: 4
+            fgetpos: 1
+            putchar: 1
+            gets: 1
+            freopen: 1
+            fsetpos: 1
+            vfscanf: 1
+            funlockfile: 1
+            absolute: 2
+            fileno: 1
+            vsprintf: 1
+            fwrite_unlocked: 1
+            fputs: 1
+            scanf: 1
+            FC_BUILTIN: 2
+            putc_unlocked: 1
+            tmpnam: 1
+            fscanf: 1
+            current: 13
+            ferror_unlocked: 1
+            perror: 1
+            fgetc_unlocked: 1
+            astar: 1
+            fflush_unlocked: 1
+            clearerr: 1
+            make_oriented: 1
+            __p_fc_fopen: 1
+            __fc_stdin: 1
+            set_estimates: 1
+            putc: 1
+            priority: 4
+            clearerr_unlocked: 1
+            rename: 1
+            __fc_stdout: 1
+            frontier: 6
+            flockfile: 1
+            fwrite: 1
+            vfprintf: 1
+            fdopen: 1
+            ferror: 1
+            fread: 1
+            frontier_size: 4
+            fgetc: 1
+            printf: 1
+            tmpfile: 1
+            getc: 1
+            fclose: 1
+            vscanf: 1
+            n: 3
+            getchar: 1
+            sscanf: 1
+            putchar_unlocked: 1
+            ftrylockfile: 1
+            fputc: 1
+            fgets: 1
+            vprintf: 1
+            heuristic: 1
+            feof: 1
+            tmp1: 1
+            program_invocation_name: 1
+            __FC_errno: 1
+            fputc_unlocked: 1
+            j: 11
+            fileno_unlocked: 1
+            came_from: 3
+            snprintf: 1
+            program_invocation_short_name: 1
+            fread_unlocked: 1
+            fprintf: 1
+            path_cost: 1
+            vsscanf: 1
+            getc_unlocked: 1
+            ungetc: 1
+            vsnprintf: 1
+            init_camefrom: 1
+            node: 1
+            Frama_C_bzero: 1
+            fseek: 1
+            puts: 1
+            rewind: 1
+            setvbuf: 1
+            __fc_fopen: 2
+            remove: 1
+            size: 14
+            Frama_C_copy_block: 1
+            fputs_unlocked: 1
+            insert: 2
+            fopen: 1
+            fflush: 1
+            i: 48
+            setbuf: 1
+            118: 1
+            51: 2
+            2: 2
+            110: 1
+            70: 1
+            30: 1
+            67: 1
+            91: 1
+            8: 2
+            117: 1
+            127: 2
+            69: 1
+            1: 11
+            56: 2
+            103: 1
+            100: 1
+            4: 1
+            35: 1
+            88: 1
+            9: 1
+            96: 1
+            44: 1
+            5: 1
+            0: 24
+            512: 1
+            78: 2
+            104: 1
+            106: 1

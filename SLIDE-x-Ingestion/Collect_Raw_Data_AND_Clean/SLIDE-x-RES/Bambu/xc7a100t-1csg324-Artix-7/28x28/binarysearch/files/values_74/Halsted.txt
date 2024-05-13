@@ -1,0 +1,80 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../cc4cs_bambu/benchmarkBasic/binarysearch/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 157 
+          Distinct operators: 31 
+          Total_operands: 48 
+          Distinct operands: 24 
+          Program length: 205 
+          Vocabulary size: 55 
+          Program volume: 1185.18 
+          Effort: 36740.54 
+          Program level: 0.03 
+          Difficulty level: 31 
+          Time to implement: 2041.14 
+          Bugs delivered: 0.37 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 1
+            if: 2
+            return: 2
+            while: 1
+            ): 4
+            ,: 9
+            {: 1
+            (: 4
+            }: 1
+            []: 2
+            ;: 8
+            +: 2
+            -: 10
+            ==: 1
+            =: 2
+            <: 1
+            /: 1
+            <=: 1
+            TARGET_TYPE: 2
+            enum  { n9 }: 1
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 3
+            uint8_t: 1
+            
+          Operands
+          --------
+            l: 5
+            n: 3
+            key: 4
+            binarysearch: 1
+            Frama_C_bzero: 1
+            m: 6
+            arr: 4
+            Frama_C_copy_block: 1
+            r: 4
+            FC_BUILTIN: 2
+            11: 1
+            2: 1
+            125: 1
+            23: 1
+            8: 1
+            69: 1
+            87: 1
+            1: 4
+            17: 1
+            88: 1
+            9: 1
+            0: 1
+            6: 1
+            21: 1

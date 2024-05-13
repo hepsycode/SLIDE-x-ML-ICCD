@@ -1,0 +1,143 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c (with preprocessing)
+../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:52:[kernel] warning: Floating-point constant 3.14159 is not represented exactly. Will use 0x1.921f9f01b866ep1. See documentation for option -warn-decimal-float
+[metrics] Defined functions (6)
+          =====================
+           convert_nn (0 call); fft (1 call); is_power_of_two (1 call); main (0 call);
+           myabs (1 call); mysin (2 calls); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (2)
+          ==========================
+           convert_nn; main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 122
+          Decision point = 19
+          Global variables = 2
+          If = 19
+          Loop = 9
+          Goto = 7
+          Assignment = 57
+          Exit point = 6
+          Function = 6
+          Function call = 5
+          Pointer dereferencing = 20
+          Cyclomatic complexity = 25
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  nn ∈ {5}
+  data[0] ∈ {-101}
+      [1] ∈ {-58}
+      [2] ∈ {43}
+      [3] ∈ {112}
+      [4] ∈ {36}
+[value] computing for function fft <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:144.
+../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:83:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:95:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:90:[kernel] warning: out of bounds read. assert \valid_read(data_0+j);
+../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:90:[kernel] warning: out of bounds read. assert \valid_read(data_0+i);
+../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:92:[kernel] warning: out of bounds read. assert \valid_read(data_0+(int)((int)j+1));
+../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:92:[kernel] warning: out of bounds write. assert \valid(data_0+(int)((int)j+1));
+../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:92:[kernel] warning: out of bounds read. assert \valid_read(data_0+(int)((int)i+1));
+../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:92:[kernel] warning: out of bounds write. assert \valid(data_0+(int)((int)i+1));
+../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:105:[value] entering loop for the first time
+[value] computing for function mysin <- fft <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:111.
+../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:51:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:53:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:62:[value] entering loop for the first time
+[value] computing for function myabs <- mysin <- fft <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:62.
+[value] Recording results for myabs
+[value] Done for function myabs
+[value] Recording results for mysin
+[value] Done for function mysin
+[value] computing for function mysin <- fft <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:114.
+[value] computing for function myabs <- mysin <- fft <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:62.
+[value] Recording results for myabs
+[value] Done for function myabs
+[value] computing for function myabs <- mysin <- fft <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:62.
+[value] Recording results for myabs
+[value] Done for function myabs
+[value] computing for function myabs <- mysin <- fft <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:62.
+[value] Recording results for myabs
+[value] Done for function myabs
+[value] computing for function myabs <- mysin <- fft <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:62.
+[value] Recording results for myabs
+[value] Done for function myabs
+[value] computing for function myabs <- mysin <- fft <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:62.
+[value] Recording results for myabs
+[value] Done for function myabs
+[value] computing for function myabs <- mysin <- fft <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:62.
+[value] Recording results for myabs
+[value] Done for function myabs
+[value] computing for function myabs <- mysin <- fft <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:62.
+[value] Recording results for myabs
+[value] Done for function myabs
+../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:64:[kernel] warning: non-finite double value ([--. .. --.]):
+                  assert
+                  \is_finite((double)((double)((int)((int)diff*(int)(-((int)((int)rad*(int)rad)))))/(double)
+                                       ((double)(2.0*(double)inc)*(double)((double)(2.0*(double)inc)+1.0))));
+../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:64:[kernel] warning: overflow in conversion
+                  of (double)((int)diff * - ((int)rad * (int)rad)) / ((2.0 * (double)inc) * (
+                                                                      2.0 * (double)inc + 1.0)) ([-1.79769313486e+308 .. 1.79769313486e+308])
+                  from floating-point to integer.
+                  assert
+                  -129 <
+                  (double)((int)((int)diff*(int)(-((int)((int)rad*(int)rad)))))/(double)
+                  ((double)(2.0*(double)inc)*(double)((double)(2.0*(double)inc)+1.0));
+../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:64:[kernel] warning: overflow in conversion
+                  of (double)((int)diff * - ((int)rad * (int)rad)) / ((2.0 * (double)inc) * (
+                                                                      2.0 * (double)inc + 1.0)) ([-1.79769313486e+308 .. 1.79769313486e+308])
+                  from floating-point to integer.
+                  assert
+                  (double)((int)((int)diff*(int)(-((int)((int)rad*(int)rad)))))/(double)
+                  ((double)(2.0*(double)inc)*(double)((double)(2.0*(double)inc)+1.0)) < 128;
+[value] computing for function myabs <- mysin <- fft <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:62.
+[value] Recording results for myabs
+[value] Done for function myabs
+[value] Recording results for mysin
+[value] Done for function mysin
+../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:118:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:122:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:127:[kernel] warning: out of bounds read. assert \valid_read(data_0+j);
+../../../../../../cc4cs_bambu/benchmarkBasic/fft/thrd.c:129:[kernel] warning: out of bounds read. assert \valid_read(data_0+i);
+[value] Recording results for fft
+[value] Done for function fft
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 4 (out of 6)
+          Semantically reached functions = 4
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          92 stmts in analyzed functions, 79 stmts analyzed (85.9%)
+          myabs: 4 stmts out of 4 (100.0%)
+          mysin: 22 stmts out of 24 (91.7%)
+          fft: 52 stmts out of 62 (83.9%)
+          main: 1 stmts out of 2 (50.0%)

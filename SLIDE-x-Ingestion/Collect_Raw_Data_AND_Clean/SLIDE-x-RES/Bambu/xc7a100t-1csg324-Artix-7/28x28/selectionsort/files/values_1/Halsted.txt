@@ -1,0 +1,77 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/selectionsort/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 167 
+          Distinct operators: 28 
+          Total_operands: 57 
+          Distinct operands: 24 
+          Program length: 224 
+          Vocabulary size: 52 
+          Program volume: 1276.90 
+          Effort: 42456.88 
+          Program level: 0.03 
+          Difficulty level: 33.25 
+          Time to implement: 2358.72 
+          Bugs delivered: 0.41 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 1
+            if: 1
+            for: 2
+            ): 3
+            ,: 13
+            {: 1
+            (: 3
+            }: 1
+            []: 6
+            ;: 13
+            +: 1
+            ++: 2
+            -: 8
+            <: 3
+            =: 7
+            TARGET_TYPE: 1
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            enum  { size11 }: 1
+            uint8_t: 1
+            
+          Operands
+          --------
+            a: 8
+            selectionsort: 1
+            temp: 3
+            Frama_C_bzero: 1
+            min_idx: 6
+            j: 6
+            size: 4
+            Frama_C_copy_block: 1
+            i: 8
+            FC_BUILTIN: 2
+            11: 1
+            59: 1
+            64: 1
+            112: 1
+            102: 1
+            107: 1
+            105: 1
+            1: 2
+            7: 1
+            121: 1
+            0: 3
+            18: 1
+            108: 1
+            126: 1

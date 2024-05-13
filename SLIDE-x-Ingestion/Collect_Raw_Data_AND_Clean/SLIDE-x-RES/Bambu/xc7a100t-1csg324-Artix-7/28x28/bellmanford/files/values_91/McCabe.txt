@@ -1,0 +1,170 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c (with preprocessing)
+[metrics] Defined functions (3)
+          =====================
+           bellmanford (1 call); main (0 call); make_oriented (1 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 60
+          Decision point = 12
+          Global variables = 4
+          If = 12
+          Loop = 6
+          Goto = 2
+          Assignment = 24
+          Exit point = 3
+          Function = 3
+          Function call = 2
+          Pointer dereferencing = 3
+          Cyclomatic complexity = 15
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  a[0][0] ∈ {42}
+   [0][1] ∈ {-84}
+   [0][2] ∈ {-31}
+   [0][3] ∈ {123}
+   [0][4] ∈ {106}
+   [0][5] ∈ {61}
+   [0][6] ∈ {90}
+   [0][7] ∈ {-45}
+   [0][8] ∈ {-111}
+   [0][9] ∈ {-53}
+   [1][0] ∈ {99}
+   [1][1] ∈ {-105}
+   [1][2] ∈ {-76}
+   [1][3] ∈ {61}
+   [1][4] ∈ {11}
+   [1][5] ∈ {21}
+   [1][6] ∈ {-47}
+   [1][7] ∈ {115}
+   [1][8] ∈ {-86}
+   [1][9] ∈ {47}
+   [2][0] ∈ {93}
+   [2][1] ∈ {79}
+   [2][2] ∈ {6}
+   [2][3] ∈ {-26}
+   [2][4] ∈ {114}
+   [2][5] ∈ {-21}
+   [2][6] ∈ {12}
+   [2][7] ∈ {53}
+   [2][8] ∈ {48}
+   [2][9] ∈ {-21}
+   [3][0] ∈ {52}
+   [3][1] ∈ {-14}
+   [3][2] ∈ {-111}
+   [3][3] ∈ {-94}
+   [3][4] ∈ {16}
+   [3][5] ∈ {74}
+   [3][6] ∈ {84}
+   [3][7] ∈ {-100}
+   [3][8] ∈ {-18}
+   [3][9] ∈ {-65}
+   [4][0] ∈ {-27}
+   [4][1] ∈ {42}
+   [4][2] ∈ {-51}
+   [4][3] ∈ {55}
+   [4][4] ∈ {22}
+   [4][5] ∈ {-56}
+   [4][6] ∈ {71}
+   [4][7] ∈ {75}
+   [4][8] ∈ {-55}
+   [4][9] ∈ {38}
+   [5][0] ∈ {-3}
+   [5][1] ∈ {23}
+   [5][2] ∈ {15}
+   [5][3] ∈ {55}
+   [5][4] ∈ {-7}
+   [5][5] ∈ {-27}
+   [5][6] ∈ {126}
+   [5][7] ∈ {27}
+   [5][8] ∈ {-21}
+   [5][9] ∈ {77}
+   [6][0] ∈ {-107}
+   [6][1..2] ∈ {-96}
+   [6][3] ∈ {-126}
+   [6][4] ∈ {-12}
+   [6][5] ∈ {-59}
+   [6][6] ∈ {7}
+   [6][7] ∈ {-32}
+   [6][8] ∈ {-110}
+   [6][9] ∈ {-32}
+   [7][0] ∈ {-9}
+   [7][1] ∈ {-41}
+   [7][2] ∈ {12}
+   [7][3] ∈ {-4}
+   [7][4] ∈ {110}
+   [7][5] ∈ {20}
+   [7][6] ∈ {29}
+   [7][7] ∈ {71}
+   [7][8] ∈ {1}
+   [7][9] ∈ {-70}
+   [8][0] ∈ {-54}
+   [8][1] ∈ {108}
+   [8][2] ∈ {-95}
+   [8][3] ∈ {-6}
+   [8][4] ∈ {116}
+   [8][5] ∈ {33}
+   [8][6] ∈ {57}
+   [8][7] ∈ {36}
+   [8][8] ∈ {23}
+   [8][9] ∈ {30}
+   [9][0] ∈ {112}
+   [9][1] ∈ {-113}
+   [9][2] ∈ {45}
+   [9][3] ∈ {122}
+   [9][4] ∈ {106}
+   [9][5] ∈ {-47}
+   [9][6] ∈ {-63}
+   [9][7] ∈ {40}
+   [9][8] ∈ {89}
+   [9][9] ∈ {-11}
+  dist[0..9] ∈ {0}
+  i ∈ {0}
+  j ∈ {0}
+[value] computing for function make_oriented <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c:69.
+../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c:42:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c:49:[value] entering loop for the first time
+[value] Recording results for make_oriented
+[value] Done for function make_oriented
+[value] computing for function bellmanford <- main.
+        Called from ../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c:70.
+../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c:16:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c:21:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c:28:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c:30:[value] entering loop for the first time
+../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c:32:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+i))[j]);
+../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c:32:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+i))[j]);
+../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c:33:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+i))[j]);
+[value] Recording results for bellmanford
+[value] Done for function bellmanford
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 3 (out of 3)
+          Semantically reached functions = 3
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          60 stmts in analyzed functions, 60 stmts analyzed (100.0%)
+          main: 3 stmts out of 3 (100.0%)
+          make_oriented: 25 stmts out of 25 (100.0%)
+          bellmanford: 32 stmts out of 32 (100.0%)

@@ -1,0 +1,195 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 901 
+          Distinct operators: 36 
+          Total_operands: 533 
+          Distinct operands: 134 
+          Program length: 1434 
+          Vocabulary size: 170 
+          Program volume: 10625.07 
+          Effort: 760723.05 
+          Program level: 0.01 
+          Difficulty level: 71.60 
+          Time to implement: 42262.39 
+          Bugs delivered: 2.78 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 3
+            sizeof: 1
+            if: 8
+            for: 7
+            return: 1
+            while: 1
+            ): 17
+            ,: 424
+            {: 8
+            (: 17
+            }: 8
+            []: 29
+            ;: 42
+            +: 1
+            ++: 7
+            -: 186
+            !=: 2
+            ==: 4
+            <: 9
+            =: 18
+            *=: 2
+            *: 1
+            -=: 1
+            enum  { size20 }: 1
+            TARGET_TYPE: 3
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            a: 14
+            min: 7
+            val: 4
+            dijkstra: 1
+            dijkstraF: 1
+            Frama_C_bzero: 1
+            up: 6
+            new_dist: 4
+            j: 19
+            size: 10
+            Frama_C_copy_block: 1
+            dist: 8
+            i: 32
+            FC_BUILTIN: 2
+            11: 2
+            2: 1
+            66: 3
+            53: 4
+            113: 3
+            123: 3
+            59: 3
+            67: 5
+            114: 2
+            15: 7
+            91: 4
+            10: 2
+            77: 3
+            8: 2
+            42: 4
+            102: 4
+            117: 3
+            109: 2
+            41: 5
+            100: 4
+            1: 11
+            63: 1
+            81: 4
+            4: 2
+            25: 2
+            58: 4
+            5: 2
+            44: 4
+            122: 6
+            18: 1
+            71: 6
+            124: 7
+            110: 5
+            22: 7
+            70: 1
+            89: 4
+            31: 2
+            30: 3
+            111: 5
+            115: 4
+            50: 6
+            23: 5
+            27: 5
+            105: 1
+            54: 5
+            87: 4
+            69: 4
+            57: 3
+            16: 5
+            14: 4
+            34: 2
+            121: 1
+            92: 3
+            96: 7
+            19: 2
+            6: 1
+            28: 3
+            47: 2
+            48: 1
+            120: 2
+            26: 2
+            52: 1
+            29: 3
+            94: 3
+            119: 2
+            125: 3
+            83: 2
+            95: 3
+            64: 2
+            84: 3
+            13: 6
+            76: 6
+            49: 1
+            33: 5
+            73: 4
+            38: 1
+            7: 3
+            103: 7
+            61: 4
+            88: 2
+            43: 3
+            36: 2
+            86: 1
+            85: 3
+            93: 1
+            68: 2
+            46: 1
+            60: 5
+            55: 2
+            37: 3
+            80: 2
+            118: 3
+            39: 4
+            51: 4
+            75: 3
+            24: 3
+            32: 4
+            79: 1
+            62: 7
+            90: 2
+            20: 3
+            12: 2
+            107: 2
+            17: 2
+            56: 4
+            40: 6
+            97: 2
+            45: 3
+            35: 4
+            72: 8
+            9: 3
+            65: 3
+            0: 19
+            98: 6
+            78: 5
+            108: 4
+            21: 1
+            106: 3
+            126: 7
+            104: 4

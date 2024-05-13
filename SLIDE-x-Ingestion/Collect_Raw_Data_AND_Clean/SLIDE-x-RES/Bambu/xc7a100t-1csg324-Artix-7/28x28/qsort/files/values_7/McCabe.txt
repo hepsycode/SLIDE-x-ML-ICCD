@@ -1,0 +1,71 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/qsort/thrd.c (with preprocessing)
+[metrics] Defined functions (2)
+          =====================
+           main (0 call); qsort (1 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 81
+          Decision point = 12
+          Global variables = 2
+          If = 12
+          Loop = 6
+          Goto = 0
+          Assignment = 49
+          Exit point = 2
+          Function = 2
+          Function call = 1
+          Pointer dereferencing = 37
+          Cyclomatic complexity = 14
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  arr[0] ∈ {61}
+     [1] ∈ {53}
+     [2] ∈ {26}
+     [3] ∈ {108}
+     [4..5] ∈ {-92}
+     [6] ∈ {33}
+     [7] ∈ {2}
+     [8] ∈ {-30}
+     [9] ∈ {30}
+     [10] ∈ {100}
+     [11] ∈ {25}
+     [12] ∈ {-68}
+     [13] ∈ {-97}
+  istack[0..9] ∈ {0}
+[value] computing for function qsort <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/qsort/thrd.c:153.
+../../../../../../../cc4cs_bambu/benchmarkBasic/qsort/thrd.c:65:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/qsort/thrd.c:99:[kernel] warning: out of bounds read. assert \valid_read(arr_0+ir);
+[value] Recording results for qsort
+[value] Done for function qsort
+[value] Recording results for main
+[value] done for function main
+../../../../../../../cc4cs_bambu/benchmarkBasic/qsort/thrd.c:99:[value] Assertion 'Value,mem_access' got final status invalid.
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 2 (out of 2)
+          Semantically reached functions = 2
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          81 stmts in analyzed functions, 12 stmts analyzed (14.8%)
+          main: 1 stmts out of 2 (50.0%)
+          qsort: 11 stmts out of 79 (13.9%)

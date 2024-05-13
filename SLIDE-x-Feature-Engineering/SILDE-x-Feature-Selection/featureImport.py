@@ -63,7 +63,7 @@ ESTIMATORS = 250
 import os
 
 # assign directory
-directory = 'dataset\csv\Train'
+directory = 'Dataset\csv\Train'
 
 # iterate over files in that directory
 for filename in os.listdir(directory):
@@ -110,7 +110,7 @@ for filename in os.listdir(directory):
         print('\n' + y_series_name + '\n')
         print("|------------------------------------|\n")
 
-        file_name_path = 'AnalysisRes\\generalScore\\'
+        file_name_path = 'FeatureImportRes\\generalScore\\'
         file_name_generalScore = fileTrainNameNoFormat[0] + y_series_name + '.png'
 
         for clf in clfs:
@@ -121,12 +121,12 @@ for filename in os.listdir(directory):
 
         dfAllResults.set_index(['feature'], inplace=True)
 
-        file_name_path = 'AnalysisRes\\generalScore\\'
+        file_name_path = 'FeatureImportRes\\generalScore\\'
         file_name_generalScore = fileTrainNameNoFormat[0] + y_series_name + '.csv'
         dfAllResults.to_csv(os.path.join(file_name_path, file_name_generalScore), sep=',', encoding='utf-8', index=False)
         dfAllResults['sum'] = dfAllResults[dfAllResults.columns].sum(axis=1)
         dfAllResults['avg'] = dfAllResults['sum']/(len(dfAllResults.columns) - 1)
-        file_name_path = 'AnalysisRes\\allCLFscore\\'
+        file_name_path = 'FeatureImportRes\\allCLFscore\\'
         file_name = fileTrainNameNoFormat[0] + y_series_name + '.csv'
         dfAllResults.to_csv(os.path.join(file_name_path, file_name), sep='\t', encoding='utf-8')
         #files.download(file_name)
@@ -134,7 +134,7 @@ for filename in os.listdir(directory):
         print(dfAllResults)
 
         dfavg = dfAllResults[['avg']]
-        file_name_path = 'AnalysisRes\\scoreMean\\'
+        file_name_path = 'FeatureImportRes\\scoreMean\\'
         file_name = fileTrainNameNoFormat[0] + y_series_name + '.csv'
         dfavg.to_csv(os.path.join(file_name_path, file_name), sep='\t', encoding='utf-8')
         #files.download(file_name)

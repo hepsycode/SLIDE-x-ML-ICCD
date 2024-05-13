@@ -13,21 +13,23 @@ SLIDE-x-ML is an open-source Python tool that facilitates the System-Level HW/SW
 ### SLIDE-x Main Components
 SLIDE-x consists of the following components:
 
-1. **SLIDE-x-00-Ingestion**: Extensible Python Dataset Ingestion component for collecting datasets generated with the SLIDE-x Profiling/Simulation tool. It also offers functionalities for implementing unified HW/SW metrics (e.g., CC4CS, CC4IR, CC4SSA, CC4OPT, Affinity), performing statistical analysis, and comparing different platforms. The SLIDE-x-Ingestion is composed of:
-    - **SILDE-x-00-Data-Collect-Cleaning**: WIP
-    - **SILDE-x-01-Feature-Engineering**: WIP
-    - **SILDE-x-02-Data-Ingestion**: WIP
+1. **SLIDE-x-Ingestion**: Extensible Python Dataset Ingestion component for collecting datasets generated with the SLIDE-x Profiling/Simulation tool. It also offers functionalities for implementing unified HW/SW metrics (e.g., CC4CS, CC4IR, CC4SSA, CC4OPT, Affinity), performing statistical analysis, and comparing different platforms. The SLIDE-x-Ingestion is composed of:
+    - **Collect Raw Data & Clean**: Clean and store the dataset as a CSV file for interoperability between tools (from Python to Matlab or other tools)
+2. **SLIDE-x-Feature-Engineering**: Extensible Python component dedicated to the steps of feature creation, data analysis, and feature selection to create datasets useful for ML prediction. The SLIDE-x-Feature-Engineering is composed of:
+    - **SILDE-x-01-Feature-Creation**: WIP
+    - **SILDE-x-02-Data-Analysis**: WIP
+    - **SILDE-x-02-Feature-Selection**: WIP
 3. **SLIDE-x-01-Model-Engineering**: HW/SW ML-based component for creating System-Level HW/SW Co-Design models using machine learning frameworks and tools. The SLIDE-x-Model-Engineering is composed of:
-    - **SILDE-x-00-Data-Analysis**: WIP
     - **SILDE-x-01-Data-Preparation**: WIP
-    - **SILDE-x-02-Model-Training-and-Validation**: WIP (Best algorithm Selection and Hyperparameter tuning).
+    - **SILDE-x-02-Model-Training**: WIP (Best algorithm Selection and Hyperparameter tuning).
+    - **SILDE-x-02-Model-Validation**: WIP
     - **SILDE-x-03-Model-Export**: WIP
 
 ### WEBSITE
 [www.HEPSYCODE.com](https://hepsycode.github.io/)
 
 ### DOWNLOAD
-SLIDE-x is open-source and freely available on GitHub: https://github.com/hepsycode/SLIDE-x-ML.
+SLIDE-x-ML is open-source and freely available on GitHub: https://github.com/hepsycode/SLIDE-x-ML-ICCD.
 
 ### GETTING STARTED GUIDELINES
 The framework is implemented in Python3 and uses the csv, os, shutil, subprocess, tkinter libraries for internal operations. Thus, Python3 and the above-listed libraries should be installed for the framework to run properly. 
@@ -39,11 +41,11 @@ Latest Release: 2.0.0
 GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 (see https://www.gnu.org/licenses/gpl-3.0.en.html)
  
 ### DEVELOPER RESOURCES
-Source Repositories: [https://github.com/hepsycode/SLIDE-x](https://github.com/hepsycode/SLIDE-x)
+Source Repositories: [https://github.com/hepsycode/SLIDE-x](https://github.com/hepsycode/SLIDE-x-ML-ICCD)
 
 - Clone: 
-    - ssh: [git@github.com:hepsycode/SLIDE-x.git](git@github.com:hepsycode/SLIDE-x-ML.git)
-    - https: [https://github.com/hepsycode/SLIDE-x.git](https://github.com/hepsycode/SLIDE-x-ML.git)
+    - ssh: [git@github.com:hepsycode/SLIDE-x.git](git@github.com:hepsycode/SLIDE-x-ML-ICCD.git)
+    - https: [https://github.com/hepsycode/SLIDE-x.git](https://github.com/hepsycode/SLIDE-x-ML-ICCD.git)
  
 You can use the code from these repositories to experiment, test, build, and create patches, and issue pull requests (only by request).
 For any bug or doubt, contact us or open an issue.
@@ -65,7 +67,7 @@ We currently support:
 Research publications are available at https://hepsycode.github.io/ and http://www.pomante.net/sito_gg/Publications.htm
 
 ## How to Cite?
-If you use SLIDE-x in your research, please cite:
+If you use SLIDE-x-ML in your research, please cite:
 ```
 @inproceedings{10.1145/3427921.3450258,
         author = {Muttillo, Vittoriano and Giammatteo, Paolo and Stoico, Vincenzo},

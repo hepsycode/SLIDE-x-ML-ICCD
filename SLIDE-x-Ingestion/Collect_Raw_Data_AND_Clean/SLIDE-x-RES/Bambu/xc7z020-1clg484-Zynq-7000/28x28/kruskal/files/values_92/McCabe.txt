@@ -1,0 +1,922 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c (with preprocessing)
+[metrics] Defined functions (11)
+          ======================
+           count_edges (1 call); find (2 calls); find_min (1 call);
+           init_union_find (1 call); is_connected (1 call); kruskal (1 call);
+           kruskalF (1 call); main (0 call); make_non_oriented (1 call);
+           make_set (1 call); union_sets (1 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 125
+          Decision point = 23
+          Global variables = 10
+          If = 23
+          Loop = 12
+          Goto = 1
+          Assignment = 42
+          Exit point = 11
+          Function = 11
+          Function call = 11
+          Pointer dereferencing = 2
+          Cyclomatic complexity = 34
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  a[0][0] ∈ {-67}
+   [0][1] ∈ {-22}
+   [0][2] ∈ {124}
+   [0][3] ∈ {82}
+   [0][4] ∈ {41}
+   [0][5] ∈ {123}
+   [0][6] ∈ {-117}
+   [0][7] ∈ {16}
+   [0][8] ∈ {-11}
+   [0][9] ∈ {-79}
+   [0][10] ∈ {54}
+   [0][11] ∈ {34}
+   [0][12] ∈ {52}
+   [0][13] ∈ {-111}
+   [0][14] ∈ {-70}
+   [0][15] ∈ {-63}
+   [0][16] ∈ {9}
+   [0][17] ∈ {20}
+   [0][18] ∈ {3}
+   [0][19] ∈ {48}
+   [0][20] ∈ {-37}
+   [0][21] ∈ {58}
+   [0][22] ∈ {93}
+   [0][23] ∈ {40}
+   [0][24] ∈ {74}
+   [1][0] ∈ {-76}
+   [1][1] ∈ {97}
+   [1][2] ∈ {-125}
+   [1][3] ∈ {81}
+   [1][4] ∈ {37}
+   [1][5] ∈ {14}
+   [1][6] ∈ {118}
+   [1][7] ∈ {115}
+   [1][8] ∈ {-103}
+   [1][9] ∈ {-18}
+   [1][10] ∈ {115}
+   [1][11] ∈ {66}
+   [1][12] ∈ {-126}
+   [1][13] ∈ {74}
+   [1][14] ∈ {61}
+   [1][15] ∈ {96}
+   [1][16] ∈ {54}
+   [1][17] ∈ {-40}
+   [1][18] ∈ {70}
+   [1][19] ∈ {21}
+   [1][20] ∈ {17}
+   [1][21] ∈ {-28}
+   [1][22] ∈ {106}
+   [1][23] ∈ {-86}
+   [1][24] ∈ {-4}
+   [2][0] ∈ {30}
+   [2][1] ∈ {83}
+   [2][2] ∈ {-55}
+   [2][3] ∈ {19}
+   [2][4] ∈ {-62}
+   [2][5] ∈ {62}
+   [2][6] ∈ {-26}
+   [2][7] ∈ {75}
+   [2][8] ∈ {-58}
+   [2][9] ∈ {-29}
+   [2][10] ∈ {51}
+   [2][11] ∈ {32}
+   [2][12] ∈ {4}
+   [2][13] ∈ {-4}
+   [2][14] ∈ {11}
+   [2][15] ∈ {127}
+   [2][16] ∈ {59}
+   [2][17] ∈ {15}
+   [2][18] ∈ {9}
+   [2][19] ∈ {7}
+   [2][20] ∈ {-56}
+   [2][21] ∈ {-8}
+   [2][22] ∈ {125}
+   [2][23] ∈ {-125}
+   [2][24] ∈ {111}
+   [3][0] ∈ {19}
+   [3][1] ∈ {-127}
+   [3][2] ∈ {3}
+   [3][3] ∈ {-65}
+   [3][4] ∈ {68}
+   [3][5] ∈ {8}
+   [3][6] ∈ {-75}
+   [3][7] ∈ {101}
+   [3][8] ∈ {-105}
+   [3][9] ∈ {71}
+   [3][10..11] ∈ {69}
+   [3][12] ∈ {5}
+   [3][13] ∈ {55}
+   [3][14] ∈ {4}
+   [3][15] ∈ {29}
+   [3][16] ∈ {34}
+   [3][17] ∈ {110}
+   [3][18] ∈ {11}
+   [3][19] ∈ {5}
+   [3][20] ∈ {-22}
+   [3][21] ∈ {52}
+   [3][22] ∈ {-96}
+   [3][23] ∈ {-9}
+   [3][24] ∈ {-90}
+   [4][0] ∈ {-42}
+   [4][1] ∈ {-117}
+   [4][2] ∈ {-123}
+   [4][3] ∈ {52}
+   [4][4] ∈ {10}
+   [4][5] ∈ {44}
+   [4][6] ∈ {-4}
+   [4][7] ∈ {-2}
+   [4][8] ∈ {-124}
+   [4][9] ∈ {5}
+   [4][10] ∈ {-126}
+   [4][11] ∈ {113}
+   [4][12] ∈ {-87}
+   [4][13] ∈ {118}
+   [4][14] ∈ {-29}
+   [4][15] ∈ {67}
+   [4][16] ∈ {-79}
+   [4][17] ∈ {-102}
+   [4][18] ∈ {112}
+   [4][19] ∈ {24}
+   [4][20] ∈ {-66}
+   [4][21] ∈ {-92}
+   [4][22] ∈ {-97}
+   [4][23] ∈ {-96}
+   [4][24] ∈ {40}
+   [5][0] ∈ {73}
+   [5][1] ∈ {127}
+   [5][2] ∈ {100}
+   [5][3] ∈ {-25}
+   [5][4] ∈ {-29}
+   [5][5] ∈ {60}
+   [5][6..7] ∈ {42}
+   [5][8] ∈ {-41}
+   [5][9] ∈ {-122}
+   [5][10] ∈ {54}
+   [5][11] ∈ {3}
+   [5][12] ∈ {87}
+   [5][13] ∈ {5}
+   [5][14] ∈ {-110}
+   [5][15] ∈ {122}
+   [5][16] ∈ {54}
+   [5][17] ∈ {-93}
+   [5][18] ∈ {17}
+   [5][19] ∈ {70}
+   [5][20] ∈ {-98}
+   [5][21] ∈ {118}
+   [5][22] ∈ {-118}
+   [5][23] ∈ {-103}
+   [5][24] ∈ {108}
+   [6][0] ∈ {-55}
+   [6][1] ∈ {93}
+   [6][2] ∈ {50}
+   [6][3] ∈ {-122}
+   [6][4] ∈ {43}
+   [6][5] ∈ {-6}
+   [6][6] ∈ {-71}
+   [6][7] ∈ {-52}
+   [6][8] ∈ {21}
+   [6][9] ∈ {-109}
+   [6][10] ∈ {100}
+   [6][11] ∈ {20}
+   [6][12] ∈ {-44}
+   [6][13] ∈ {20}
+   [6][14] ∈ {-25}
+   [6][15] ∈ {-91}
+   [6][16] ∈ {-5}
+   [6][17] ∈ {17}
+   [6][18] ∈ {-69}
+   [6][19] ∈ {-71}
+   [6][20] ∈ {64}
+   [6][21] ∈ {-53}
+   [6][22..23] ∈ {58}
+   [6][24] ∈ {-47}
+   [7][0] ∈ {107}
+   [7][1] ∈ {-20}
+   [7][2] ∈ {-30}
+   [7][3] ∈ {-51}
+   [7][4] ∈ {-50}
+   [7][5] ∈ {-58}
+   [7][6] ∈ {44}
+   [7][7] ∈ {-45}
+   [7][8] ∈ {40}
+   [7][9] ∈ {43}
+   [7][10] ∈ {35}
+   [7][11] ∈ {15}
+   [7][12] ∈ {-63}
+   [7][13] ∈ {27}
+   [7][14] ∈ {-127}
+   [7][15] ∈ {-58}
+   [7][16] ∈ {-120}
+   [7][17] ∈ {113}
+   [7][18] ∈ {126}
+   [7][19] ∈ {110}
+   [7][20] ∈ {-7}
+   [7][21] ∈ {13}
+   [7][22] ∈ {44}
+   [7][23] ∈ {101}
+   [7][24] ∈ {66}
+   [8][0] ∈ {-4}
+   [8][1] ∈ {-110}
+   [8][2] ∈ {62}
+   [8][3] ∈ {110}
+   [8][4] ∈ {83}
+   [8][5] ∈ {-66}
+   [8][6] ∈ {70}
+   [8][7] ∈ {-78}
+   [8][8] ∈ {34}
+   [8][9] ∈ {27}
+   [8][10] ∈ {35}
+   [8][11] ∈ {80}
+   [8][12] ∈ {-83}
+   [8][13] ∈ {51}
+   [8][14] ∈ {-18}
+   [8][15] ∈ {113}
+   [8][16] ∈ {23}
+   [8][17] ∈ {14}
+   [8][18] ∈ {71}
+   [8][19] ∈ {118}
+   [8][20] ∈ {108}
+   [8][21] ∈ {-87}
+   [8][22] ∈ {24}
+   [8][23] ∈ {93}
+   [8][24] ∈ {10}
+   [9][0] ∈ {16}
+   [9][1] ∈ {61}
+   [9][2] ∈ {-114}
+   [9][3] ∈ {-106}
+   [9][4] ∈ {-28}
+   [9][5] ∈ {-91}
+   [9][6] ∈ {-25}
+   [9][7] ∈ {-80}
+   [9][8] ∈ {5}
+   [9][9] ∈ {83}
+   [9][10] ∈ {-71}
+   [9][11] ∈ {-95}
+   [9][12] ∈ {0}
+   [9][13] ∈ {-116}
+   [9][14] ∈ {67}
+   [9][15] ∈ {69}
+   [9][16] ∈ {54}
+   [9][17] ∈ {-15}
+   [9][18] ∈ {82}
+   [9][19] ∈ {29}
+   [9][20] ∈ {-64}
+   [9][21] ∈ {-45}
+   [9][22] ∈ {-37}
+   [9][23] ∈ {-32}
+   [9][24] ∈ {-53}
+   [10][0] ∈ {-74}
+   [10][1] ∈ {73}
+   [10][2] ∈ {-66}
+   [10][3] ∈ {6}
+   [10][4] ∈ {50}
+   [10][5] ∈ {22}
+   [10][6] ∈ {103}
+   [10][7] ∈ {-32}
+   [10][8] ∈ {6}
+   [10][9] ∈ {-77}
+   [10][10] ∈ {53}
+   [10][11] ∈ {-94}
+   [10][12] ∈ {-60}
+   [10][13] ∈ {16}
+   [10][14] ∈ {-16}
+   [10][15] ∈ {119}
+   [10][16] ∈ {-37}
+   [10][17] ∈ {-69}
+   [10][18] ∈ {17}
+   [10][19] ∈ {-70}
+   [10][20] ∈ {-26}
+   [10][21] ∈ {-20}
+   [10][22] ∈ {-25}
+   [10][23] ∈ {81}
+   [10][24] ∈ {-93}
+   [11][0] ∈ {33}
+   [11][1] ∈ {-77}
+   [11][2] ∈ {-118}
+   [11][3] ∈ {89}
+   [11][4] ∈ {-61}
+   [11][5] ∈ {-7}
+   [11][6] ∈ {-55}
+   [11][7] ∈ {75}
+   [11][8] ∈ {68}
+   [11][9] ∈ {-12}
+   [11][10] ∈ {98}
+   [11][11] ∈ {31}
+   [11][12] ∈ {-107}
+   [11][13] ∈ {-112}
+   [11][14] ∈ {58}
+   [11][15] ∈ {-117}
+   [11][16] ∈ {76}
+   [11][17] ∈ {34}
+   [11][18] ∈ {58}
+   [11][19] ∈ {-77}
+   [11][20] ∈ {62}
+   [11][21] ∈ {-62}
+   [11][22] ∈ {-14}
+   [11][23] ∈ {108}
+   [11][24] ∈ {104}
+   [12][0] ∈ {-10}
+   [12][1] ∈ {8}
+   [12][2] ∈ {22}
+   [12][3] ∈ {121}
+   [12][4] ∈ {-40}
+   [12][5] ∈ {-35}
+   [12][6] ∈ {-68}
+   [12][7] ∈ {-67}
+   [12][8] ∈ {-65}
+   [12][9] ∈ {-39}
+   [12][10..11] ∈ {54}
+   [12][12] ∈ {77}
+   [12][13] ∈ {62}
+   [12][14] ∈ {-30}
+   [12][15] ∈ {-13}
+   [12][16] ∈ {-22}
+   [12][17] ∈ {-93}
+   [12][18] ∈ {30}
+   [12][19] ∈ {-5}
+   [12][20] ∈ {-8}
+   [12][21] ∈ {102}
+   [12][22] ∈ {-56}
+   [12][23] ∈ {114}
+   [12][24] ∈ {99}
+   [13][0] ∈ {94}
+   [13][1] ∈ {52}
+   [13][2] ∈ {59}
+   [13][3] ∈ {-13}
+   [13][4] ∈ {-30}
+   [13][5] ∈ {-59}
+   [13][6] ∈ {-117}
+   [13][7] ∈ {59}
+   [13][8] ∈ {-81}
+   [13][9] ∈ {39}
+   [13][10] ∈ {-64}
+   [13][11] ∈ {44}
+   [13][12] ∈ {-49}
+   [13][13] ∈ {104}
+   [13][14] ∈ {-117}
+   [13][15] ∈ {-40}
+   [13][16] ∈ {122}
+   [13][17] ∈ {89}
+   [13][18] ∈ {51}
+   [13][19] ∈ {55}
+   [13][20] ∈ {-87}
+   [13][21] ∈ {-118}
+   [13][22] ∈ {-109}
+   [13][23] ∈ {-38}
+   [13][24] ∈ {-49}
+   [14][0] ∈ {121}
+   [14][1] ∈ {-3}
+   [14][2] ∈ {33}
+   [14][3] ∈ {-22}
+   [14][4] ∈ {-32}
+   [14][5] ∈ {41}
+   [14][6] ∈ {-72}
+   [14][7] ∈ {-62}
+   [14][8] ∈ {-104}
+   [14][9] ∈ {-36}
+   [14][10] ∈ {-87}
+   [14][11] ∈ {-44}
+   [14][12] ∈ {-30}
+   [14][13..14] ∈ {25}
+   [14][15] ∈ {10}
+   [14][16] ∈ {38}
+   [14][17] ∈ {14}
+   [14][18] ∈ {-41}
+   [14][19] ∈ {-104}
+   [14][20] ∈ {-120}
+   [14][21] ∈ {-107}
+   [14][22] ∈ {125}
+   [14][23] ∈ {-25}
+   [14][24] ∈ {30}
+   [15][0] ∈ {32}
+   [15][1] ∈ {-116}
+   [15][2] ∈ {15}
+   [15][3] ∈ {-91}
+   [15][4] ∈ {-105}
+   [15][5] ∈ {35}
+   [15][6] ∈ {-21}
+   [15][7] ∈ {76}
+   [15][8] ∈ {-97}
+   [15][9] ∈ {37}
+   [15][10] ∈ {-2}
+   [15][11] ∈ {-94}
+   [15][12] ∈ {-3}
+   [15][13] ∈ {-108}
+   [15][14] ∈ {-24}
+   [15][15] ∈ {-35}
+   [15][16] ∈ {-55}
+   [15][17] ∈ {-39}
+   [15][18] ∈ {-102}
+   [15][19] ∈ {-19}
+   [15][20] ∈ {-9}
+   [15][21] ∈ {-39}
+   [15][22..23] ∈ {-97}
+   [15][24] ∈ {79}
+   [16][0] ∈ {111}
+   [16][1] ∈ {-15}
+   [16][2] ∈ {45}
+   [16][3] ∈ {-61}
+   [16][4] ∈ {-55}
+   [16][5] ∈ {80}
+   [16][6] ∈ {46}
+   [16][7] ∈ {94}
+   [16][8] ∈ {31}
+   [16][9] ∈ {-34}
+   [16][10] ∈ {36}
+   [16][11] ∈ {-72}
+   [16][12] ∈ {-16}
+   [16][13] ∈ {-40}
+   [16][14] ∈ {125}
+   [16][15] ∈ {7}
+   [16][16] ∈ {3}
+   [16][17] ∈ {4}
+   [16][18] ∈ {-106}
+   [16][19] ∈ {86}
+   [16][20] ∈ {9}
+   [16][21] ∈ {-120}
+   [16][22] ∈ {-12}
+   [16][23] ∈ {-14}
+   [16][24] ∈ {16}
+   [17][0] ∈ {-31}
+   [17][1] ∈ {-34}
+   [17][2] ∈ {98}
+   [17][3] ∈ {48}
+   [17][4] ∈ {83}
+   [17][5] ∈ {39}
+   [17][6] ∈ {40}
+   [17][7] ∈ {75}
+   [17][8] ∈ {46}
+   [17][9] ∈ {17}
+   [17][10] ∈ {-111}
+   [17][11] ∈ {72}
+   [17][12] ∈ {60}
+   [17][13] ∈ {52}
+   [17][14] ∈ {-116}
+   [17][15] ∈ {99}
+   [17][16] ∈ {-106}
+   [17][17] ∈ {-31}
+   [17][18] ∈ {-14}
+   [17][19] ∈ {-33}
+   [17][20] ∈ {78}
+   [17][21] ∈ {-19}
+   [17][22] ∈ {-75}
+   [17][23] ∈ {-123}
+   [17][24] ∈ {-13}
+   [18][0] ∈ {103}
+   [18][1] ∈ {56}
+   [18][2] ∈ {-90}
+   [18][3] ∈ {0}
+   [18][4] ∈ {35}
+   [18][5] ∈ {0}
+   [18][6] ∈ {-70}
+   [18][7] ∈ {42}
+   [18][8] ∈ {9}
+   [18][9] ∈ {-91}
+   [18][10] ∈ {-109}
+   [18][11] ∈ {-3}
+   [18][12] ∈ {-122}
+   [18][13] ∈ {-110}
+   [18][14] ∈ {-38}
+   [18][15] ∈ {-68}
+   [18][16] ∈ {104}
+   [18][17] ∈ {-1}
+   [18][18] ∈ {80}
+   [18][19] ∈ {24}
+   [18][20] ∈ {-18}
+   [18][21] ∈ {-30}
+   [18][22] ∈ {-75}
+   [18][23] ∈ {-46}
+   [18][24] ∈ {-93}
+   [19][0] ∈ {-13}
+   [19][1] ∈ {-84}
+   [19][2] ∈ {-90}
+   [19][3] ∈ {48}
+   [19][4] ∈ {73}
+   [19][5] ∈ {-78}
+   [19][6] ∈ {26}
+   [19][7] ∈ {-63}
+   [19][8] ∈ {50}
+   [19][9] ∈ {-24}
+   [19][10] ∈ {89}
+   [19][11] ∈ {54}
+   [19][12] ∈ {124}
+   [19][13] ∈ {-104}
+   [19][14] ∈ {124}
+   [19][15] ∈ {-122}
+   [19][16] ∈ {-26}
+   [19][17] ∈ {120}
+   [19][18] ∈ {72}
+   [19][19] ∈ {-44}
+   [19][20] ∈ {-32}
+   [19][21] ∈ {-118}
+   [19][22] ∈ {-46}
+   [19][23] ∈ {-116}
+   [19][24] ∈ {66}
+   [20][0] ∈ {94}
+   [20][1] ∈ {-87}
+   [20][2] ∈ {1}
+   [20][3] ∈ {-44}
+   [20][4] ∈ {-36}
+   [20][5] ∈ {-118}
+   [20][6] ∈ {-48}
+   [20][7] ∈ {23}
+   [20][8] ∈ {-116}
+   [20][9] ∈ {-97}
+   [20][10] ∈ {42}
+   [20][11] ∈ {72}
+   [20][12] ∈ {-40}
+   [20][13] ∈ {-79}
+   [20][14] ∈ {87}
+   [20][15] ∈ {41}
+   [20][16] ∈ {97}
+   [20][17] ∈ {72}
+   [20][18] ∈ {-124}
+   [20][19] ∈ {38}
+   [20][20] ∈ {-85}
+   [20][21] ∈ {-16}
+   [20][22] ∈ {-50}
+   [20][23] ∈ {-14}
+   [20][24] ∈ {-32}
+   [21][0] ∈ {-51}
+   [21][1] ∈ {-42}
+   [21][2] ∈ {-19}
+   [21][3] ∈ {69}
+   [21][4] ∈ {-100}
+   [21][5] ∈ {-16}
+   [21][6] ∈ {-25}
+   [21][7] ∈ {-10}
+   [21][8] ∈ {-119}
+   [21][9] ∈ {1}
+   [21][10] ∈ {-89}
+   [21][11] ∈ {82}
+   [21][12] ∈ {46}
+   [21][13] ∈ {80}
+   [21][14] ∈ {-105}
+   [21][15] ∈ {96}
+   [21][16] ∈ {-115}
+   [21][17] ∈ {34}
+   [21][18] ∈ {-111}
+   [21][19] ∈ {90}
+   [21][20] ∈ {-52}
+   [21][21] ∈ {126}
+   [21][22] ∈ {83}
+   [21][23] ∈ {-99}
+   [21][24] ∈ {-90}
+   [22][0] ∈ {107}
+   [22][1] ∈ {-13}
+   [22][2] ∈ {100}
+   [22][3] ∈ {-109}
+   [22][4] ∈ {-96}
+   [22][5] ∈ {47}
+   [22][6] ∈ {-94}
+   [22][7] ∈ {21}
+   [22][8] ∈ {-39}
+   [22][9] ∈ {96}
+   [22][10] ∈ {10}
+   [22][11] ∈ {-114}
+   [22][12] ∈ {-63}
+   [22][13] ∈ {13}
+   [22][14] ∈ {67}
+   [22][15] ∈ {-3}
+   [22][16] ∈ {70}
+   [22][17] ∈ {-89}
+   [22][18] ∈ {75}
+   [22][19] ∈ {-85}
+   [22][20] ∈ {101}
+   [22][21] ∈ {-12}
+   [22][22] ∈ {51}
+   [22][23] ∈ {100}
+   [22][24] ∈ {45}
+   [23][0] ∈ {63}
+   [23][1] ∈ {-50}
+   [23][2] ∈ {-29}
+   [23][3] ∈ {77}
+   [23][4] ∈ {-72}
+   [23][5] ∈ {-56}
+   [23][6] ∈ {-116}
+   [23][7] ∈ {42}
+   [23][8] ∈ {13}
+   [23][9] ∈ {30}
+   [23][10] ∈ {-80}
+   [23][11] ∈ {24}
+   [23][12] ∈ {105}
+   [23][13] ∈ {29}
+   [23][14] ∈ {-127}
+   [23][15] ∈ {106}
+   [23][16] ∈ {58}
+   [23][17] ∈ {28}
+   [23][18] ∈ {127}
+   [23][19] ∈ {-77}
+   [23][20] ∈ {65}
+   [23][21] ∈ {72}
+   [23][22] ∈ {2}
+   [23][23] ∈ {-13}
+   [23][24] ∈ {55}
+   [24][0] ∈ {-74}
+   [24][1] ∈ {-9}
+   [24][2] ∈ {122}
+   [24][3] ∈ {96}
+   [24][4] ∈ {124}
+   [24][5] ∈ {113}
+   [24][6] ∈ {-55}
+   [24][7] ∈ {-110}
+   [24][8] ∈ {-94}
+   [24][9] ∈ {27}
+   [24][10] ∈ {-69}
+   [24][11] ∈ {39}
+   [24][12] ∈ {-27}
+   [24][13] ∈ {-73}
+   [24][14] ∈ {-9}
+   [24][15] ∈ {-50}
+   [24][16] ∈ {94}
+   [24][17] ∈ {33}
+   [24][18] ∈ {81}
+   [24][19] ∈ {-20}
+   [24][20] ∈ {110}
+   [24][21] ∈ {93}
+   [24][22] ∈ {36}
+   [24][23] ∈ {-103}
+   [24][24] ∈ {-80}
+  union_find[0..24] ∈ {0}
+  i ∈ {0}
+  j ∈ {0}
+  k ∈ {0}
+  z ∈ {0}
+  x ∈ {0}
+  y ∈ {0}
+  min ∈ {0}
+  edge_number ∈ {0}
+[value] computing for function make_non_oriented <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:227.
+../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:91:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:97:[value] entering loop for the first time
+[value] Recording results for make_non_oriented
+[value] Done for function make_non_oriented
+[value] computing for function init_union_find <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:228.
+../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:123:[value] entering loop for the first time
+[value] Recording results for init_union_find
+[value] Done for function init_union_find
+[value] computing for function is_connected <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:230.
+../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:31:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:35:[value] entering loop for the first time
+[value] Recording results for is_connected
+[value] Done for function is_connected
+[value] computing for function kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:231.
+[value] computing for function kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:222.
+[value] computing for function count_edges <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:194.
+../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:173:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:177:[value] entering loop for the first time
+[value] Recording results for count_edges
+[value] Done for function count_edges
+../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:197:[value] entering loop for the first time
+[value] computing for function make_set <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:200.
+[value] Recording results for make_set
+[value] Done for function make_set
+[value] computing for function make_set <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:200.
+[value] Recording results for make_set
+[value] Done for function make_set
+[value] computing for function make_set <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:200.
+[value] Recording results for make_set
+[value] Done for function make_set
+[value] computing for function make_set <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:200.
+[value] Recording results for make_set
+[value] Done for function make_set
+[value] computing for function make_set <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:200.
+[value] Recording results for make_set
+[value] Done for function make_set
+[value] computing for function make_set <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:200.
+[value] Recording results for make_set
+[value] Done for function make_set
+[value] computing for function make_set <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:200.
+[value] Recording results for make_set
+[value] Done for function make_set
+[value] computing for function make_set <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:200.
+[value] Recording results for make_set
+[value] Done for function make_set
+[value] computing for function make_set <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:200.
+[value] Recording results for make_set
+[value] Done for function make_set
+../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:203:[value] entering loop for the first time
+[value] computing for function find_min <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:207.
+../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:59:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:63:[value] entering loop for the first time
+[value] Recording results for find_min
+[value] Done for function find_min
+[value] computing for function find <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:209.
+[value] Recording results for find
+[value] Done for function find
+[value] computing for function find <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:209.
+[value] Recording results for find
+[value] Done for function find
+[value] computing for function union_sets <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:210.
+../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:136:[value] entering loop for the first time
+[value] Recording results for union_sets
+[value] Done for function union_sets
+[value] computing for function find_min <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:207.
+[value] Recording results for find_min
+[value] Done for function find_min
+[value] computing for function find <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:209.
+[value] Recording results for find
+[value] Done for function find
+[value] computing for function find <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:209.
+[value] Recording results for find
+[value] Done for function find
+[value] computing for function union_sets <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:210.
+[value] Recording results for union_sets
+[value] Done for function union_sets
+[value] computing for function find_min <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:207.
+[value] Recording results for find_min
+[value] Done for function find_min
+[value] computing for function find <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:209.
+[value] Recording results for find
+[value] Done for function find
+[value] computing for function find <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:209.
+[value] Recording results for find
+[value] Done for function find
+[value] computing for function union_sets <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:210.
+[value] Recording results for union_sets
+[value] Done for function union_sets
+[value] computing for function find_min <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:207.
+[value] Recording results for find_min
+[value] Done for function find_min
+[value] computing for function find <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:209.
+[value] Recording results for find
+[value] Done for function find
+[value] computing for function find <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:209.
+[value] Recording results for find
+[value] Done for function find
+[value] computing for function union_sets <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:210.
+[value] Recording results for union_sets
+[value] Done for function union_sets
+[value] computing for function find_min <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:207.
+[value] Recording results for find_min
+[value] Done for function find_min
+[value] computing for function find <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:209.
+[value] Recording results for find
+[value] Done for function find
+[value] computing for function find <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:209.
+[value] Recording results for find
+[value] Done for function find
+[value] computing for function union_sets <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:210.
+[value] Recording results for union_sets
+[value] Done for function union_sets
+[value] computing for function find_min <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:207.
+[value] Recording results for find_min
+[value] Done for function find_min
+[value] computing for function find <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:209.
+[value] Recording results for find
+[value] Done for function find
+[value] computing for function find <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:209.
+[value] Recording results for find
+[value] Done for function find
+[value] computing for function union_sets <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:210.
+[value] Recording results for union_sets
+[value] Done for function union_sets
+[value] computing for function find_min <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:207.
+[value] Recording results for find_min
+[value] Done for function find_min
+[value] computing for function find <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:209.
+[value] Recording results for find
+[value] Done for function find
+[value] computing for function find <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:209.
+[value] Recording results for find
+[value] Done for function find
+[value] computing for function union_sets <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:210.
+[value] Recording results for union_sets
+[value] Done for function union_sets
+[value] computing for function find_min <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:207.
+[value] Recording results for find_min
+[value] Done for function find_min
+[value] computing for function find <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:209.
+[value] Recording results for find
+[value] Done for function find
+[value] computing for function find <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:209.
+[value] Recording results for find
+[value] Done for function find
+[value] computing for function union_sets <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:210.
+[value] Recording results for union_sets
+[value] Done for function union_sets
+[value] computing for function find_min <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:207.
+[value] Recording results for find_min
+[value] Done for function find_min
+[value] computing for function find <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:209.
+[value] Recording results for find
+[value] Done for function find
+[value] computing for function find <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:209.
+[value] Recording results for find
+[value] Done for function find
+[value] computing for function union_sets <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:210.
+[value] Recording results for union_sets
+[value] Done for function union_sets
+[value] computing for function find_min <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:207.
+[value] Recording results for find_min
+[value] Done for function find_min
+[value] computing for function find <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:209.
+[value] Recording results for find
+[value] Done for function find
+[value] computing for function find <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:209.
+[value] Recording results for find
+[value] Done for function find
+[value] computing for function union_sets <- kruskalF <- kruskal <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/kruskal/thrd.c:210.
+[value] Recording results for union_sets
+[value] Done for function union_sets
+[value] Recording results for kruskalF
+[value] Done for function kruskalF
+[value] Recording results for kruskal
+[value] Done for function kruskal
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 11 (out of 11)
+          Semantically reached functions = 11
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          125 stmts in analyzed functions, 125 stmts analyzed (100.0%)
+          main: 6 stmts out of 6 (100.0%)
+          kruskal: 2 stmts out of 2 (100.0%)
+          kruskalF: 22 stmts out of 22 (100.0%)
+          count_edges: 15 stmts out of 15 (100.0%)
+          make_set: 2 stmts out of 2 (100.0%)
+          find: 2 stmts out of 2 (100.0%)
+          union_sets: 10 stmts out of 10 (100.0%)
+          init_union_find: 8 stmts out of 8 (100.0%)
+          make_non_oriented: 18 stmts out of 18 (100.0%)
+          find_min: 20 stmts out of 20 (100.0%)
+          is_connected: 20 stmts out of 20 (100.0%)

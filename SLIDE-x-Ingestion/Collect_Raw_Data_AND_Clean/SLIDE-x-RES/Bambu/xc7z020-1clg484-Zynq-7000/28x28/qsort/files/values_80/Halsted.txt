@@ -1,0 +1,94 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/qsort/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 427 
+          Distinct operators: 37 
+          Total_operands: 205 
+          Distinct operands: 32 
+          Program length: 632 
+          Vocabulary size: 69 
+          Program volume: 3860.59 
+          Effort: 457539.94 
+          Program level: 0.01 
+          Difficulty level: 118.52 
+          Time to implement: 25418.89 
+          Bugs delivered: 1.98 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 2
+            break: 3
+            if: 8
+            for: 4
+            while: 2
+            ): 35
+            ,: 16
+            {: 11
+            (: 35
+            }: 11
+            []: 43
+            ;: 64
+            +: 16
+            ++: 3
+            -: 15
+            +=: 1
+            ==: 1
+            <: 3
+            =: 35
+            <=: 2
+            >>: 1
+            >: 4
+            --: 5
+            >=: 2
+            TARGET_TYPE: 2
+            short: 4
+            long: 16
+            int: 10
+            enum  { n11 }: 1
+            signed: 14
+            TARGET_INDEX: 3
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            a: 8
+            l: 26
+            k: 4
+            n: 3
+            istack: 7
+            ir: 15
+            temp: 11
+            Frama_C_bzero: 1
+            arr: 39
+            j: 18
+            Frama_C_copy_block: 1
+            flag: 2
+            qsort: 1
+            jstack: 9
+            i: 18
+            FC_BUILTIN: 2
+            11: 2
+            2: 1
+            110: 1
+            66: 1
+            84: 1
+            10: 1
+            33: 1
+            7: 1
+            1: 22
+            38: 1
+            100: 1
+            4: 1
+            34: 1
+            0: 3
+            48: 1
+            108: 1

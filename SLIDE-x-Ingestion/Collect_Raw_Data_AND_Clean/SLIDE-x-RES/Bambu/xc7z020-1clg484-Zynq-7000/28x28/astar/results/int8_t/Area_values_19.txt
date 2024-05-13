@@ -1,0 +1,182 @@
+ ==  Bambu executed with: bambu -I/home/dews/Scrivania/bambu-hls/RESULTS/Bambu/xc7z020-1clg484-Zynq-7000/28x28/astar/includes/values_19 --simulate --simulator=VERILATOR --clock-period=5 --device-name=xc7z020-1clg484-VVD /home/dews/Scrivania/bambu-hls/cc4cs_bambu/benchmarkBasic/astar/thrd.c 
+
+
+********************************************************************************
+                    ____                  _
+                   | __ )  __ _ _ __ ___ | |_   _   _
+                   |  _ \ / _` | '_ ` _ \| '_ \| | | |
+                   | |_) | (_| | | | | | | |_) | |_| |
+                   |____/ \__,_|_| |_| |_|_.__/ \__,_|
+
+********************************************************************************
+                         High-Level Synthesis Tool
+
+                         Politecnico di Milano - DEIB
+                          System Architectures Group
+********************************************************************************
+                Copyright (C) 2004-2020 Politecnico di Milano
+    Version: PandA 0.9.6 - Revision 891ec3caed502474cab0813cc4a9fc678deabaa5
+
+Target technology = FPGA
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  The top function inferred from the specification is: main
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+  Functions to be synthesized:
+    make_oriented
+    astarF
+    main
+
+
+  Memory allocation information:
+  SIZE bus bitsize: 0
+    BRAM bitsize: 16
+    Spec may not exploit DATA bus width
+    All the data have a known address
+    Internal data may be accessed
+    DATA bus bitsize: 32
+    ADDRESS bus bitsize: 10
+    SIZE bus bitsize: 6
+    Internally allocated memory (no private memories): 512
+    Internally allocated memory: 512
+  Time to perform memory allocation: 0.00 seconds
+
+
+  Module allocation information for function astarF:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.12 seconds
+
+
+  Module allocation information for function make_oriented:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.03 seconds
+
+
+  Scheduling Information of function astarF:
+    Number of control steps: 57
+    Minimum slack: 5.0000000000000003e-10
+    Estimated max frequency (MHz): 200.00000002000002
+  Time to perform scheduling: 0.02 seconds
+
+
+  State Transition Graph Information of function astarF:
+    Number of states: 56
+    Done port is registered
+  Time to perform creation of STG: 0.00 seconds
+
+
+  Scheduling Information of function make_oriented:
+    Number of control steps: 19
+    Minimum slack: 3.4416913763379853e-15
+    Estimated max frequency (MHz): 200.00000000000014
+  Time to perform scheduling: 0.01 seconds
+
+
+  State Transition Graph Information of function make_oriented:
+    Number of states: 17
+    Done port is registered
+  Time to perform creation of STG: 0.00 seconds
+
+
+  Easy binding information for function astarF:
+    Bound operations:126/196
+  Time to perform easy binding: 0.00 seconds
+
+
+  Easy binding information for function make_oriented:
+    Bound operations:44/61
+  Time to perform easy binding: 0.00 seconds
+
+
+  Storage Value Information of function astarF:
+    Number of storage values inserted: 78
+  Time to compute storage value information: 0.00 seconds
+
+
+  Storage Value Information of function make_oriented:
+    Number of storage values inserted: 29
+  Time to compute storage value information: 0.00 seconds
+
+
+  Register binding information for function astarF:
+    Register allocation algorithm obtains a sub-optimal result: 58 registers(LB:16)
+  Time to perform register binding: 0.01 seconds
+
+
+  Register binding information for function astarF:
+    Register allocation algorithm obtains a sub-optimal result: 67 registers(LB:16)
+  Time to perform register binding: 0.00 seconds
+
+
+  Register binding information for function astarF:
+    Register allocation algorithm obtains a sub-optimal result: 67 registers(LB:16)
+  Time to perform register binding: 0.01 seconds
+
+
+  Module binding information for function astarF:
+    Number of modules instantiated: 179
+    Number of possible conflicts for possible false paths introduced by resource sharing: 2
+    Estimated resources area (no Muxes and address logic): 3032
+    Estimated area of MUX21: 327
+    Total estimated area: 3359
+    Estimated number of DSPs: 0
+    Slack computed in 0.00 seconds
+    False-loop computation completed in 0.00 seconds
+    Weight computation completed in 0.01 seconds
+    Clique covering computation completed in 0.01 seconds
+  Time to perform module binding: 0.02 seconds
+
+
+  Register binding information for function astarF:
+    Register allocation algorithm obtains a sub-optimal result: 67 registers(LB:16)
+  Time to perform register binding: 0.01 seconds
+
+
+  Connection Binding Information for function astarF:
+    Number of allocated multiplexers (2-to-1 equivalent): 27
+  Time to perform interconnection binding: 0.00 seconds
+
+  Total number of flip-flops in function astarF: 991
+
+  Register binding information for function make_oriented:
+    Register allocation algorithm obtains a sub-optimal result: 24 registers(LB:18)
+  Time to perform register binding: 0.00 seconds
+
+
+  Register binding information for function make_oriented:
+    Register allocation algorithm obtains a sub-optimal result: 24 registers(LB:18)
+  Time to perform register binding: 0.00 seconds
+
+
+  Module binding information for function make_oriented:
+    Number of modules instantiated: 56
+    Number of possible conflicts for possible false paths introduced by resource sharing: 0
+    Estimated resources area (no Muxes and address logic): 617
+    Estimated area of MUX21: 110
+    Total estimated area: 727
+    Estimated number of DSPs: 0
+    Slack computed in 0.00 seconds
+    False-loop computation completed in 0.00 seconds
+    Weight computation completed in 0.00 seconds
+    Clique covering computation completed in 0.00 seconds
+  Time to perform module binding: 0.00 seconds
+
+
+  Register binding information for function make_oriented:
+    Register allocation algorithm obtains a sub-optimal result: 24 registers(LB:18)
+  Time to perform register binding: 0.00 seconds
+
+
+  Connection Binding Information for function make_oriented:
+    Number of allocated multiplexers (2-to-1 equivalent): 11
+  Time to perform interconnection binding: 0.00 seconds
+
+  Total number of flip-flops in function make_oriented: 296
+
+  Module allocation information for function main:
+error -> clock constraint too tight: BRAMs for this device cannot run so fast... (ARRAY_1D_STD_BRAM_NN:5.0229999999999988>5)
+
+Please report bugs to <panda-info@polimi.it>
+

@@ -1,0 +1,7 @@
+#ifndef VALUES
+#define VALUES
+	int8_t nn = 2;
+	enum{size = 5};
+	enum{isign = -1};
+	int8_t data[size] = {-118, -100, -40, -72, -89};
+#endif

@@ -1,0 +1,88 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c (with preprocessing)
+[metrics] Defined functions (2)
+          =====================
+           floydwarshall (1 call); main (0 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 23
+          Decision point = 4
+          Global variables = 1
+          If = 4
+          Loop = 3
+          Goto = 0
+          Assignment = 7
+          Exit point = 2
+          Function = 2
+          Function call = 1
+          Pointer dereferencing = 6
+          Cyclomatic complexity = 6
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  a[0][0] ∈ {10}
+   [0][1] ∈ {71}
+   [0][2] ∈ {80}
+   [0][3] ∈ {7}
+   [0][4] ∈ {44}
+   [1][0] ∈ {58}
+   [1][1] ∈ {6}
+   [1][2] ∈ {91}
+   [1][3] ∈ {114}
+   [1][4] ∈ {10}
+   [2][0] ∈ {44}
+   [2][1] ∈ {68}
+   [2][2] ∈ {122}
+   [2][3] ∈ {54}
+   [2][4] ∈ {110}
+   [3][0] ∈ {25}
+   [3][1] ∈ {90}
+   [3][2] ∈ {3}
+   [3][3] ∈ {81}
+   [3][4] ∈ {50}
+   [4][0] ∈ {116}
+   [4][1] ∈ {63}
+   [4][2] ∈ {97}
+   [4][3] ∈ {22}
+   [4][4] ∈ {93}
+[value] computing for function floydwarshall <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:46.
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:24:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:28:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:32:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:36:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+i))[h]);
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:36:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+h))[j]);
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:36:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+i))[j]);
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:37:[kernel] warning: out of bounds write. assert \valid(&(*(a_0+i))[j]);
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:37:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+i))[h]);
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:37:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+h))[j]);
+[value] Recording results for floydwarshall
+[value] Done for function floydwarshall
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 2 (out of 2)
+          Semantically reached functions = 2
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          23 stmts in analyzed functions, 23 stmts analyzed (100.0%)
+          main: 2 stmts out of 2 (100.0%)
+          floydwarshall: 21 stmts out of 21 (100.0%)

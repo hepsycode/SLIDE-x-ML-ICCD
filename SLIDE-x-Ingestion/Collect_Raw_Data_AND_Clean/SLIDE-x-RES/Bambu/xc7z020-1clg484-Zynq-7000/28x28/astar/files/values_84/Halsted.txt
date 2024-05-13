@@ -1,0 +1,332 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 1503 
+          Distinct operators: 66 
+          Total_operands: 896 
+          Distinct operands: 230 
+          Program length: 2399 
+          Vocabulary size: 296 
+          Program volume: 19694.48 
+          Effort: 2531853.67 
+          Program level: 0.01 
+          Difficulty level: 128.56 
+          Time to implement: 140658.54 
+          Bugs delivered: 6.19 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 47
+            array: 6
+            break: 1
+            if: 7
+            for: 6
+            while: 1
+            return: 3
+            extern: 6
+            ): 16
+            ,: 650
+            {: 10
+            ?: 1
+            (: 16
+            :: 1
+            *: 16
+            }: 10
+            []: 47
+            ;: 51
+            +: 4
+            &&: 4
+            ++: 7
+            -: 311
+            !=: 4
+            ==: 2
+            <: 8
+            =: 20
+            *=: 1
+            /: 2
+            <=: 1
+            >: 3
+            --: 1
+            >=: 1
+            blkcnt_t: 1
+            FILE: 9
+            fpos_t: 1
+            signed: 15
+            TARGET_INDEX: 4
+            enum  { goal46 }: 1
+            void: 9
+            time_t: 3
+            unsigned: 38
+            int8_t: 3
+            off_t: 1
+            struct __fc_pos_t { unsigned long __fc_stdio_position; }: 1
+            mode_t: 1
+            nlink_t: 1
+            struct __fc_FILE {
+              unsigned int __fc_stdio_id; fpos_t __fc_position; char __fc_error; 
+              char __fc_eof; int __fc_flags; struct stat *__fc_inode; unsigned char
+              *__fc_real_data; int __fc_real_data_max_size; }: 1
+            TARGET_TYPE: 5
+            gid_t: 1
+            struct statfs {
+              unsigned int f_type; unsigned int f_bsize; unsigned int f_blocks;
+              unsigned int f_bfree; unsigned int f_bavail; unsigned int f_files;
+              unsigned int f_ffree; unsigned int f_fsid; unsigned int f_namelen;
+              unsigned int f_frsize; unsigned int f_flags; unsigned int f_spare[4]; }: 1
+            __builtin_va_list: 1
+            enum  { size25 }: 1
+            short: 4
+            blksize_t: 1
+            ino_t: 1
+            struct stat {
+              dev_t st_dev; ino_t st_ino; mode_t st_mode; nlink_t st_nlink; uid_t
+              st_uid; gid_t st_gid; dev_t st_rdev; off_t st_size; time_t st_atime;
+              time_t st_mtime; time_t st_ctime; blksize_t st_blksize; blkcnt_t
+              st_blocks; }: 1
+            struct __fc_FILE: 1
+            dev_t: 2
+            long: 22
+            int: 86
+            size_t: 4
+            struct __fc_pos_t: 1
+            uid_t: 1
+            char: 15
+            uint8_t: 1
+            struct stat: 1
+            
+          Operands
+          --------
+            astarF: 1
+            getchar_unlocked: 1
+            sprintf: 1
+            a: 23
+            min: 3
+            fgets_unlocked: 1
+            feof_unlocked: 1
+            __fc_stderr: 1
+            remove_min: 1
+            ftell: 1
+            goal: 4
+            fgetpos: 1
+            putchar: 1
+            gets: 1
+            freopen: 1
+            fsetpos: 1
+            vfscanf: 1
+            funlockfile: 1
+            absolute: 2
+            fileno: 1
+            vsprintf: 1
+            fwrite_unlocked: 1
+            fputs: 1
+            scanf: 1
+            FC_BUILTIN: 2
+            putc_unlocked: 1
+            tmpnam: 1
+            fscanf: 1
+            current: 13
+            ferror_unlocked: 1
+            perror: 1
+            fgetc_unlocked: 1
+            astar: 1
+            fflush_unlocked: 1
+            clearerr: 1
+            make_oriented: 1
+            __p_fc_fopen: 1
+            __fc_stdin: 1
+            set_estimates: 1
+            putc: 1
+            priority: 4
+            clearerr_unlocked: 1
+            rename: 1
+            __fc_stdout: 1
+            frontier: 6
+            flockfile: 1
+            fwrite: 1
+            vfprintf: 1
+            fdopen: 1
+            ferror: 1
+            fread: 1
+            frontier_size: 4
+            fgetc: 1
+            printf: 1
+            tmpfile: 1
+            getc: 1
+            fclose: 1
+            vscanf: 1
+            n: 3
+            getchar: 1
+            sscanf: 1
+            putchar_unlocked: 1
+            ftrylockfile: 1
+            fputc: 1
+            fgets: 1
+            vprintf: 1
+            heuristic: 1
+            feof: 1
+            tmp1: 1
+            program_invocation_name: 1
+            __FC_errno: 1
+            fputc_unlocked: 1
+            j: 11
+            fileno_unlocked: 1
+            came_from: 3
+            snprintf: 1
+            program_invocation_short_name: 1
+            fread_unlocked: 1
+            fprintf: 1
+            path_cost: 1
+            vsscanf: 1
+            getc_unlocked: 1
+            ungetc: 1
+            vsnprintf: 1
+            init_camefrom: 1
+            node: 1
+            Frama_C_bzero: 1
+            fseek: 1
+            puts: 1
+            rewind: 1
+            setvbuf: 1
+            __fc_fopen: 2
+            remove: 1
+            size: 14
+            Frama_C_copy_block: 1
+            fputs_unlocked: 1
+            insert: 2
+            fopen: 1
+            fflush: 1
+            i: 48
+            setbuf: 1
+            11: 3
+            2: 7
+            113: 7
+            123: 6
+            67: 6
+            10: 5
+            114: 2
+            117: 6
+            77: 6
+            109: 2
+            41: 5
+            1: 17
+            4: 7
+            58: 2
+            25: 8
+            122: 9
+            71: 4
+            110: 5
+            22: 7
+            70: 4
+            31: 3
+            111: 1
+            30: 1
+            23: 7
+            27: 6
+            105: 6
+            54: 1
+            69: 7
+            87: 4
+            101: 5
+            128: 2
+            92: 6
+            28: 3
+            47: 1
+            6: 7
+            48: 8
+            94: 2
+            119: 7
+            125: 2
+            13: 6
+            84: 6
+            112: 5
+            33: 4
+            73: 4
+            43: 10
+            85: 3
+            36: 9
+            86: 4
+            93: 2
+            37: 6
+            55: 4
+            118: 6
+            39: 4
+            75: 6
+            62: 3
+            20: 3
+            79: 2
+            32: 10
+            12: 3
+            56: 4
+            17: 8
+            40: 4
+            72: 3
+            97: 4
+            9: 8
+            98: 6
+            512: 1
+            21: 3
+            106: 3
+            108: 7
+            66: 9
+            53: 7
+            59: 8
+            15: 8
+            91: 4
+            42: 4
+            8: 6
+            102: 6
+            127: 6
+            100: 2
+            63: 5
+            81: 10
+            116: 4
+            5: 5
+            44: 4
+            18: 2
+            124: 4
+            89: 6
+            115: 3
+            50: 3
+            57: 2
+            16: 6
+            3: 5
+            34: 4
+            14: 2
+            19: 5
+            121: 6
+            96: 1
+            52: 4
+            120: 5
+            26: 6
+            29: 7
+            99: 6
+            83: 6
+            95: 7
+            64: 5
+            49: 4
+            38: 2
+            103: 6
+            7: 6
+            61: 2
+            82: 4
+            88: 8
+            68: 4
+            60: 5
+            46: 7
+            80: 2
+            51: 3
+            24: 5
+            90: 10
+            107: 5
+            45: 3
+            35: 10
+            0: 27
+            65: 6
+            78: 2
+            74: 3
+            126: 7
+            104: 5

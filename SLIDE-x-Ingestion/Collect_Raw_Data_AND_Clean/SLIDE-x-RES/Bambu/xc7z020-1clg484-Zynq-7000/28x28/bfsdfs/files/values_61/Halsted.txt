@@ -1,0 +1,122 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 335 
+          Distinct operators: 35 
+          Total_operands: 186 
+          Distinct operands: 62 
+          Program length: 521 
+          Vocabulary size: 97 
+          Program volume: 3438.55 
+          Effort: 180524.12 
+          Program level: 0.02 
+          Difficulty level: 52.50 
+          Time to implement: 10029.12 
+          Bugs delivered: 1.06 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 3
+            for: 3
+            if: 5
+            while: 2
+            return: 1
+            ): 13
+            ,: 48
+            {: 10
+            (: 13
+            }: 10
+            []: 24
+            ;: 44
+            &&: 2
+            +: 2
+            ++: 5
+            -: 10
+            !=: 6
+            %: 2
+            <: 3
+            =: 19
+            >: 3
+            --: 1
+            TARGET_TYPE: 1
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 4
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 3
+            uint8_t: 1
+            enum  { size6 }: 1
+            
+          Operands
+          --------
+            a: 16
+            depth_first_searchF: 1
+            depth_first_search: 1
+            current: 9
+            enqueue: 2
+            tail: 13
+            array: 13
+            Frama_C_bzero: 1
+            bfsdfsF: 1
+            dequeue: 1
+            par: 1
+            head: 11
+            element: 3
+            size: 12
+            Frama_C_copy_block: 1
+            bfsdfs: 1
+            clean_input: 1
+            clean_inputF: 1
+            i: 23
+            FC_BUILTIN: 2
+            2: 6
+            119: 1
+            66: 1
+            49: 1
+            15: 1
+            8: 1
+            1: 5
+            38: 1
+            63: 1
+            82: 1
+            4: 1
+            25: 1
+            86: 1
+            36: 2
+            5: 1
+            122: 1
+            18: 1
+            22: 1
+            89: 1
+            70: 1
+            30: 1
+            31: 1
+            23: 1
+            107: 1
+            101: 1
+            105: 1
+            56: 2
+            17: 1
+            57: 2
+            16: 1
+            97: 1
+            19: 1
+            9: 1
+            92: 1
+            0: 18
+            28: 1
+            6: 2
+            74: 1
+            78: 1
+            52: 1
+            108: 1
+            106: 1

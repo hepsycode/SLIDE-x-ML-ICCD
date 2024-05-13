@@ -1,0 +1,91 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 204 
+          Distinct operators: 35 
+          Total_operands: 75 
+          Distinct operands: 31 
+          Program length: 279 
+          Vocabulary size: 66 
+          Program volume: 1686.39 
+          Effort: 71399.41 
+          Program level: 0.02 
+          Difficulty level: 42.34 
+          Time to implement: 3966.63 
+          Bugs delivered: 0.57 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 1
+            break: 1
+            if: 1
+            for: 1
+            while: 3
+            do: 2
+            ): 5
+            ,: 23
+            {: 4
+            (: 5
+            }: 4
+            []: 5
+            ;: 19
+            ++: 3
+            -: 11
+            /=: 1
+            <: 2
+            =: 5
+            *=: 1
+            <=: 1
+            -=: 1
+            >: 2
+            TARGET_TYPE: 1
+            short: 4
+            long: 16
+            int: 11
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            enum  { size22 }: 1
+            
+          Operands
+          --------
+            shell_sort: 1
+            Frama_C_bzero: 1
+            inc: 11
+            v: 4
+            arr: 7
+            j: 8
+            size: 4
+            Frama_C_copy_block: 1
+            i: 6
+            FC_BUILTIN: 2
+            80: 1
+            75: 1
+            22: 2
+            12: 1
+            64: 1
+            111: 1
+            113: 1
+            112: 1
+            10: 1
+            107: 1
+            69: 1
+            1: 2
+            81: 1
+            45: 2
+            3: 3
+            72: 2
+            92: 1
+            85: 2
+            0: 3
+            122: 1
+            108: 1

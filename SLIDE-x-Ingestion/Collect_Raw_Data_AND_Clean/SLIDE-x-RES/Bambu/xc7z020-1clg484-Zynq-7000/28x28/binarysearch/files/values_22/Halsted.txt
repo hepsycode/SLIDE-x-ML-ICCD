@@ -1,0 +1,84 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/binarysearch/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 160 
+          Distinct operators: 31 
+          Total_operands: 52 
+          Distinct operands: 28 
+          Program length: 212 
+          Vocabulary size: 59 
+          Program volume: 1247.12 
+          Effort: 35899.25 
+          Program level: 0.03 
+          Difficulty level: 28.79 
+          Time to implement: 1994.40 
+          Bugs delivered: 0.36 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 1
+            if: 2
+            return: 2
+            while: 1
+            ): 4
+            ,: 13
+            {: 1
+            (: 4
+            }: 1
+            []: 2
+            ;: 8
+            +: 2
+            -: 9
+            ==: 1
+            =: 2
+            <: 1
+            /: 1
+            <=: 1
+            enum  { n13 }: 1
+            TARGET_TYPE: 2
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 3
+            uint8_t: 1
+            
+          Operands
+          --------
+            l: 5
+            n: 3
+            key: 4
+            binarysearch: 1
+            Frama_C_bzero: 1
+            m: 6
+            arr: 4
+            Frama_C_copy_block: 1
+            r: 4
+            FC_BUILTIN: 2
+            94: 1
+            2: 1
+            89: 1
+            67: 1
+            13: 1
+            87: 1
+            105: 1
+            1: 4
+            38: 1
+            43: 1
+            45: 1
+            121: 1
+            0: 1
+            28: 1
+            65: 1
+            74: 1
+            106: 1
+            21: 1

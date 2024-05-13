@@ -1,0 +1,83 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 187 
+          Distinct operators: 35 
+          Total_operands: 63 
+          Distinct operands: 23 
+          Program length: 250 
+          Vocabulary size: 58 
+          Program volume: 1464.50 
+          Effort: 70200.26 
+          Program level: 0.02 
+          Difficulty level: 47.93 
+          Time to implement: 3900.01 
+          Bugs delivered: 0.57 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 1
+            break: 1
+            if: 1
+            for: 1
+            while: 3
+            do: 2
+            ): 5
+            ,: 11
+            {: 4
+            (: 5
+            }: 4
+            []: 5
+            ;: 19
+            ++: 3
+            -: 6
+            /=: 1
+            <: 2
+            =: 5
+            *=: 1
+            <=: 1
+            -=: 1
+            >: 2
+            enum  { size10 }: 1
+            TARGET_TYPE: 1
+            short: 4
+            long: 16
+            int: 11
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            shell_sort: 1
+            Frama_C_bzero: 1
+            inc: 11
+            v: 4
+            arr: 7
+            j: 8
+            size: 4
+            Frama_C_copy_block: 1
+            i: 6
+            FC_BUILTIN: 2
+            11: 1
+            13: 1
+            112: 1
+            10: 1
+            77: 2
+            105: 1
+            1: 2
+            3: 2
+            44: 1
+            19: 1
+            86: 1
+            0: 3
+            26: 1

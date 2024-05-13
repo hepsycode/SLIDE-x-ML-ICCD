@@ -1,0 +1,106 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 359 
+          Distinct operators: 36 
+          Total_operands: 169 
+          Distinct operands: 45 
+          Program length: 528 
+          Vocabulary size: 81 
+          Program volume: 3347.44 
+          Effort: 226287.00 
+          Program level: 0.01 
+          Difficulty level: 67.60 
+          Time to implement: 12571.50 
+          Bugs delivered: 1.24 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 3
+            sizeof: 1
+            if: 8
+            for: 7
+            return: 1
+            while: 1
+            ): 17
+            ,: 46
+            {: 8
+            (: 17
+            }: 8
+            []: 29
+            ;: 42
+            +: 1
+            ++: 7
+            -: 22
+            !=: 2
+            ==: 4
+            <: 9
+            =: 18
+            *=: 2
+            *: 1
+            -=: 1
+            TARGET_TYPE: 3
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            enum  { size6 }: 1
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            a: 14
+            min: 7
+            val: 4
+            dijkstra: 1
+            dijkstraF: 1
+            Frama_C_bzero: 1
+            up: 6
+            new_dist: 4
+            j: 19
+            size: 10
+            Frama_C_copy_block: 1
+            dist: 8
+            i: 32
+            FC_BUILTIN: 2
+            124: 1
+            80: 2
+            51: 1
+            2: 1
+            24: 2
+            79: 1
+            30: 1
+            111: 1
+            31: 1
+            12: 4
+            50: 2
+            84: 2
+            8: 1
+            33: 1
+            73: 1
+            103: 1
+            1: 8
+            63: 1
+            4: 1
+            82: 1
+            19: 1
+            85: 2
+            36: 1
+            0: 13
+            47: 1
+            6: 1
+            18: 1
+            48: 1
+            29: 1
+            46: 1
+            126: 2

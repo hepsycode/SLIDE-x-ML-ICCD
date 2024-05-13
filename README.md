@@ -19,7 +19,7 @@ SLIDE-x consists of the following components:
     - **SILDE-x-Feature-Creation**: WIP
     - **SILDE-x-Data-Analysis**: WIP
     - **SILDE-x-Feature-Selection**: WIP
-3. **SLIDE-x-01-Model-Engineering**: HW/SW ML-based component for creating System-Level HW/SW Co-Design models using machine learning frameworks and tools. The SLIDE-x-Model-Engineering is composed of:
+3. **SLIDE-x-Model-Engineering**: HW/SW ML-based component for creating System-Level HW/SW Co-Design models using machine learning frameworks and tools. The SLIDE-x-Model-Engineering is composed of:
     - **SILDE-x-Data-Preparation**: WIP
     - **SILDE-x-Model-Training**: WIP (Best algorithm Selection and Hyperparameter tuning).
     - **SILDE-x-Model-Validation**: WIP

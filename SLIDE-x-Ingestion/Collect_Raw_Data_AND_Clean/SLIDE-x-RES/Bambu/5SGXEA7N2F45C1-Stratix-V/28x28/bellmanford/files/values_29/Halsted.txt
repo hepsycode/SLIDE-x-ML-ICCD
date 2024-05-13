@@ -1,0 +1,174 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/bellmanford/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 610 
+          Distinct operators: 35 
+          Total_operands: 340 
+          Distinct operands: 114 
+          Program length: 950 
+          Vocabulary size: 149 
+          Program volume: 6858.21 
+          Effort: 357950.44 
+          Program level: 0.02 
+          Difficulty level: 52.19 
+          Time to implement: 19886.14 
+          Bugs delivered: 1.68 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 3
+            sizeof: 1
+            if: 3
+            for: 6
+            ): 10
+            ,: 241
+            {: 6
+            (: 10
+            }: 6
+            []: 28
+            ;: 31
+            +: 2
+            &&: 3
+            ++: 6
+            -: 120
+            !=: 3
+            <: 8
+            =: 14
+            *=: 2
+            *: 1
+            -=: 1
+            >=: 1
+            TARGET_TYPE: 2
+            short: 4
+            long: 16
+            int: 10
+            enum  { size15 }: 1
+            signed: 14
+            TARGET_INDEX: 2
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            a: 13
+            bellmanford: 1
+            make_oriented: 1
+            Frama_C_bzero: 1
+            up: 5
+            j: 19
+            size: 10
+            Frama_C_copy_block: 1
+            dist: 7
+            i: 29
+            FC_BUILTIN: 2
+            2: 3
+            53: 2
+            66: 5
+            113: 1
+            123: 4
+            67: 1
+            10: 1
+            91: 1
+            114: 4
+            15: 1
+            8: 2
+            117: 3
+            102: 3
+            42: 4
+            77: 1
+            41: 1
+            109: 2
+            1: 11
+            100: 3
+            63: 2
+            4: 4
+            25: 1
+            58: 4
+            116: 2
+            44: 1
+            122: 1
+            124: 1
+            110: 5
+            22: 2
+            89: 1
+            70: 5
+            31: 1
+            111: 4
+            115: 3
+            23: 3
+            50: 2
+            27: 2
+            54: 2
+            105: 2
+            69: 4
+            57: 1
+            14: 3
+            3: 5
+            34: 4
+            121: 1
+            19: 2
+            92: 2
+            96: 3
+            47: 1
+            28: 2
+            6: 3
+            52: 2
+            48: 5
+            26: 4
+            29: 2
+            99: 2
+            119: 2
+            125: 4
+            83: 3
+            95: 1
+            64: 1
+            84: 2
+            76: 4
+            112: 2
+            49: 3
+            33: 1
+            73: 1
+            7: 1
+            103: 1
+            38: 3
+            43: 1
+            88: 2
+            85: 1
+            93: 1
+            68: 1
+            55: 1
+            60: 4
+            37: 2
+            46: 4
+            80: 2
+            118: 1
+            39: 4
+            51: 1
+            79: 1
+            20: 1
+            24: 2
+            32: 1
+            62: 3
+            12: 1
+            107: 3
+            17: 2
+            40: 2
+            45: 2
+            97: 2
+            72: 2
+            35: 1
+            9: 4
+            65: 3
+            0: 13
+            74: 3
+            78: 2
+            126: 1
+            106: 1

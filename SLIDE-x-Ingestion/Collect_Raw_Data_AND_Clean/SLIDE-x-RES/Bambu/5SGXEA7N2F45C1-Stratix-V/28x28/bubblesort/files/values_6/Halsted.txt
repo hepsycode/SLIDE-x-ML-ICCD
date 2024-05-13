@@ -1,0 +1,86 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/bubblesort/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 192 
+          Distinct operators: 30 
+          Total_operands: 71 
+          Distinct operands: 31 
+          Program length: 263 
+          Vocabulary size: 61 
+          Program volume: 1559.78 
+          Effort: 53586.12 
+          Program level: 0.03 
+          Difficulty level: 34.35 
+          Time to implement: 2977.01 
+          Bugs delivered: 0.47 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 1
+            break: 1
+            if: 2
+            for: 2
+            ): 4
+            ,: 14
+            {: 3
+            (: 4
+            }: 3
+            []: 6
+            ;: 23
+            +: 2
+            ++: 2
+            -: 6
+            <: 2
+            =: 9
+            >: 1
+            TARGET_TYPE: 6
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            enum  { dim14 }: 1
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            a: 8
+            lastSwap: 3
+            dim: 4
+            currentSwap: 4
+            index_1: 2
+            b: 2
+            Frama_C_bzero: 1
+            j: 4
+            Frama_C_copy_block: 1
+            is_sorted: 4
+            bubblesort: 1
+            swap: 1
+            index_2: 2
+            i: 9
+            FC_BUILTIN: 2
+            124: 1
+            2: 2
+            83: 1
+            111: 1
+            23: 1
+            13: 1
+            8: 1
+            102: 1
+            33: 1
+            41: 1
+            1: 5
+            17: 1
+            45: 1
+            14: 1
+            85: 1
+            0: 3

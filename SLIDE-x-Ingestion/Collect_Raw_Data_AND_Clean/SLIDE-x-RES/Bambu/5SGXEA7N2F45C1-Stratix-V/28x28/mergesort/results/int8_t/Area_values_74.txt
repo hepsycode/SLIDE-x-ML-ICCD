@@ -1,0 +1,126 @@
+ ==  Bambu executed with: bambu -I/home/dews/Scrivania/bambu-hls/RESULTS/Bambu/5SGXEA7N2F45C1-Stratix-V/28x28/mergesort/includes/values_74 --simulate --simulator=VERILATOR --clock-period=5 --device-name=5SGXEA7N2F45C1 /home/dews/Scrivania/bambu-hls/cc4cs_bambu/benchmarkBasic/mergesort/thrd.c 
+
+
+********************************************************************************
+                    ____                  _
+                   | __ )  __ _ _ __ ___ | |_   _   _
+                   |  _ \ / _` | '_ ` _ \| '_ \| | | |
+                   | |_) | (_| | | | | | | |_) | |_| |
+                   |____/ \__,_|_| |_| |_|_.__/ \__,_|
+
+********************************************************************************
+                         High-Level Synthesis Tool
+
+                         Politecnico di Milano - DEIB
+                          System Architectures Group
+********************************************************************************
+                Copyright (C) 2004-2020 Politecnico di Milano
+    Version: PandA 0.9.6 - Revision 891ec3caed502474cab0813cc4a9fc678deabaa5
+
+Target technology = FPGA
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  The top function inferred from the specification is: main
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+  Functions to be synthesized:
+    merge
+    mergesort
+    main
+
+
+  Memory allocation information:
+  SIZE bus bitsize: 0
+    BRAM bitsize: 8
+    Spec may not exploit DATA bus width
+    All the data have a known address
+    Internal data may be accessed
+    DATA bus bitsize: 8
+    ADDRESS bus bitsize: 7
+    SIZE bus bitsize: 4
+    ALL pointers have been resolved
+    Internally allocated memory (no private memories): 64
+    Internally allocated memory: 76
+  Time to perform memory allocation: 0.00 seconds
+
+
+  Memory allocation information:
+  SIZE bus bitsize: 0
+    BRAM bitsize: 8
+    Spec may not exploit DATA bus width
+    All the data have a known address
+    Internal data may be accessed
+    DATA bus bitsize: 8
+    ADDRESS bus bitsize: 7
+    SIZE bus bitsize: 4
+    ALL pointers have been resolved
+    Internally allocated memory (no private memories): 64
+    Internally allocated memory: 76
+  Time to perform memory allocation: 0.00 seconds
+
+
+  Module allocation information for function merge:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.06 seconds
+
+
+  Scheduling Information of function merge:
+    Number of control steps: 16
+    Minimum slack: 0.64659610134074508
+    Estimated max frequency (MHz): 229.70531181542248
+  Time to perform scheduling: 0.01 seconds
+
+
+  State Transition Graph Information of function merge:
+    Number of states: 14
+    Done port is registered
+  Time to perform creation of STG: 0.00 seconds
+
+
+  Easy binding information for function merge:
+    Bound operations:69/110
+  Time to perform easy binding: 0.00 seconds
+
+
+  Storage Value Information of function merge:
+    Number of storage values inserted: 38
+  Time to compute storage value information: 0.00 seconds
+
+
+  Register binding information for function merge:
+    Register allocation algorithm obtains a sub-optimal result: 28 registers(LB:16)
+  Time to perform register binding: 0.00 seconds
+
+
+  Register binding information for function merge:
+    Register allocation algorithm obtains a sub-optimal result: 32 registers(LB:16)
+  Time to perform register binding: 0.01 seconds
+
+
+  Register binding information for function merge:
+    Register allocation algorithm obtains a sub-optimal result: 32 registers(LB:16)
+  Time to perform register binding: 0.00 seconds
+
+
+  Module binding information for function merge:
+    Number of modules instantiated: 102
+    Number of possible conflicts for possible false paths introduced by resource sharing: 4
+    Estimated resources area (no Muxes and address logic): 2618
+    Estimated area of MUX21: 415
+    Total estimated area: 3033
+    Estimated number of DSPs: 0
+    Slack computed in 0.00 seconds
+    False-loop computation completed in 0.00 seconds
+    Weight computation completed in 0.00 seconds
+    Clique covering computation completed in 0.01 seconds
+  Time to perform module binding: 0.01 seconds
+
+
+  Register binding information for function merge:
+    Register allocation algorithm obtains a sub-optimal result: 32 registers(LB:16)
+  Time to perform register binding: 0.00 seconds
+
+error -> Functional unit ARRAY_1D_STD_DISTRAM_NN_SDS_1 does not exist or it does not have selector STORE(4294967295) Operation: 29051
+
+Please report bugs to <panda-info@polimi.it>
+

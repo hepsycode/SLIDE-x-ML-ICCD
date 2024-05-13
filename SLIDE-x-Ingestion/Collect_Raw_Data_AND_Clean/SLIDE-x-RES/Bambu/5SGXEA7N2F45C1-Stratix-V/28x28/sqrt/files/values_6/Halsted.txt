@@ -1,0 +1,76 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/sqrtfnc/thrd.c (with preprocessing)
+../../../../../../../cc4cs_bambu/benchmarkBasic/sqrtfnc/thrd.c:71:[kernel] warning: Floating-point constant 0.00001 is not represented exactly. Will use 0x1.4f8b588e368f1p-17. See documentation for option -warn-decimal-float
+[metrics] Halstead metrics
+          ================
+          Total operators: 181 
+          Distinct operators: 31 
+          Total_operands: 52 
+          Distinct operands: 19 
+          Program length: 233 
+          Vocabulary size: 50 
+          Program volume: 1315.02 
+          Effort: 55784.47 
+          Program level: 0.02 
+          Difficulty level: 42.42 
+          Time to implement: 3099.14 
+          Bugs delivered: 0.49 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            for: 1
+            if: 4
+            return: 3
+            ,: 1
+            ): 10
+            {: 4
+            (: 10
+            }: 4
+            ;: 18
+            +: 1
+            ++: 1
+            -: 3
+            ==: 1
+            =: 7
+            <: 2
+            <=: 1
+            /: 2
+            *: 3
+            !: 1
+            TARGET_TYPE: 4
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            sqrtfnc: 1
+            val: 6
+            diff: 3
+            Frama_C_bzero: 1
+            dx: 3
+            x: 13
+            Frama_C_copy_block: 1
+            flag: 4
+            myabs: 1
+            i: 4
+            min_tol: 2
+            FC_BUILTIN: 2
+            0.00001: 1
+            20: 1
+            10: 1
+            1: 2
+            2.0: 1
+            0: 4
+            93: 1

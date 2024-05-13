@@ -1,0 +1,60 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/sqrtfnc/thrd.c (with preprocessing)
+../../../../../../../cc4cs_bambu/benchmarkBasic/sqrtfnc/thrd.c:71:[kernel] warning: Floating-point constant 0.00001 is not represented exactly. Will use 0x1.4f8b588e368f1p-17. See documentation for option -warn-decimal-float
+[metrics] Defined functions (3)
+          =====================
+           main (0 call); myabs (1 call); sqrtfnc (1 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 29
+          Decision point = 5
+          Global variables = 1
+          If = 5
+          Loop = 1
+          Goto = 2
+          Assignment = 12
+          Exit point = 3
+          Function = 3
+          Function call = 2
+          Pointer dereferencing = 0
+          Cyclomatic complexity = 8
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  val ∈ {0}
+[value] computing for function sqrtfnc <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/sqrtfnc/thrd.c:104.
+[value] Recording results for sqrtfnc
+[value] Done for function sqrtfnc
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 3 (out of 3)
+          Semantically reached functions = 2
+          Coverage estimation = 66.7% 
+          
+          Unseen functions (1) =
+            <../../../../../../../cc4cs_bambu/benchmarkBasic/sqrtfnc/thrd.c>: myabs;
+[metrics] References to non-analyzed functions
+          ------------------------------------
+          Function sqrtfnc calls myabs (at ../../../../../../../cc4cs_bambu/benchmarkBasic/sqrtfnc/thrd.c:91)
+[metrics] Statements analyzed by Value
+          ----------------------------
+          23 stmts in analyzed functions, 8 stmts analyzed (34.8%)
+          main: 2 stmts out of 2 (100.0%)
+          sqrtfnc: 6 stmts out of 21 (28.6%)

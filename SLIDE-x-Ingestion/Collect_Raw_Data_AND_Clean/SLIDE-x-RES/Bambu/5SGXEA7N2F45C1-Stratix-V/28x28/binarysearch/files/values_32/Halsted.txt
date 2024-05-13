@@ -1,0 +1,90 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/binarysearch/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 173 
+          Distinct operators: 31 
+          Total_operands: 61 
+          Distinct operands: 34 
+          Program length: 234 
+          Vocabulary size: 65 
+          Program volume: 1409.23 
+          Effort: 39189.14 
+          Program level: 0.04 
+          Difficulty level: 27.81 
+          Time to implement: 2177.17 
+          Bugs delivered: 0.38 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 1
+            if: 2
+            return: 2
+            while: 1
+            ): 4
+            ,: 22
+            {: 1
+            (: 4
+            }: 1
+            []: 2
+            ;: 8
+            +: 2
+            -: 13
+            ==: 1
+            =: 2
+            <: 1
+            /: 1
+            <=: 1
+            enum  { n22 }: 1
+            TARGET_TYPE: 2
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 3
+            uint8_t: 1
+            
+          Operands
+          --------
+            l: 5
+            n: 3
+            key: 4
+            binarysearch: 1
+            Frama_C_bzero: 1
+            m: 6
+            arr: 4
+            Frama_C_copy_block: 1
+            r: 4
+            FC_BUILTIN: 2
+            124: 1
+            2: 1
+            110: 1
+            75: 1
+            22: 1
+            62: 1
+            79: 1
+            113: 1
+            64: 1
+            59: 1
+            12: 1
+            115: 1
+            23: 1
+            107: 1
+            109: 1
+            87: 3
+            1: 4
+            81: 1
+            7: 1
+            63: 1
+            0: 2
+            93: 1
+            52: 1
+            126: 1

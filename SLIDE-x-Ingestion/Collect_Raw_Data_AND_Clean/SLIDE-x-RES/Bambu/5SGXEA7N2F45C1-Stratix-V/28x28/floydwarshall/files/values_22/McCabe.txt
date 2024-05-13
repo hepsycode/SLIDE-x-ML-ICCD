@@ -1,0 +1,143 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c (with preprocessing)
+[metrics] Defined functions (2)
+          =====================
+           floydwarshall (1 call); main (0 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 23
+          Decision point = 4
+          Global variables = 1
+          If = 4
+          Loop = 3
+          Goto = 0
+          Assignment = 7
+          Exit point = 2
+          Function = 2
+          Function call = 1
+          Pointer dereferencing = 6
+          Cyclomatic complexity = 6
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  a[0][0] ∈ {35}
+   [0][1] ∈ {5}
+   [0][2] ∈ {84}
+   [0][3] ∈ {32}
+   [0][4] ∈ {88}
+   [0][5] ∈ {6}
+   [0][6] ∈ {108}
+   [0][7] ∈ {73}
+   [0][8] ∈ {107}
+   [1][0] ∈ {30}
+   [1][1] ∈ {65}
+   [1][2] ∈ {116}
+   [1][3] ∈ {115}
+   [1][4] ∈ {42}
+   [1][5] ∈ {93}
+   [1][6] ∈ {55}
+   [1][7] ∈ {19}
+   [1][8] ∈ {71}
+   [2][0] ∈ {10}
+   [2][1] ∈ {47}
+   [2][2] ∈ {26}
+   [2][3] ∈ {89}
+   [2][4] ∈ {29}
+   [2][5] ∈ {99}
+   [2][6] ∈ {121}
+   [2][7] ∈ {61}
+   [2][8] ∈ {121}
+   [3][0] ∈ {73}
+   [3][1] ∈ {94}
+   [3][2] ∈ {27}
+   [3][3] ∈ {92}
+   [3][4] ∈ {27}
+   [3][5] ∈ {76}
+   [3][6] ∈ {88}
+   [3][7] ∈ {34}
+   [3][8] ∈ {16}
+   [4][0] ∈ {108}
+   [4][1] ∈ {36}
+   [4][2] ∈ {110}
+   [4][3] ∈ {18}
+   [4][4] ∈ {37}
+   [4][5] ∈ {11}
+   [4][6] ∈ {6}
+   [4][7] ∈ {91}
+   [4][8] ∈ {11}
+   [5][0] ∈ {81}
+   [5][1] ∈ {115}
+   [5][2] ∈ {107}
+   [5][3] ∈ {120}
+   [5][4] ∈ {103}
+   [5][5] ∈ {79}
+   [5][6] ∈ {16}
+   [5][7] ∈ {104}
+   [5][8] ∈ {105}
+   [6][0] ∈ {35}
+   [6][1] ∈ {19}
+   [6][2] ∈ {4}
+   [6][3] ∈ {69}
+   [6][4] ∈ {58}
+   [6][5] ∈ {72}
+   [6][6] ∈ {33}
+   [6][7] ∈ {73}
+   [6][8] ∈ {75}
+   [7][0] ∈ {17}
+   [7][1] ∈ {41}
+   [7][2] ∈ {126}
+   [7][3] ∈ {38}
+   [7][4] ∈ {13}
+   [7][5] ∈ {54}
+   [7][6] ∈ {20}
+   [7][7] ∈ {105}
+   [7][8] ∈ {59}
+   [8][0] ∈ {26}
+   [8][1] ∈ {107}
+   [8][2] ∈ {49}
+   [8][3] ∈ {32}
+   [8][4..5] ∈ {72}
+   [8][6] ∈ {2}
+   [8][7] ∈ {69}
+   [8][8] ∈ {68}
+[value] computing for function floydwarshall <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:46.
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:24:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:28:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:32:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:36:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+i))[h]);
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:36:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+h))[j]);
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:36:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+i))[j]);
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:37:[kernel] warning: out of bounds write. assert \valid(&(*(a_0+i))[j]);
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:37:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+i))[h]);
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:37:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+h))[j]);
+[value] Recording results for floydwarshall
+[value] Done for function floydwarshall
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 2 (out of 2)
+          Semantically reached functions = 2
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          23 stmts in analyzed functions, 23 stmts analyzed (100.0%)
+          main: 2 stmts out of 2 (100.0%)
+          floydwarshall: 21 stmts out of 21 (100.0%)

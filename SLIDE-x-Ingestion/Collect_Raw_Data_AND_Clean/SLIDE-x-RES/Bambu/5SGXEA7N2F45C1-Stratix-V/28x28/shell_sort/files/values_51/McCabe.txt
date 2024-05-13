@@ -1,0 +1,90 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c (with preprocessing)
+[metrics] Defined functions (2)
+          =====================
+           main (0 call); shell_sort (1 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 37
+          Decision point = 5
+          Global variables = 1
+          If = 5
+          Loop = 4
+          Goto = 0
+          Assignment = 15
+          Exit point = 2
+          Function = 2
+          Function call = 1
+          Pointer dereferencing = 5
+          Cyclomatic complexity = 7
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  arr[0] ∈ {67}
+     [1] ∈ {29}
+     [2] ∈ {-54}
+     [3] ∈ {13}
+     [4] ∈ {-51}
+     [5] ∈ {-41}
+     [6] ∈ {55}
+     [7] ∈ {-14}
+     [8] ∈ {-98}
+     [9] ∈ {-25}
+     [10] ∈ {-48}
+     [11] ∈ {-25}
+     [12] ∈ {10}
+     [13] ∈ {-75}
+     [14] ∈ {6}
+     [15] ∈ {-117}
+     [16] ∈ {16}
+     [17] ∈ {-39}
+     [18] ∈ {126}
+     [19] ∈ {-113}
+     [20] ∈ {-10}
+     [21] ∈ {103}
+     [22] ∈ {14}
+     [23] ∈ {32}
+     [24] ∈ {51}
+     [25] ∈ {74}
+     [26] ∈ {-19}
+     [27] ∈ {94}
+[value] computing for function shell_sort <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c:57.
+../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c:19:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c:25:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c:30:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c:38:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c:38:[kernel] warning: out of bounds read. assert \valid_read(arr_0+(int)((int)j-inc));
+../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c:41:[kernel] warning: out of bounds write. assert \valid(arr_0+j);
+../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c:48:[kernel] warning: out of bounds write. assert \valid(arr_0+j);
+../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c:41:[kernel] warning: out of bounds read. assert \valid_read(arr_0+(int)((int)j-inc));
+[value] Recording results for shell_sort
+[value] Done for function shell_sort
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 2 (out of 2)
+          Semantically reached functions = 2
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          37 stmts in analyzed functions, 37 stmts analyzed (100.0%)
+          main: 2 stmts out of 2 (100.0%)
+          shell_sort: 35 stmts out of 35 (100.0%)

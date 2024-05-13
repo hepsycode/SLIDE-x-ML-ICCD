@@ -1,0 +1,103 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/mergesort/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 270 
+          Distinct operators: 37 
+          Total_operands: 126 
+          Distinct operands: 41 
+          Program length: 396 
+          Vocabulary size: 78 
+          Program volume: 2489.02 
+          Effort: 141509.85 
+          Program level: 0.02 
+          Difficulty level: 56.85 
+          Time to implement: 7861.66 
+          Bugs delivered: 0.91 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 2
+            for: 5
+            if: 2
+            return: 1
+            while: 1
+            ): 9
+            ,: 24
+            {: 5
+            ?: 1
+            (: 9
+            :: 1
+            }: 5
+            []: 12
+            ;: 27
+            &&: 1
+            +: 3
+            ++: 10
+            -: 20
+            +=: 1
+            <: 2
+            =: 11
+            *=: 1
+            <=: 8
+            *: 2
+            TARGET_TYPE: 4
+            enum  { size23 }: 1
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 3
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            h: 13
+            a: 9
+            min: 1
+            start: 2
+            mergesort: 1
+            b: 2
+            merge: 1
+            f2: 3
+            Frama_C_bzero: 1
+            m: 7
+            i2: 5
+            x: 13
+            size: 6
+            Frama_C_copy_block: 1
+            c: 2
+            f1: 4
+            i1: 6
+            i: 7
+            FC_BUILTIN: 2
+            2: 3
+            119: 1
+            110: 1
+            24: 1
+            89: 1
+            83: 3
+            111: 1
+            123: 1
+            13: 1
+            23: 1
+            114: 1
+            103: 2
+            81: 1
+            38: 1
+            1: 8
+            25: 1
+            45: 1
+            88: 2
+            19: 1
+            44: 1
+            0: 6
+            48: 1

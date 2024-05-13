@@ -1,0 +1,86 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/binarysearch/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 172 
+          Distinct operators: 31 
+          Total_operands: 56 
+          Distinct operands: 30 
+          Program length: 228 
+          Vocabulary size: 61 
+          Program volume: 1352.21 
+          Effort: 39123.89 
+          Program level: 0.03 
+          Difficulty level: 28.93 
+          Time to implement: 2173.55 
+          Bugs delivered: 0.38 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 1
+            if: 2
+            return: 2
+            while: 1
+            ): 4
+            ,: 17
+            {: 1
+            (: 4
+            }: 1
+            []: 2
+            ;: 8
+            +: 2
+            -: 17
+            ==: 1
+            =: 2
+            <: 1
+            /: 1
+            <=: 1
+            enum  { n17 }: 1
+            TARGET_TYPE: 2
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 3
+            uint8_t: 1
+            
+          Operands
+          --------
+            l: 5
+            n: 3
+            key: 4
+            binarysearch: 1
+            Frama_C_bzero: 1
+            m: 6
+            arr: 4
+            Frama_C_copy_block: 1
+            r: 4
+            FC_BUILTIN: 2
+            94: 1
+            2: 2
+            70: 1
+            30: 1
+            64: 1
+            113: 1
+            69: 1
+            127: 1
+            41: 1
+            1: 4
+            17: 1
+            25: 1
+            36: 1
+            0: 1
+            122: 2
+            28: 1
+            48: 1
+            78: 1
+            21: 1
+            106: 1

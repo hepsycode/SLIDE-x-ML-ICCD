@@ -1,0 +1,66 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c (with preprocessing)
+[metrics] Defined functions (2)
+          =====================
+           main (0 call); shell_sort (1 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 37
+          Decision point = 5
+          Global variables = 1
+          If = 5
+          Loop = 4
+          Goto = 0
+          Assignment = 15
+          Exit point = 2
+          Function = 2
+          Function call = 1
+          Pointer dereferencing = 5
+          Cyclomatic complexity = 7
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  arr[0] ∈ {-124}
+     [1] ∈ {-63}
+     [2] ∈ {64}
+     [3] ∈ {-117}
+[value] computing for function shell_sort <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c:57.
+../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c:19:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c:25:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c:30:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c:38:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c:38:[kernel] warning: out of bounds read. assert \valid_read(arr_0+(int)((int)j-inc));
+../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c:41:[kernel] warning: out of bounds read. assert \valid_read(arr_0+(int)((int)j-inc));
+../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c:41:[kernel] warning: out of bounds write. assert \valid(arr_0+j);
+../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c:48:[kernel] warning: out of bounds write. assert \valid(arr_0+j);
+[value] Recording results for shell_sort
+[value] Done for function shell_sort
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 2 (out of 2)
+          Semantically reached functions = 2
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          37 stmts in analyzed functions, 37 stmts analyzed (100.0%)
+          main: 2 stmts out of 2 (100.0%)
+          shell_sort: 35 stmts out of 35 (100.0%)

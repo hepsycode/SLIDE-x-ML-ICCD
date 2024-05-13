@@ -1,0 +1,213 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c (with preprocessing)
+[metrics] Defined functions (3)
+          =====================
+           dijkstra (1 call); dijkstraF (1 call); main (0 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 70
+          Decision point = 15
+          Global variables = 2
+          If = 15
+          Loop = 8
+          Goto = 1
+          Assignment = 29
+          Exit point = 3
+          Function = 3
+          Function call = 2
+          Pointer dereferencing = 12
+          Cyclomatic complexity = 18
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  a[0][0] ∈ {-73}
+   [0][1] ∈ {-49}
+   [0][2] ∈ {-126}
+   [0][3] ∈ {24}
+   [0][4] ∈ {-61}
+   [0][5] ∈ {-54}
+   [0][6] ∈ {70}
+   [0][7] ∈ {-37}
+   [0][8] ∈ {-65}
+   [0][9] ∈ {5}
+   [0][10] ∈ {-106}
+   [0][11] ∈ {-64}
+   [1][0] ∈ {-8}
+   [1][1] ∈ {24}
+   [1][2] ∈ {-126}
+   [1][3] ∈ {111}
+   [1][4] ∈ {49}
+   [1][5] ∈ {-122}
+   [1][6] ∈ {73}
+   [1][7] ∈ {-10}
+   [1][8] ∈ {61}
+   [1][9] ∈ {-101}
+   [1][10] ∈ {63}
+   [1][11] ∈ {-27}
+   [2][0] ∈ {66}
+   [2][1] ∈ {-92}
+   [2][2] ∈ {30}
+   [2][3] ∈ {18}
+   [2][4] ∈ {82}
+   [2][5] ∈ {78}
+   [2][6] ∈ {-59}
+   [2][7] ∈ {100}
+   [2][8] ∈ {-37}
+   [2][9] ∈ {-121}
+   [2][10] ∈ {-106}
+   [2][11] ∈ {-39}
+   [3][0] ∈ {13}
+   [3][1] ∈ {-118}
+   [3][2] ∈ {101}
+   [3][3] ∈ {-116}
+   [3][4] ∈ {9}
+   [3][5] ∈ {-106}
+   [3][6] ∈ {21}
+   [3][7] ∈ {-113}
+   [3][8] ∈ {-112}
+   [3][9] ∈ {-108}
+   [3][10] ∈ {20}
+   [3][11] ∈ {-104}
+   [4][0] ∈ {41}
+   [4][1] ∈ {36}
+   [4][2] ∈ {-2}
+   [4][3] ∈ {-35}
+   [4][4] ∈ {-88}
+   [4][5] ∈ {-15}
+   [4][6] ∈ {64}
+   [4][7] ∈ {88}
+   [4][8] ∈ {-111}
+   [4][9] ∈ {46}
+   [4][10] ∈ {108}
+   [4][11] ∈ {67}
+   [5][0] ∈ {-113}
+   [5][1] ∈ {-94}
+   [5][2] ∈ {-122}
+   [5][3] ∈ {-53}
+   [5][4] ∈ {21}
+   [5][5] ∈ {41}
+   [5][6] ∈ {112}
+   [5][7] ∈ {-32}
+   [5][8] ∈ {-107}
+   [5][9] ∈ {-104}
+   [5][10] ∈ {75}
+   [5][11] ∈ {109}
+   [6][0] ∈ {15}
+   [6][1] ∈ {-85}
+   [6][2] ∈ {71}
+   [6][3] ∈ {-110}
+   [6][4] ∈ {5}
+   [6][5] ∈ {27}
+   [6][6] ∈ {-34}
+   [6][7] ∈ {-40}
+   [6][8] ∈ {-13}
+   [6][9] ∈ {-111}
+   [6][10] ∈ {-126}
+   [6][11] ∈ {-28}
+   [7][0] ∈ {-76}
+   [7][1] ∈ {-19}
+   [7][2] ∈ {90}
+   [7][3] ∈ {-16}
+   [7][4] ∈ {2}
+   [7][5] ∈ {19}
+   [7][6] ∈ {-72}
+   [7][7] ∈ {-95}
+   [7][8] ∈ {60}
+   [7][9] ∈ {-93}
+   [7][10] ∈ {-85}
+   [7][11] ∈ {44}
+   [8][0] ∈ {73}
+   [8][1] ∈ {-103}
+   [8][2] ∈ {-12}
+   [8][3] ∈ {55}
+   [8][4] ∈ {-75}
+   [8][5] ∈ {33}
+   [8][6] ∈ {17}
+   [8][7] ∈ {58}
+   [8][8] ∈ {101}
+   [8][9] ∈ {-2}
+   [8][10] ∈ {62}
+   [8][11] ∈ {52}
+   [9][0] ∈ {-9}
+   [9][1] ∈ {18}
+   [9][2] ∈ {-48}
+   [9][3] ∈ {107}
+   [9][4] ∈ {26}
+   [9][5] ∈ {-91}
+   [9][6] ∈ {-59}
+   [9][7] ∈ {68}
+   [9][8] ∈ {95}
+   [9][9] ∈ {-125}
+   [9][10] ∈ {92}
+   [9][11] ∈ {-56}
+   [10][0] ∈ {80}
+   [10][1] ∈ {-92}
+   [10][2] ∈ {-116}
+   [10][3] ∈ {-42}
+   [10][4] ∈ {65}
+   [10][5] ∈ {85}
+   [10][6] ∈ {-107}
+   [10][7] ∈ {69}
+   [10][8] ∈ {-106}
+   [10][9] ∈ {-62}
+   [10][10] ∈ {52}
+   [10][11] ∈ {33}
+   [11][0] ∈ {-111}
+   [11][1] ∈ {71}
+   [11][2] ∈ {57}
+   [11][3] ∈ {117}
+   [11][4] ∈ {39}
+   [11][5] ∈ {-56}
+   [11][6] ∈ {-7}
+   [11][7] ∈ {-95}
+   [11][8] ∈ {113}
+   [11][9] ∈ {10}
+   [11][10] ∈ {-44}
+   [11][11] ∈ {-62}
+  dist[0..11] ∈ {0}
+[value] computing for function dijkstra <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c:92.
+[value] computing for function dijkstraF <- dijkstra <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c:87.
+../../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c:15:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c:20:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c:22:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c:37:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c:43:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c:46:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c:54:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c:46:[kernel] warning: accessing out of bounds index [0..12]. assert i < size;
+../../../../../../../cc4cs_bambu/benchmarkBasic/dijkstra/thrd.c:71:[value] entering loop for the first time
+[value] Recording results for dijkstraF
+[value] Done for function dijkstraF
+[value] Recording results for dijkstra
+[value] Done for function dijkstra
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 3 (out of 3)
+          Semantically reached functions = 3
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          70 stmts in analyzed functions, 66 stmts analyzed (94.3%)
+          dijkstraF: 64 stmts out of 66 (97.0%)
+          main: 1 stmts out of 2 (50.0%)
+          dijkstra: 1 stmts out of 2 (50.0%)

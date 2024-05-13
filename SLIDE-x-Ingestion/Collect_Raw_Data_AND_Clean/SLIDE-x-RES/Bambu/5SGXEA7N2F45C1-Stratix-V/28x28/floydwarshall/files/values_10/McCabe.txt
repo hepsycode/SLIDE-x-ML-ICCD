@@ -1,0 +1,231 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c (with preprocessing)
+[metrics] Defined functions (2)
+          =====================
+           floydwarshall (1 call); main (0 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 23
+          Decision point = 4
+          Global variables = 1
+          If = 4
+          Loop = 3
+          Goto = 0
+          Assignment = 7
+          Exit point = 2
+          Function = 2
+          Function call = 1
+          Pointer dereferencing = 6
+          Cyclomatic complexity = 6
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  a[0][0] ∈ {123}
+   [0][1] ∈ {117}
+   [0][2] ∈ {116}
+   [0][3] ∈ {37}
+   [0][4] ∈ {79}
+   [0][5] ∈ {4}
+   [0][6] ∈ {74}
+   [0][7] ∈ {78}
+   [0][8] ∈ {100}
+   [0][9] ∈ {67}
+   [0][10] ∈ {81}
+   [0][11] ∈ {114}
+   [0][12] ∈ {71}
+   [1][0] ∈ {118}
+   [1][1] ∈ {124}
+   [1][2] ∈ {106}
+   [1][3] ∈ {64}
+   [1][4] ∈ {23}
+   [1][5] ∈ {14}
+   [1][6] ∈ {122}
+   [1][7] ∈ {121}
+   [1][8] ∈ {108}
+   [1][9] ∈ {125}
+   [1][10] ∈ {27}
+   [1][11] ∈ {109}
+   [1][12] ∈ {97}
+   [2][0] ∈ {41}
+   [2][1] ∈ {119}
+   [2][2] ∈ {62}
+   [2][3] ∈ {105}
+   [2][4] ∈ {38}
+   [2][5] ∈ {28}
+   [2][6] ∈ {9}
+   [2][7] ∈ {87}
+   [2][8] ∈ {103}
+   [2][9] ∈ {25}
+   [2][10] ∈ {39}
+   [2][11] ∈ {91}
+   [2][12] ∈ {70}
+   [3][0] ∈ {83}
+   [3][1] ∈ {21}
+   [3][2] ∈ {65}
+   [3][3] ∈ {45}
+   [3][4] ∈ {66}
+   [3][5] ∈ {50}
+   [3][6] ∈ {119}
+   [3][7] ∈ {50}
+   [3][8] ∈ {96}
+   [3][9] ∈ {91}
+   [3][10] ∈ {92}
+   [3][11] ∈ {32}
+   [3][12] ∈ {108}
+   [4][0] ∈ {83}
+   [4][1] ∈ {101}
+   [4][2] ∈ {113}
+   [4][3] ∈ {71}
+   [4][4] ∈ {58}
+   [4][5] ∈ {96}
+   [4][6] ∈ {87}
+   [4][7] ∈ {35}
+   [4][8] ∈ {23}
+   [4][9] ∈ {119}
+   [4][10] ∈ {98}
+   [4][11] ∈ {70}
+   [4][12] ∈ {125}
+   [5][0] ∈ {67}
+   [5][1] ∈ {20}
+   [5][2] ∈ {125}
+   [5][3] ∈ {67}
+   [5][4] ∈ {39}
+   [5][5] ∈ {38}
+   [5][6] ∈ {34}
+   [5][7] ∈ {121}
+   [5][8] ∈ {126}
+   [5][9] ∈ {92}
+   [5][10] ∈ {5}
+   [5][11] ∈ {65}
+   [5][12] ∈ {61}
+   [6][0] ∈ {92}
+   [6][1] ∈ {43}
+   [6][2] ∈ {115}
+   [6][3] ∈ {12}
+   [6][4] ∈ {37}
+   [6][5] ∈ {124}
+   [6][6] ∈ {80}
+   [6][7] ∈ {12}
+   [6][8] ∈ {50}
+   [6][9] ∈ {94}
+   [6][10] ∈ {7}
+   [6][11] ∈ {2}
+   [6][12] ∈ {114}
+   [7][0] ∈ {63}
+   [7][1] ∈ {3}
+   [7][2] ∈ {111}
+   [7][3] ∈ {74}
+   [7][4] ∈ {13}
+   [7][5] ∈ {120}
+   [7][6] ∈ {1}
+   [7][7] ∈ {48}
+   [7][8] ∈ {43}
+   [7][9] ∈ {65}
+   [7][10] ∈ {52}
+   [7][11] ∈ {67}
+   [7][12] ∈ {81}
+   [8][0] ∈ {127}
+   [8][1] ∈ {30}
+   [8][2] ∈ {125}
+   [8][3] ∈ {46}
+   [8][4] ∈ {86}
+   [8][5] ∈ {71}
+   [8][6] ∈ {120}
+   [8][7] ∈ {72}
+   [8][8] ∈ {4}
+   [8][9] ∈ {94}
+   [8][10] ∈ {67}
+   [8][11] ∈ {22}
+   [8][12] ∈ {76}
+   [9][0] ∈ {13}
+   [9][1] ∈ {93}
+   [9][2] ∈ {87}
+   [9][3] ∈ {81}
+   [9][4] ∈ {18}
+   [9][5] ∈ {103}
+   [9][6] ∈ {123}
+   [9][7] ∈ {66}
+   [9][8] ∈ {64}
+   [9][9] ∈ {16}
+   [9][10] ∈ {65}
+   [9][11] ∈ {25}
+   [9][12] ∈ {101}
+   [10][0] ∈ {76}
+   [10][1] ∈ {88}
+   [10][2] ∈ {36}
+   [10][3] ∈ {32}
+   [10][4] ∈ {8}
+   [10][5] ∈ {78}
+   [10][6] ∈ {58}
+   [10][7] ∈ {4}
+   [10][8] ∈ {59}
+   [10][9] ∈ {34}
+   [10][10] ∈ {66}
+   [10][11] ∈ {22}
+   [10][12] ∈ {57}
+   [11][0] ∈ {102}
+   [11][1] ∈ {25}
+   [11][2] ∈ {56}
+   [11][3] ∈ {58}
+   [11][4] ∈ {127}
+   [11][5] ∈ {4}
+   [11][6] ∈ {86}
+   [11][7] ∈ {119}
+   [11][8] ∈ {64}
+   [11][9..10] ∈ {18}
+   [11][11] ∈ {52}
+   [11][12] ∈ {1}
+   [12][0] ∈ {41}
+   [12][1] ∈ {100}
+   [12][2] ∈ {53}
+   [12][3] ∈ {2}
+   [12][4] ∈ {100}
+   [12][5] ∈ {111}
+   [12][6] ∈ {36}
+   [12][7] ∈ {71}
+   [12][8] ∈ {37}
+   [12][9] ∈ {84}
+   [12][10] ∈ {112}
+   [12][11] ∈ {55}
+   [12][12] ∈ {67}
+[value] computing for function floydwarshall <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:46.
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:24:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:28:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:32:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:36:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+i))[h]);
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:36:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+h))[j]);
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:36:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+i))[j]);
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:37:[kernel] warning: out of bounds write. assert \valid(&(*(a_0+i))[j]);
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:37:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+i))[h]);
+../../../../../../../cc4cs_bambu/benchmarkBasic/floydwarshall/thrd.c:37:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+h))[j]);
+[value] Recording results for floydwarshall
+[value] Done for function floydwarshall
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 2 (out of 2)
+          Semantically reached functions = 2
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          23 stmts in analyzed functions, 23 stmts analyzed (100.0%)
+          main: 2 stmts out of 2 (100.0%)
+          floydwarshall: 21 stmts out of 21 (100.0%)

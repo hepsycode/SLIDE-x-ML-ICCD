@@ -1,0 +1,85 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/selectionsort/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 175 
+          Distinct operators: 28 
+          Total_operands: 65 
+          Distinct operands: 32 
+          Program length: 240 
+          Vocabulary size: 60 
+          Program volume: 1417.65 
+          Effort: 40314.53 
+          Program level: 0.04 
+          Difficulty level: 28.44 
+          Time to implement: 2239.70 
+          Bugs delivered: 0.39 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 1
+            if: 1
+            for: 2
+            ): 3
+            ,: 21
+            {: 1
+            (: 3
+            }: 1
+            []: 6
+            ;: 13
+            +: 1
+            ++: 2
+            -: 8
+            <: 3
+            =: 7
+            enum  { size19 }: 1
+            TARGET_TYPE: 1
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            a: 8
+            selectionsort: 1
+            temp: 3
+            Frama_C_bzero: 1
+            min_idx: 6
+            j: 6
+            size: 4
+            Frama_C_copy_block: 1
+            i: 8
+            FC_BUILTIN: 2
+            11: 1
+            99: 1
+            119: 1
+            53: 1
+            70: 1
+            12: 1
+            117: 1
+            1: 2
+            63: 1
+            38: 1
+            100: 1
+            40: 1
+            58: 1
+            19: 1
+            0: 3
+            122: 1
+            93: 1
+            68: 1
+            108: 1
+            55: 1
+            46: 1
+            60: 1

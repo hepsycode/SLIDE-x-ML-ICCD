@@ -1,0 +1,82 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/shell_sort/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 187 
+          Distinct operators: 35 
+          Total_operands: 62 
+          Distinct operands: 22 
+          Program length: 249 
+          Vocabulary size: 57 
+          Program volume: 1452.39 
+          Effort: 71629.22 
+          Program level: 0.02 
+          Difficulty level: 49.32 
+          Time to implement: 3979.40 
+          Bugs delivered: 0.57 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 1
+            break: 1
+            if: 1
+            for: 1
+            while: 3
+            do: 2
+            ): 5
+            ,: 10
+            {: 4
+            (: 5
+            }: 4
+            []: 5
+            ;: 19
+            ++: 3
+            -: 7
+            /=: 1
+            <: 2
+            =: 5
+            *=: 1
+            <=: 1
+            -=: 1
+            >: 2
+            TARGET_TYPE: 1
+            enum  { size9 }: 1
+            short: 4
+            long: 16
+            int: 11
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            shell_sort: 1
+            Frama_C_bzero: 1
+            inc: 11
+            v: 4
+            arr: 7
+            j: 8
+            size: 4
+            Frama_C_copy_block: 1
+            i: 6
+            FC_BUILTIN: 2
+            11: 1
+            119: 1
+            12: 1
+            114: 1
+            1: 2
+            3: 3
+            36: 1
+            121: 1
+            9: 1
+            0: 3
+            120: 1
+            46: 1

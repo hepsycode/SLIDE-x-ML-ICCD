@@ -1,0 +1,504 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c (with preprocessing)
+[metrics] Defined functions (10)
+          ======================
+           absolute (2 calls); astar (1 call); astarF (1 call); heuristic (1 call);
+           init_camefrom (1 call); insert (2 calls); main (0 call);
+           make_oriented (1 call); remove_min (1 call); set_estimates (1 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (3)
+          =============================
+           __FC_errno; __fc_stdin; __fc_stdout
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 103
+          Decision point = 19
+          Global variables = 13
+          If = 19
+          Loop = 7
+          Goto = 3
+          Assignment = 36
+          Exit point = 10
+          Function = 10
+          Function call = 11
+          Pointer dereferencing = 9
+          Cyclomatic complexity = 29
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  a[0][0] ∈ {-12}
+   [0][1] ∈ {21}
+   [0][2] ∈ {-62}
+   [0][3] ∈ {-8}
+   [0][4] ∈ {21}
+   [0][5] ∈ {0}
+   [0][6] ∈ {-50}
+   [0][7] ∈ {94}
+   [0][8] ∈ {110}
+   [0][9] ∈ {54}
+   [0][10] ∈ {29}
+   [0][11] ∈ {56}
+   [0][12] ∈ {71}
+   [1][0] ∈ {-50}
+   [1][1] ∈ {-128}
+   [1][2] ∈ {89}
+   [1][3] ∈ {-37}
+   [1][4] ∈ {-114}
+   [1][5] ∈ {-81}
+   [1][6] ∈ {-48}
+   [1][7] ∈ {-103}
+   [1][8] ∈ {74}
+   [1][9] ∈ {-72}
+   [1][10] ∈ {26}
+   [1][11] ∈ {-78}
+   [1][12] ∈ {-49}
+   [2][0] ∈ {1}
+   [2][1] ∈ {14}
+   [2][2] ∈ {49}
+   [2][3] ∈ {-23}
+   [2][4] ∈ {-88}
+   [2][5] ∈ {-120}
+   [2][6] ∈ {110}
+   [2][7] ∈ {-92}
+   [2][8] ∈ {-125}
+   [2][9] ∈ {-87}
+   [2][10] ∈ {123}
+   [2][11] ∈ {-112}
+   [2][12] ∈ {16}
+   [3][0] ∈ {73}
+   [3][1] ∈ {69}
+   [3][2] ∈ {44}
+   [3][3] ∈ {-124}
+   [3][4] ∈ {-87}
+   [3][5] ∈ {109}
+   [3][6] ∈ {29}
+   [3][7] ∈ {90}
+   [3][8] ∈ {122}
+   [3][9] ∈ {80}
+   [3][10] ∈ {95}
+   [3][11] ∈ {90}
+   [3][12] ∈ {-127}
+   [4][0] ∈ {61}
+   [4][1] ∈ {95}
+   [4][2] ∈ {-65}
+   [4][3] ∈ {44}
+   [4][4] ∈ {-118}
+   [4][5] ∈ {-90}
+   [4][6] ∈ {111}
+   [4][7] ∈ {117}
+   [4][8] ∈ {57}
+   [4][9] ∈ {112}
+   [4][10] ∈ {-48}
+   [4][11] ∈ {-80}
+   [4][12] ∈ {-101}
+   [5][0] ∈ {-81}
+   [5][1] ∈ {-13}
+   [5][2] ∈ {110}
+   [5][3] ∈ {-60}
+   [5][4] ∈ {-93}
+   [5][5] ∈ {75}
+   [5][6] ∈ {63}
+   [5][7] ∈ {117}
+   [5][8] ∈ {-63}
+   [5][9] ∈ {-114}
+   [5][10] ∈ {109}
+   [5][11] ∈ {-36}
+   [5][12] ∈ {-62}
+   [6][0] ∈ {26}
+   [6][1] ∈ {34}
+   [6][2] ∈ {89}
+   [6][3] ∈ {39}
+   [6][4] ∈ {116}
+   [6][5] ∈ {19}
+   [6][6] ∈ {-108}
+   [6][7] ∈ {28}
+   [6][8] ∈ {-65}
+   [6][9] ∈ {66}
+   [6][10] ∈ {32}
+   [6][11] ∈ {-112}
+   [6][12] ∈ {-70}
+   [7][0] ∈ {88}
+   [7][1] ∈ {82}
+   [7][2] ∈ {-60}
+   [7][3] ∈ {43}
+   [7][4] ∈ {101}
+   [7][5] ∈ {-68}
+   [7][6] ∈ {-16}
+   [7][7] ∈ {45}
+   [7][8] ∈ {71}
+   [7][9] ∈ {-52}
+   [7][10] ∈ {-56}
+   [7][11] ∈ {83}
+   [7][12] ∈ {-38}
+   [8][0] ∈ {-96}
+   [8][1] ∈ {73}
+   [8][2] ∈ {4}
+   [8][3] ∈ {-108}
+   [8][4] ∈ {50}
+   [8][5] ∈ {47}
+   [8][6] ∈ {17}
+   [8][7] ∈ {42}
+   [8][8] ∈ {-39}
+   [8][9] ∈ {-100}
+   [8][10] ∈ {-48}
+   [8][11] ∈ {-35}
+   [8][12] ∈ {19}
+   [9][0] ∈ {66}
+   [9][1] ∈ {46}
+   [9][2] ∈ {110}
+   [9][3] ∈ {4}
+   [9][4] ∈ {50}
+   [9][5] ∈ {47}
+   [9][6] ∈ {-58}
+   [9][7] ∈ {17}
+   [9][8] ∈ {16}
+   [9][9] ∈ {54}
+   [9][10] ∈ {7}
+   [9][11] ∈ {16}
+   [9][12] ∈ {-25}
+   [10][0] ∈ {-108}
+   [10][1] ∈ {-103}
+   [10][2] ∈ {99}
+   [10][3] ∈ {-67}
+   [10][4] ∈ {11}
+   [10][5] ∈ {-22}
+   [10][6] ∈ {-31}
+   [10][7] ∈ {33}
+   [10][8] ∈ {88}
+   [10][9] ∈ {34}
+   [10][10] ∈ {2}
+   [10][11] ∈ {23}
+   [10][12] ∈ {-51}
+   [11][0] ∈ {17}
+   [11][1] ∈ {-18}
+   [11][2] ∈ {63}
+   [11][3] ∈ {-94}
+   [11][4] ∈ {-14}
+   [11][5] ∈ {55}
+   [11][6] ∈ {-123}
+   [11][7] ∈ {19}
+   [11][8] ∈ {-118}
+   [11][9] ∈ {127}
+   [11][10] ∈ {-115}
+   [11][11] ∈ {-42}
+   [11][12] ∈ {88}
+   [12][0] ∈ {-9}
+   [12][1] ∈ {19}
+   [12][2] ∈ {77}
+   [12][3] ∈ {13}
+   [12][4] ∈ {-111}
+   [12][5] ∈ {-53}
+   [12][6] ∈ {-18}
+   [12][7] ∈ {-15}
+   [12][8] ∈ {26}
+   [12][9] ∈ {-64}
+   [12][10] ∈ {-101}
+   [12][11] ∈ {-10}
+   [12][12] ∈ {-101}
+  __FC_errno ∈ [--..--]
+  __fc_stdin ∈ {{ NULL ; &S___fc_stdin[0] }}
+  __fc_stdout ∈ {{ NULL ; &S___fc_stdout[0] }}
+  __fc_fopen[0..511] ∈ {0}
+  __p_fc_fopen ∈ {{ &__fc_fopen[0] }}
+  frontier[0..12] ∈ {0}
+  frontier_size ∈ {0}
+  came_from[0..12] ∈ {0}
+  current ∈ {0}
+  priority ∈ {0}
+  i ∈ {0}
+  j ∈ {0}
+  S___fc_stdin[0]{.__fc_stdio_id; .__fc_position; .__fc_error; .__fc_eof} ∈
+              [--..--]
+              [0].[bits 80 to 95] ∈ UNINITIALIZED
+              [0].__fc_flags ∈ [--..--]
+              [0].__fc_inode ∈ {{ NULL ; &S___fc_inode_0_S___fc_stdin[0] }}
+              [0].__fc_real_data ∈
+              {{ NULL ; &S___fc_real_data_0_S___fc_stdin[0] }}
+              {[0].__fc_real_data_max_size; [1]{.__fc_stdio_id; .__fc_position; .__fc_error; .__fc_eof}} ∈
+              [--..--]
+              [1].[bits 80 to 95] ∈ UNINITIALIZED
+              [1].__fc_flags ∈ [--..--]
+              [1].__fc_inode ∈ {{ NULL ; &S___fc_inode_1_S___fc_stdin[0] }}
+              [1].__fc_real_data ∈
+              {{ NULL ; &S___fc_real_data_1_S___fc_stdin[0] }}
+              [1].__fc_real_data_max_size ∈ [--..--]
+  S___fc_inode_0_S___fc_stdin[0..1] ∈ [--..--]
+  S___fc_real_data_0_S___fc_stdin[0..1] ∈ [--..--]
+  S___fc_inode_1_S___fc_stdin[0..1] ∈ [--..--]
+  S___fc_real_data_1_S___fc_stdin[0..1] ∈ [--..--]
+  S___fc_stdout[0]{.__fc_stdio_id; .__fc_position; .__fc_error; .__fc_eof} ∈
+               [--..--]
+               [0].[bits 80 to 95] ∈ UNINITIALIZED
+               [0].__fc_flags ∈ [--..--]
+               [0].__fc_inode ∈
+               {{ NULL ; &S___fc_inode_0_S___fc_stdout[0] }}
+               [0].__fc_real_data ∈
+               {{ NULL ; &S___fc_real_data_0_S___fc_stdout[0] }}
+               {[0].__fc_real_data_max_size; [1]{.__fc_stdio_id; .__fc_position; .__fc_error; .__fc_eof}} ∈
+               [--..--]
+               [1].[bits 80 to 95] ∈ UNINITIALIZED
+               [1].__fc_flags ∈ [--..--]
+               [1].__fc_inode ∈
+               {{ NULL ; &S___fc_inode_1_S___fc_stdout[0] }}
+               [1].__fc_real_data ∈
+               {{ NULL ; &S___fc_real_data_1_S___fc_stdout[0] }}
+               [1].__fc_real_data_max_size ∈ [--..--]
+  S___fc_inode_0_S___fc_stdout[0..1] ∈ [--..--]
+  S___fc_real_data_0_S___fc_stdout[0..1] ∈ [--..--]
+  S___fc_inode_1_S___fc_stdout[0..1] ∈ [--..--]
+  S___fc_real_data_1_S___fc_stdout[0..1] ∈ [--..--]
+[value] computing for function make_oriented <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:202.
+../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:69:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:78:[value] entering loop for the first time
+[value] Recording results for make_oriented
+[value] Done for function make_oriented
+[value] computing for function astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:203.
+[value] computing for function astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:197.
+[value] computing for function set_estimates <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:166.
+../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:136:[value] entering loop for the first time
+[value] Recording results for set_estimates
+[value] Done for function set_estimates
+[value] computing for function init_camefrom <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:167.
+../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:102:[value] entering loop for the first time
+[value] Recording results for init_camefrom
+[value] Done for function init_camefrom
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:168.
+[value] Recording results for insert
+[value] Done for function insert
+../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:171:[value] entering loop for the first time
+[value] computing for function remove_min <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:173.
+../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:118:[value] entering loop for the first time
+[value] Recording results for remove_min
+[value] Done for function remove_min
+../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:178:[value] entering loop for the first time
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] computing for function remove_min <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:173.
+[value] Recording results for remove_min
+[value] Done for function remove_min
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] computing for function remove_min <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:173.
+[value] Recording results for remove_min
+[value] Done for function remove_min
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] computing for function remove_min <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:173.
+[value] Recording results for remove_min
+[value] Done for function remove_min
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] Recording results for astarF
+[value] Done for function astarF
+[value] Recording results for astar
+[value] Done for function astar
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 10 (out of 10)
+          Semantically reached functions = 10
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          103 stmts in analyzed functions, 103 stmts analyzed (100.0%)
+          main: 3 stmts out of 3 (100.0%)
+          astar: 2 stmts out of 2 (100.0%)
+          astarF: 26 stmts out of 26 (100.0%)
+          heuristic: 8 stmts out of 8 (100.0%)
+          absolute: 5 stmts out of 5 (100.0%)
+          set_estimates: 10 stmts out of 10 (100.0%)
+          remove_min: 14 stmts out of 14 (100.0%)
+          insert: 3 stmts out of 3 (100.0%)
+          init_camefrom: 7 stmts out of 7 (100.0%)
+          make_oriented: 25 stmts out of 25 (100.0%)

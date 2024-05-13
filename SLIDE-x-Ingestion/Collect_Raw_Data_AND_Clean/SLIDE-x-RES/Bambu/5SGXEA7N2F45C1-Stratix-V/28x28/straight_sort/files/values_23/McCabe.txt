@@ -1,0 +1,77 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/straight_sort/thrd.c (with preprocessing)
+[metrics] Defined functions (2)
+          =====================
+           main (0 call); straight_sort (1 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 20
+          Decision point = 3
+          Global variables = 1
+          If = 3
+          Loop = 2
+          Goto = 0
+          Assignment = 7
+          Exit point = 2
+          Function = 2
+          Function call = 1
+          Pointer dereferencing = 5
+          Cyclomatic complexity = 5
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  arr[0] ∈ {67}
+     [1] ∈ {17}
+     [2] ∈ {24}
+     [3] ∈ {46}
+     [4] ∈ {47}
+     [5] ∈ {57}
+     [6] ∈ {89}
+     [7] ∈ {110}
+     [8] ∈ {56}
+     [9] ∈ {57}
+     [10] ∈ {5}
+     [11] ∈ {11}
+     [12] ∈ {16}
+     [13] ∈ {44}
+     [14] ∈ {82}
+     [15] ∈ {53}
+     [16] ∈ {61}
+     [17] ∈ {36}
+     [18] ∈ {28}
+     [19] ∈ {13}
+[value] computing for function straight_sort <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/straight_sort/thrd.c:38.
+../../../../../../../cc4cs_bambu/benchmarkBasic/straight_sort/thrd.c:15:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/straight_sort/thrd.c:22:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/straight_sort/thrd.c:23:[kernel] warning: out of bounds read. assert \valid_read(arr_0+i);
+[value] Recording results for straight_sort
+[value] Done for function straight_sort
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 2 (out of 2)
+          Semantically reached functions = 2
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          20 stmts in analyzed functions, 13 stmts analyzed (65.0%)
+          straight_sort: 12 stmts out of 18 (66.7%)
+          main: 1 stmts out of 2 (50.0%)

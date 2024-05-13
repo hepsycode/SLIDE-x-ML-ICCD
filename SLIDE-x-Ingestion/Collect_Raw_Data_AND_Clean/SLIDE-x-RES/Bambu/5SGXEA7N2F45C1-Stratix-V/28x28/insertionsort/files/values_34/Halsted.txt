@@ -1,0 +1,200 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/insertionsort/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 386 
+          Distinct operators: 53 
+          Total_operands: 148 
+          Distinct operands: 111 
+          Program length: 534 
+          Vocabulary size: 164 
+          Program volume: 3928.93 
+          Effort: 138822.29 
+          Program level: 0.03 
+          Difficulty level: 35.33 
+          Time to implement: 7712.35 
+          Bugs delivered: 0.89 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 47
+            array: 3
+            for: 1
+            while: 1
+            extern: 6
+            ): 2
+            ,: 28
+            {: 2
+            (: 2
+            *: 16
+            }: 2
+            []: 5
+            ;: 13
+            +: 2
+            &&: 1
+            ++: 1
+            -: 14
+            <: 2
+            =: 6
+            >=: 1
+            blkcnt_t: 1
+            FILE: 9
+            fpos_t: 1
+            signed: 15
+            TARGET_INDEX: 1
+            void: 9
+            time_t: 3
+            unsigned: 38
+            int8_t: 2
+            off_t: 1
+            struct __fc_pos_t { unsigned long __fc_stdio_position; }: 1
+            mode_t: 1
+            nlink_t: 1
+            struct __fc_FILE {
+              unsigned int __fc_stdio_id; fpos_t __fc_position; char __fc_error; 
+              char __fc_eof; int __fc_flags; struct stat *__fc_inode; unsigned char
+              *__fc_real_data; int __fc_real_data_max_size; }: 1
+            TARGET_TYPE: 1
+            gid_t: 1
+            struct statfs {
+              unsigned int f_type; unsigned int f_bsize; unsigned int f_blocks;
+              unsigned int f_bfree; unsigned int f_bavail; unsigned int f_files;
+              unsigned int f_ffree; unsigned int f_fsid; unsigned int f_namelen;
+              unsigned int f_frsize; unsigned int f_flags; unsigned int f_spare[4]; }: 1
+            __builtin_va_list: 1
+            short: 4
+            blksize_t: 1
+            ino_t: 1
+            struct stat {
+              dev_t st_dev; ino_t st_ino; mode_t st_mode; nlink_t st_nlink; uid_t
+              st_uid; gid_t st_gid; dev_t st_rdev; off_t st_size; time_t st_atime;
+              time_t st_mtime; time_t st_ctime; blksize_t st_blksize; blkcnt_t
+              st_blocks; }: 1
+            struct __fc_FILE: 1
+            dev_t: 2
+            long: 22
+            int: 87
+            size_t: 4
+            struct __fc_pos_t: 1
+            uid_t: 1
+            char: 15
+            uint8_t: 1
+            enum  { size28 }: 1
+            struct stat: 1
+            
+          Operands
+          --------
+            a: 7
+            getchar_unlocked: 1
+            sprintf: 1
+            fgets_unlocked: 1
+            feof_unlocked: 1
+            __fc_stderr: 1
+            ftell: 1
+            fgetpos: 1
+            putchar: 1
+            gets: 1
+            freopen: 1
+            fsetpos: 1
+            vfscanf: 1
+            funlockfile: 1
+            fileno: 1
+            vsprintf: 1
+            fwrite_unlocked: 1
+            fputs: 1
+            scanf: 1
+            FC_BUILTIN: 2
+            putc_unlocked: 1
+            tmpnam: 1
+            fscanf: 1
+            ferror_unlocked: 1
+            perror: 1
+            fgetc_unlocked: 1
+            fflush_unlocked: 1
+            clearerr: 1
+            __p_fc_fopen: 1
+            __fc_stdin: 1
+            temp: 4
+            putc: 1
+            clearerr_unlocked: 1
+            rename: 1
+            __fc_stdout: 1
+            flockfile: 1
+            fwrite: 1
+            vfprintf: 1
+            fdopen: 1
+            ferror: 1
+            fread: 1
+            fgetc: 1
+            printf: 1
+            tmpfile: 1
+            getc: 1
+            fclose: 1
+            vscanf: 1
+            getchar: 1
+            sscanf: 1
+            putchar_unlocked: 1
+            ftrylockfile: 1
+            fputc: 1
+            fgets: 1
+            vprintf: 1
+            feof: 1
+            program_invocation_name: 1
+            __FC_errno: 1
+            fputc_unlocked: 1
+            j: 9
+            fileno_unlocked: 1
+            insertionsort: 1
+            snprintf: 1
+            program_invocation_short_name: 1
+            fread_unlocked: 1
+            fprintf: 1
+            vsscanf: 1
+            getc_unlocked: 1
+            ungetc: 1
+            vsnprintf: 1
+            Frama_C_bzero: 1
+            fseek: 1
+            puts: 1
+            rewind: 1
+            setvbuf: 1
+            __fc_fopen: 2
+            remove: 1
+            size: 3
+            Frama_C_copy_block: 1
+            fputs_unlocked: 1
+            fopen: 1
+            fflush: 1
+            i: 6
+            setbuf: 1
+            51: 1
+            118: 1
+            119: 1
+            75: 1
+            62: 1
+            20: 1
+            83: 2
+            32: 1
+            113: 1
+            59: 2
+            115: 1
+            76: 2
+            23: 1
+            67: 1
+            109: 1
+            1: 6
+            40: 1
+            4: 1
+            25: 1
+            58: 1
+            14: 1
+            16: 1
+            19: 1
+            0: 3
+            28: 1
+            18: 1
+            512: 1
+            60: 2

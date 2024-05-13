@@ -1,0 +1,434 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c (with preprocessing)
+[metrics] Defined functions (9)
+          =====================
+           bfsdfs (1 call); bfsdfsF (1 call); clean_input (1 call);
+           clean_inputF (1 call); depth_first_search (1 call);
+           depth_first_searchF (1 call); dequeue (1 call); enqueue (2 calls);
+           main (0 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 74
+          Decision point = 12
+          Global variables = 6
+          If = 12
+          Loop = 5
+          Goto = 0
+          Assignment = 27
+          Exit point = 9
+          Function = 9
+          Function call = 9
+          Pointer dereferencing = 13
+          Cyclomatic complexity = 21
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  a[0][0] ∈ {55}
+   [0][1..2] ∈ {67}
+   [0][3] ∈ {94}
+   [0][4] ∈ {41}
+   [0][5] ∈ {17}
+   [0][6] ∈ {57}
+   [0][7] ∈ {78}
+   [0][8] ∈ {118}
+   [0][9] ∈ {32}
+   [0][10] ∈ {10}
+   [0][11] ∈ {124}
+   [0][12] ∈ {50}
+   [0][13] ∈ {22}
+   [0][14] ∈ {120}
+   {[0][15]; [1][0]} ∈ {62}
+   [1][1] ∈ {83}
+   [1][2] ∈ {16}
+   [1][3] ∈ {74}
+   [1][4] ∈ {125}
+   [1][5] ∈ {3}
+   [1][6] ∈ {20}
+   [1][7] ∈ {52}
+   [1][8] ∈ {7}
+   [1][9] ∈ {68}
+   [1][10] ∈ {40}
+   [1][11] ∈ {104}
+   [1][12] ∈ {73}
+   [1][13] ∈ {86}
+   [1][14] ∈ {63}
+   [1][15] ∈ {61}
+   [2][0] ∈ {64}
+   [2][1] ∈ {105}
+   [2][2] ∈ {12}
+   [2][3] ∈ {91}
+   [2][4] ∈ {64}
+   [2][5] ∈ {25}
+   [2][6] ∈ {127}
+   [2][7] ∈ {102}
+   [2][8] ∈ {123}
+   [2][9] ∈ {64}
+   [2][10] ∈ {102}
+   [2][11] ∈ {50}
+   [2][12] ∈ {5}
+   [2][13] ∈ {10}
+   [2][14] ∈ {31}
+   [2][15] ∈ {13}
+   [3][0] ∈ {8}
+   [3][1] ∈ {7}
+   [3][2] ∈ {98}
+   [3][3] ∈ {70}
+   [3][4] ∈ {63}
+   [3][5] ∈ {87}
+   [3][6] ∈ {47}
+   [3][7] ∈ {22}
+   [3][8..9] ∈ {117}
+   [3][10] ∈ {66}
+   [3][11] ∈ {109}
+   [3][12] ∈ {119}
+   [3][13] ∈ {109}
+   [3][14] ∈ {108}
+   [3][15] ∈ {30}
+   [4][0] ∈ {93}
+   [4][1] ∈ {39}
+   [4][2] ∈ {49}
+   [4][3] ∈ {47}
+   [4][4] ∈ {83}
+   [4][5] ∈ {15}
+   [4][6] ∈ {125}
+   [4][7] ∈ {2}
+   [4][8] ∈ {102}
+   [4][9] ∈ {48}
+   [4][10] ∈ {94}
+   [4][11] ∈ {44}
+   [4][12] ∈ {46}
+   [4][13] ∈ {106}
+   [4][14] ∈ {29}
+   [4][15] ∈ {85}
+   [5][0] ∈ {107}
+   [5][1] ∈ {7}
+   [5][2] ∈ {95}
+   [5][3] ∈ {87}
+   [5][4] ∈ {115}
+   [5][5] ∈ {103}
+   [5][6] ∈ {78}
+   [5][7] ∈ {30}
+   [5][8] ∈ {102}
+   [5][9] ∈ {84}
+   [5][10] ∈ {9}
+   [5][11] ∈ {90}
+   [5][12] ∈ {120}
+   [5][13] ∈ {84}
+   [5][14] ∈ {77}
+   [5][15] ∈ {85}
+   [6][0] ∈ {106}
+   [6][1] ∈ {4}
+   [6][2] ∈ {116}
+   [6][3] ∈ {25}
+   [6][4] ∈ {106}
+   [6][5] ∈ {127}
+   [6][6] ∈ {78}
+   [6][7] ∈ {74}
+   [6][8] ∈ {73}
+   [6][9] ∈ {26}
+   [6][10] ∈ {87}
+   [6][11] ∈ {90}
+   [6][12] ∈ {42}
+   [6][13] ∈ {93}
+   [6][14] ∈ {96}
+   [6][15] ∈ {37}
+   [7][0] ∈ {94}
+   [7][1] ∈ {73}
+   [7][2] ∈ {115}
+   [7][3] ∈ {39}
+   [7][4] ∈ {60}
+   [7][5] ∈ {37}
+   [7][6] ∈ {124}
+   [7][7] ∈ {95}
+   [7][8] ∈ {111}
+   [7][9] ∈ {77}
+   [7][10] ∈ {18}
+   [7][11] ∈ {25}
+   [7][12] ∈ {90}
+   [7][13] ∈ {107}
+   [7][14] ∈ {92}
+   [7][15] ∈ {41}
+   [8][0] ∈ {95}
+   [8][1] ∈ {45}
+   [8][2] ∈ {29}
+   [8][3] ∈ {103}
+   [8][4] ∈ {125}
+   [8][5] ∈ {83}
+   [8][6] ∈ {23}
+   [8][7] ∈ {66}
+   [8][8] ∈ {8}
+   [8][9] ∈ {75}
+   [8][10] ∈ {48}
+   [8][11] ∈ {9}
+   [8][12] ∈ {80}
+   [8][13] ∈ {113}
+   [8][14] ∈ {32}
+   [8][15] ∈ {57}
+   [9][0] ∈ {78}
+   [9][1] ∈ {126}
+   [9][2] ∈ {116}
+   [9][3] ∈ {106}
+   [9][4] ∈ {20}
+   [9][5] ∈ {38}
+   [9][6] ∈ {67}
+   [9][7] ∈ {17}
+   [9][8] ∈ {122}
+   [9][9] ∈ {114}
+   [9][10] ∈ {35}
+   [9][11] ∈ {52}
+   [9][12] ∈ {87}
+   [9][13] ∈ {32}
+   [9][14] ∈ {28}
+   [9][15] ∈ {79}
+   [10][0] ∈ {23}
+   [10][1] ∈ {53}
+   [10][2] ∈ {67}
+   [10][3] ∈ {119}
+   [10][4] ∈ {115}
+   [10][5] ∈ {84}
+   [10][6] ∈ {29}
+   [10][7] ∈ {101}
+   [10][8] ∈ {80}
+   [10][9] ∈ {82}
+   [10][10] ∈ {55}
+   [10][11] ∈ {104}
+   [10][12] ∈ {86}
+   [10][13] ∈ {16}
+   [10][14] ∈ {121}
+   [10][15] ∈ {13}
+   [11][0] ∈ {119}
+   [11][1] ∈ {33}
+   [11][2] ∈ {19}
+   [11][3] ∈ {92}
+   [11][4] ∈ {127}
+   [11][5..6] ∈ {67}
+   [11][7] ∈ {44}
+   [11][8] ∈ {102}
+   [11][9] ∈ {68}
+   [11][10] ∈ {70}
+   [11][11] ∈ {85}
+   [11][12] ∈ {99}
+   [11][13] ∈ {125}
+   [11][14] ∈ {124}
+   [11][15] ∈ {109}
+   [12][0] ∈ {37}
+   [12][1] ∈ {95}
+   [12][2] ∈ {64}
+   [12][3] ∈ {118}
+   [12][4] ∈ {75}
+   [12][5] ∈ {126}
+   [12][6] ∈ {23}
+   [12][7] ∈ {113}
+   [12][8] ∈ {80}
+   [12][9] ∈ {52}
+   [12][10] ∈ {126}
+   [12][11] ∈ {61}
+   [12][12] ∈ {2}
+   [12][13] ∈ {63}
+   [12][14] ∈ {33}
+   [12][15] ∈ {75}
+   [13][0] ∈ {76}
+   [13][1] ∈ {86}
+   [13][2] ∈ {64}
+   [13][3] ∈ {17}
+   [13][4] ∈ {27}
+   [13][5] ∈ {8}
+   [13][6] ∈ {104}
+   [13][7] ∈ {106}
+   [13][8] ∈ {124}
+   [13][9] ∈ {112}
+   [13][10] ∈ {48}
+   [13][11] ∈ {79}
+   [13][12] ∈ {51}
+   [13][13] ∈ {83}
+   [13][14] ∈ {79}
+   [13][15] ∈ {66}
+   [14][0] ∈ {81}
+   [14][1] ∈ {82}
+   [14][2] ∈ {24}
+   [14][3] ∈ {108}
+   [14][4] ∈ {107}
+   [14][5] ∈ {100}
+   [14][6] ∈ {13}
+   [14][7] ∈ {84}
+   [14][8] ∈ {22}
+   [14][9] ∈ {108}
+   [14][10] ∈ {7}
+   [14][11] ∈ {11}
+   [14][12] ∈ {42}
+   [14][13] ∈ {109}
+   [14][14] ∈ {85}
+   [14][15] ∈ {11}
+   [15][0] ∈ {88}
+   [15][1] ∈ {20}
+   [15][2] ∈ {119}
+   [15][3] ∈ {52}
+   [15][4] ∈ {123}
+   [15][5] ∈ {55}
+   [15][6] ∈ {17}
+   [15][7] ∈ {22}
+   [15][8] ∈ {115}
+   [15][9] ∈ {31}
+   [15][10] ∈ {118}
+   [15][11] ∈ {80}
+   [15][12] ∈ {3}
+   [15][13] ∈ {127}
+   [15][14] ∈ {104}
+   [15][15] ∈ {48}
+  array[0] ∈ {53}
+       [1] ∈ {16}
+       [2] ∈ {118}
+       [3] ∈ {99}
+       [4] ∈ {45}
+       [5] ∈ {79}
+       [6] ∈ {30}
+       [7] ∈ {18}
+       [8] ∈ {84}
+       [9] ∈ {9}
+       [10] ∈ {36}
+       [11] ∈ {18}
+       [12] ∈ {120}
+       [13] ∈ {93}
+       [14] ∈ {61}
+       [15] ∈ {98}
+  current ∈ {0}
+  i ∈ {0}
+  tail ∈ {0}
+  head ∈ {0}
+[value] computing for function bfsdfs <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:148.
+[value] computing for function bfsdfsF <- bfsdfs <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:106.
+[value] computing for function enqueue <- bfsdfsF <- bfsdfs <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:84.
+[value] Recording results for enqueue
+[value] Done for function enqueue
+../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:86:[value] entering loop for the first time
+[value] computing for function dequeue <- bfsdfsF <- bfsdfs <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:88.
+[value] Recording results for dequeue
+[value] Done for function dequeue
+../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:90:[value] entering loop for the first time
+[value] computing for function enqueue <- bfsdfsF <- bfsdfs <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:97.
+[value] Recording results for enqueue
+[value] Done for function enqueue
+[value] computing for function enqueue <- bfsdfsF <- bfsdfs <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:97.
+[value] Recording results for enqueue
+[value] Done for function enqueue
+[value] computing for function enqueue <- bfsdfsF <- bfsdfs <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:97.
+[value] Recording results for enqueue
+[value] Done for function enqueue
+[value] computing for function enqueue <- bfsdfsF <- bfsdfs <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:97.
+[value] Recording results for enqueue
+[value] Done for function enqueue
+[value] computing for function enqueue <- bfsdfsF <- bfsdfs <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:97.
+[value] Recording results for enqueue
+[value] Done for function enqueue
+[value] computing for function enqueue <- bfsdfsF <- bfsdfs <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:97.
+[value] Recording results for enqueue
+[value] Done for function enqueue
+[value] computing for function dequeue <- bfsdfsF <- bfsdfs <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:88.
+[value] Recording results for dequeue
+[value] Done for function dequeue
+../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:95:[kernel] warning: out of bounds read. assert \valid_read(&(*(a_0+current))[i]);
+[value] computing for function enqueue <- bfsdfsF <- bfsdfs <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:97.
+[value] Recording results for enqueue
+[value] Done for function enqueue
+[value] computing for function dequeue <- bfsdfsF <- bfsdfs <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:88.
+[value] Recording results for dequeue
+[value] Done for function dequeue
+[value] computing for function enqueue <- bfsdfsF <- bfsdfs <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:97.
+[value] Recording results for enqueue
+[value] Done for function enqueue
+[value] computing for function dequeue <- bfsdfsF <- bfsdfs <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:88.
+[value] Recording results for dequeue
+[value] Done for function dequeue
+[value] computing for function enqueue <- bfsdfsF <- bfsdfs <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:97.
+[value] Recording results for enqueue
+[value] Done for function enqueue
+[value] computing for function dequeue <- bfsdfsF <- bfsdfs <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:88.
+[value] Recording results for dequeue
+[value] Done for function dequeue
+[value] computing for function enqueue <- bfsdfsF <- bfsdfs <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:97.
+[value] Recording results for enqueue
+[value] Done for function enqueue
+[value] computing for function dequeue <- bfsdfsF <- bfsdfs <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:88.
+[value] Recording results for dequeue
+[value] Done for function dequeue
+[value] Recording results for bfsdfsF
+[value] Done for function bfsdfsF
+[value] Recording results for bfsdfs
+[value] Done for function bfsdfs
+[value] computing for function clean_input <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:153.
+[value] computing for function clean_inputF <- clean_input <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:75.
+../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:64:[value] entering loop for the first time
+[value] Recording results for clean_inputF
+[value] Done for function clean_inputF
+[value] Recording results for clean_input
+[value] Done for function clean_input
+[value] computing for function depth_first_search <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:154.
+[value] computing for function depth_first_searchF <- depth_first_search <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:141.
+../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:114:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:123:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:119:[kernel] warning: accessing out of bounds index [0..118]. assert current < size;
+../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:130:[kernel] warning: out of bounds write. assert \valid(array_0+tmp);
+                                       (tmp from tail++)
+../../../../../../../cc4cs_bambu/benchmarkBasic/bfsdfs/thrd.c:116:[kernel] warning: out of bounds read. assert \valid_read(array_0+head);
+[value] Recording results for depth_first_searchF
+[value] Done for function depth_first_searchF
+[value] Recording results for depth_first_search
+[value] Done for function depth_first_search
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 9 (out of 9)
+          Semantically reached functions = 9
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          74 stmts in analyzed functions, 74 stmts analyzed (100.0%)
+          main: 4 stmts out of 4 (100.0%)
+          depth_first_search: 2 stmts out of 2 (100.0%)
+          depth_first_searchF: 24 stmts out of 24 (100.0%)
+          bfsdfs: 2 stmts out of 2 (100.0%)
+          bfsdfsF: 20 stmts out of 20 (100.0%)
+          clean_input: 2 stmts out of 2 (100.0%)
+          clean_inputF: 11 stmts out of 11 (100.0%)
+          dequeue: 5 stmts out of 5 (100.0%)
+          enqueue: 4 stmts out of 4 (100.0%)

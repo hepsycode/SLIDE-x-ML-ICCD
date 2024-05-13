@@ -1,0 +1,96 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/prime/thrd.c (with preprocessing)
+[metrics] Defined functions (5)
+          =====================
+           divides (2 calls); even (1 call); main (0 call); my_fmod (1 call);
+           prime (1 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 26
+          Decision point = 3
+          Global variables = 1
+          If = 3
+          Loop = 1
+          Goto = 2
+          Assignment = 8
+          Exit point = 5
+          Function = 5
+          Function call = 5
+          Pointer dereferencing = 0
+          Cyclomatic complexity = 8
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  n ∈ {70}
+[value] computing for function prime <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/prime/thrd.c:45.
+[value] computing for function even <- prime <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/prime/thrd.c:29.
+[value] computing for function divides <- even <- prime <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/prime/thrd.c:22.
+[value] computing for function my_fmod <- divides <- even <- prime <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/prime/thrd.c:17.
+[value] Recording results for my_fmod
+[value] Done for function my_fmod
+[value] Recording results for divides
+[value] Done for function divides
+[value] Recording results for even
+[value] Done for function even
+../../../../../../../cc4cs_bambu/benchmarkBasic/prime/thrd.c:32:[value] entering loop for the first time
+[value] computing for function divides <- prime <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/prime/thrd.c:36.
+[value] computing for function my_fmod <- divides <- prime <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/prime/thrd.c:17.
+[value] Recording results for my_fmod
+[value] Done for function my_fmod
+[value] Recording results for divides
+[value] Done for function divides
+[value] computing for function divides <- prime <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/prime/thrd.c:36.
+[value] computing for function my_fmod <- divides <- prime <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/prime/thrd.c:17.
+[value] Recording results for my_fmod
+[value] Done for function my_fmod
+[value] Recording results for divides
+[value] Done for function divides
+[value] computing for function divides <- prime <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/prime/thrd.c:36.
+[value] computing for function my_fmod <- divides <- prime <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/prime/thrd.c:17.
+[value] Recording results for my_fmod
+[value] Done for function my_fmod
+[value] Recording results for divides
+[value] Done for function divides
+[value] Recording results for prime
+[value] Done for function prime
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 5 (out of 5)
+          Semantically reached functions = 5
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          26 stmts in analyzed functions, 22 stmts analyzed (84.6%)
+          main: 2 stmts out of 2 (100.0%)
+          even: 2 stmts out of 2 (100.0%)
+          divides: 3 stmts out of 3 (100.0%)
+          my_fmod: 3 stmts out of 3 (100.0%)
+          prime: 12 stmts out of 16 (75.0%)

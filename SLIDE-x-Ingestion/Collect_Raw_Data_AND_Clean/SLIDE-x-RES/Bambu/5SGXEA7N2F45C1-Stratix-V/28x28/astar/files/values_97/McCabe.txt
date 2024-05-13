@@ -1,0 +1,1092 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c (with preprocessing)
+[metrics] Defined functions (10)
+          ======================
+           absolute (2 calls); astar (1 call); astarF (1 call); heuristic (1 call);
+           init_camefrom (1 call); insert (2 calls); main (0 call);
+           make_oriented (1 call); remove_min (1 call); set_estimates (1 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (3)
+          =============================
+           __FC_errno; __fc_stdin; __fc_stdout
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 103
+          Decision point = 19
+          Global variables = 13
+          If = 19
+          Loop = 7
+          Goto = 3
+          Assignment = 36
+          Exit point = 10
+          Function = 10
+          Function call = 11
+          Pointer dereferencing = 9
+          Cyclomatic complexity = 29
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  a[0][0] ∈ {-42}
+   [0][1] ∈ {106}
+   [0][2] ∈ {62}
+   [0][3] ∈ {125}
+   [0][4] ∈ {23}
+   [0][5] ∈ {-36}
+   [0][6] ∈ {-104}
+   [0][7] ∈ {-13}
+   [0][8] ∈ {11}
+   [0][9] ∈ {-41}
+   [0][10] ∈ {-29}
+   [0][11] ∈ {-122}
+   [0][12] ∈ {40}
+   [0][13] ∈ {-71}
+   [0][14] ∈ {76}
+   [0][15] ∈ {-44}
+   [0][16] ∈ {-82}
+   [0][17] ∈ {-125}
+   [0][18] ∈ {118}
+   [0][19] ∈ {23}
+   [0][20] ∈ {-68}
+   [0][21] ∈ {-75}
+   [0][22] ∈ {87}
+   [0][23] ∈ {26}
+   [0][24] ∈ {-120}
+   [0][25] ∈ {120}
+   [0][26] ∈ {-5}
+   [1][0] ∈ {18}
+   [1][1] ∈ {110}
+   [1][2] ∈ {-35}
+   [1][3] ∈ {-43}
+   [1][4] ∈ {44}
+   [1][5] ∈ {69}
+   [1][6] ∈ {-105}
+   [1][7] ∈ {41}
+   [1][8] ∈ {-70}
+   [1][9] ∈ {73}
+   [1][10] ∈ {57}
+   [1][11] ∈ {-64}
+   [1][12] ∈ {-4}
+   [1][13] ∈ {-62}
+   [1][14] ∈ {69}
+   [1][15] ∈ {28}
+   [1][16] ∈ {-53}
+   [1][17] ∈ {-62}
+   [1][18] ∈ {-51}
+   [1][19] ∈ {117}
+   [1][20..21] ∈ {-65}
+   [1][22] ∈ {-35}
+   [1][23] ∈ {73}
+   [1][24] ∈ {-90}
+   [1][25] ∈ {-74}
+   [1][26] ∈ {32}
+   [2][0] ∈ {-27}
+   [2][1] ∈ {-61}
+   [2][2] ∈ {-16}
+   [2][3] ∈ {71}
+   [2][4] ∈ {-89}
+   [2][5] ∈ {51}
+   [2][6] ∈ {108}
+   [2][7] ∈ {-38}
+   [2][8] ∈ {-69}
+   [2][9] ∈ {119}
+   [2][10] ∈ {25}
+   [2][11] ∈ {73}
+   [2][12] ∈ {-6}
+   [2][13] ∈ {2}
+   [2][14] ∈ {78}
+   [2][15] ∈ {-123}
+   [2][16] ∈ {90}
+   [2][17] ∈ {-114}
+   [2][18] ∈ {-104}
+   [2][19] ∈ {-15}
+   [2][20] ∈ {-38}
+   [2][21] ∈ {-39}
+   [2][22] ∈ {-127}
+   [2][23] ∈ {-39}
+   [2][24] ∈ {25}
+   [2][25] ∈ {-43}
+   [2][26] ∈ {-127}
+   [3][0] ∈ {63}
+   [3][1] ∈ {-51}
+   [3][2] ∈ {-96}
+   [3][3] ∈ {0}
+   [3][4] ∈ {-34}
+   [3][5] ∈ {-10}
+   [3][6] ∈ {-76}
+   [3][7] ∈ {83}
+   [3][8] ∈ {-105}
+   [3][9] ∈ {-37}
+   [3][10] ∈ {15}
+   [3][11] ∈ {63}
+   [3][12] ∈ {44}
+   [3][13] ∈ {104}
+   [3][14] ∈ {-79}
+   [3][15] ∈ {61}
+   [3][16] ∈ {75}
+   [3][17] ∈ {-93}
+   [3][18] ∈ {-61}
+   [3][19] ∈ {-63}
+   [3][20] ∈ {26}
+   [3][21] ∈ {-11}
+   [3][22] ∈ {100}
+   [3][23] ∈ {24}
+   [3][24] ∈ {-52}
+   [3][25] ∈ {8}
+   [3][26] ∈ {-91}
+   [4][0] ∈ {-16}
+   [4][1] ∈ {52}
+   [4][2] ∈ {-12}
+   [4][3] ∈ {23}
+   [4][4] ∈ {75}
+   [4][5] ∈ {0}
+   [4][6] ∈ {-112}
+   [4][7] ∈ {72}
+   [4][8] ∈ {-33}
+   [4][9] ∈ {54}
+   [4][10] ∈ {59}
+   [4][11] ∈ {-81}
+   [4][12] ∈ {-115}
+   [4][13] ∈ {-32}
+   [4][14] ∈ {0}
+   [4][15] ∈ {-81}
+   [4][16] ∈ {41}
+   [4][17] ∈ {115}
+   [4][18] ∈ {68}
+   [4][19] ∈ {-77}
+   [4][20] ∈ {50}
+   [4][21] ∈ {-108}
+   [4][22] ∈ {-88}
+   [4][23] ∈ {-39}
+   [4][24] ∈ {-78}
+   [4][25] ∈ {-95}
+   [4][26] ∈ {-54}
+   [5][0] ∈ {-70}
+   [5][1] ∈ {110}
+   [5][2] ∈ {85}
+   [5][3] ∈ {-9}
+   [5][4] ∈ {15}
+   [5][5] ∈ {44}
+   [5][6] ∈ {33}
+   [5][7] ∈ {21}
+   [5][8] ∈ {-78}
+   [5][9] ∈ {92}
+   [5][10] ∈ {-57}
+   [5][11] ∈ {78}
+   [5][12] ∈ {-22}
+   [5][13] ∈ {-42}
+   [5][14] ∈ {12}
+   [5][15] ∈ {-63}
+   [5][16] ∈ {-81}
+   [5][17] ∈ {-49}
+   [5][18] ∈ {-37}
+   [5][19] ∈ {-122}
+   [5][20] ∈ {93}
+   [5][21] ∈ {107}
+   [5][22] ∈ {-52}
+   [5][23] ∈ {127}
+   [5][24] ∈ {-128}
+   [5][25] ∈ {-104}
+   [5][26] ∈ {-117}
+   [6][0] ∈ {39}
+   [6][1] ∈ {-31}
+   [6][2] ∈ {16}
+   [6][3] ∈ {36}
+   [6][4] ∈ {68}
+   [6][5] ∈ {-118}
+   [6][6] ∈ {-64}
+   [6][7] ∈ {-86}
+   [6][8] ∈ {-109}
+   [6][9] ∈ {-23}
+   [6][10] ∈ {-63}
+   [6][11] ∈ {85}
+   [6][12] ∈ {124}
+   [6][13] ∈ {102}
+   [6][14] ∈ {-51}
+   [6][15] ∈ {2}
+   [6][16] ∈ {-30}
+   [6][17] ∈ {63}
+   [6][18] ∈ {-117}
+   [6][19] ∈ {98}
+   [6][20] ∈ {67}
+   [6][21] ∈ {-19}
+   [6][22] ∈ {92}
+   [6][23] ∈ {65}
+   [6][24] ∈ {-126}
+   [6][25] ∈ {-102}
+   [6][26] ∈ {67}
+   [7][0] ∈ {-34}
+   [7][1] ∈ {-80}
+   [7][2] ∈ {-15}
+   [7][3] ∈ {40}
+   [7][4] ∈ {-120}
+   [7][5] ∈ {89}
+   [7][6] ∈ {39}
+   [7][7] ∈ {-21}
+   [7][8] ∈ {-11}
+   [7][9] ∈ {47}
+   [7][10] ∈ {103}
+   [7][11] ∈ {46}
+   [7][12] ∈ {-89}
+   [7][13] ∈ {-53}
+   [7][14] ∈ {-94}
+   [7][15] ∈ {4}
+   [7][16] ∈ {32}
+   [7][17] ∈ {-20}
+   [7][18] ∈ {-97}
+   [7][19] ∈ {74}
+   [7][20] ∈ {-101}
+   [7][21] ∈ {96}
+   [7][22] ∈ {-46}
+   [7][23] ∈ {106}
+   [7][24] ∈ {-69}
+   [7][25] ∈ {72}
+   [7][26] ∈ {-3}
+   [8][0] ∈ {54}
+   [8][1] ∈ {-115}
+   [8][2] ∈ {-65}
+   [8][3] ∈ {19}
+   [8][4] ∈ {-71}
+   [8][5] ∈ {-15}
+   [8][6] ∈ {-122}
+   [8][7] ∈ {76}
+   [8][8] ∈ {54}
+   [8][9] ∈ {67}
+   [8][10] ∈ {0}
+   [8][11] ∈ {-103}
+   [8][12] ∈ {99}
+   [8][13] ∈ {116}
+   [8][14] ∈ {-28}
+   [8][15] ∈ {-65}
+   [8][16] ∈ {4}
+   [8][17] ∈ {-10}
+   [8][18] ∈ {-46}
+   [8][19] ∈ {86}
+   [8][20] ∈ {-116}
+   [8][21] ∈ {30}
+   [8][22] ∈ {-112}
+   [8][23] ∈ {73}
+   [8][24] ∈ {-75}
+   [8][25] ∈ {60}
+   [8][26] ∈ {62}
+   [9][0] ∈ {-3}
+   [9][1..2] ∈ {-83}
+   [9][3] ∈ {2}
+   [9][4] ∈ {-85}
+   [9][5] ∈ {1}
+   [9][6] ∈ {85}
+   [9][7] ∈ {88}
+   [9][8] ∈ {104}
+   [9][9] ∈ {6}
+   [9][10] ∈ {-86}
+   [9][11] ∈ {5}
+   [9][12] ∈ {-51}
+   [9][13] ∈ {40}
+   [9][14] ∈ {-32}
+   [9][15] ∈ {-25}
+   [9][16] ∈ {33}
+   [9][17] ∈ {84}
+   [9][18] ∈ {58}
+   [9][19] ∈ {-16}
+   [9][20] ∈ {60}
+   [9][21] ∈ {20}
+   [9][22] ∈ {91}
+   [9][23] ∈ {32}
+   [9][24] ∈ {124}
+   [9][25] ∈ {115}
+   [9][26] ∈ {28}
+   [10][0] ∈ {89}
+   [10][1] ∈ {-43}
+   [10][2] ∈ {16}
+   [10][3] ∈ {36}
+   [10][4] ∈ {30}
+   [10][5] ∈ {77}
+   [10][6] ∈ {-25}
+   [10][7] ∈ {-42}
+   [10][8] ∈ {-63}
+   [10][9] ∈ {126}
+   [10][10] ∈ {28}
+   [10][11] ∈ {24}
+   [10][12] ∈ {-3}
+   [10][13] ∈ {53}
+   [10][14] ∈ {72}
+   [10][15] ∈ {49}
+   [10][16] ∈ {-45}
+   [10][17] ∈ {74}
+   [10][18] ∈ {36}
+   [10][19] ∈ {-93}
+   [10][20] ∈ {-1}
+   [10][21] ∈ {-117}
+   [10][22] ∈ {-13}
+   [10][23] ∈ {117}
+   [10][24] ∈ {-119}
+   [10][25] ∈ {-61}
+   [10][26] ∈ {-1}
+   [11][0] ∈ {-27}
+   [11][1] ∈ {107}
+   [11][2] ∈ {-100}
+   [11][3] ∈ {-6}
+   [11][4] ∈ {102}
+   [11][5] ∈ {-11}
+   [11][6] ∈ {-93}
+   [11][7] ∈ {-67}
+   [11][8] ∈ {108}
+   [11][9] ∈ {-100}
+   [11][10] ∈ {95}
+   [11][11] ∈ {-110}
+   [11][12] ∈ {-26}
+   [11][13] ∈ {-58}
+   [11][14] ∈ {36}
+   [11][15] ∈ {57}
+   [11][16] ∈ {-3}
+   [11][17] ∈ {-45}
+   [11][18] ∈ {-70}
+   [11][19] ∈ {66}
+   [11][20] ∈ {45}
+   [11][21] ∈ {67}
+   [11][22] ∈ {-44}
+   [11][23] ∈ {76}
+   [11][24] ∈ {-104}
+   [11][25] ∈ {-49}
+   [11][26] ∈ {-56}
+   [12][0] ∈ {-15}
+   [12][1] ∈ {-77}
+   [12][2] ∈ {82}
+   [12][3] ∈ {-61}
+   [12][4] ∈ {-6}
+   [12][5] ∈ {96}
+   [12][6] ∈ {-84}
+   [12][7] ∈ {-49}
+   [12][8] ∈ {-26}
+   [12][9] ∈ {-31}
+   [12][10] ∈ {-28}
+   [12][11] ∈ {78}
+   [12][12] ∈ {-56}
+   [12][13] ∈ {115}
+   [12][14] ∈ {126}
+   [12][15] ∈ {18}
+   [12][16] ∈ {-83}
+   [12][17] ∈ {-78}
+   [12][18] ∈ {20}
+   [12][19] ∈ {-77}
+   [12][20] ∈ {16}
+   [12][21] ∈ {-61}
+   [12][22] ∈ {53}
+   [12][23] ∈ {93}
+   [12][24] ∈ {66}
+   [12][25] ∈ {33}
+   [12][26] ∈ {-126}
+   [13][0] ∈ {-63}
+   [13][1] ∈ {-24}
+   [13][2] ∈ {-51}
+   [13][3] ∈ {111}
+   [13][4] ∈ {49}
+   [13][5] ∈ {53}
+   [13][6] ∈ {-60}
+   [13][7] ∈ {-48}
+   [13][8] ∈ {57}
+   [13][9] ∈ {122}
+   [13][10] ∈ {24}
+   [13][11] ∈ {62}
+   [13][12] ∈ {-57}
+   [13][13] ∈ {68}
+   [13][14] ∈ {48}
+   [13][15] ∈ {-46}
+   [13][16] ∈ {95}
+   [13][17] ∈ {-85}
+   [13][18] ∈ {-122}
+   [13][19] ∈ {-115}
+   [13][20] ∈ {-39}
+   [13][21] ∈ {110}
+   [13][22] ∈ {12}
+   [13][23] ∈ {-31}
+   [13][24] ∈ {72}
+   [13][25] ∈ {90}
+   [13][26] ∈ {70}
+   [14][0] ∈ {-101}
+   [14][1] ∈ {8}
+   [14][2] ∈ {96}
+   [14][3] ∈ {-128}
+   [14][4] ∈ {-59}
+   [14][5] ∈ {-32}
+   [14][6] ∈ {-95}
+   [14][7] ∈ {83}
+   [14][8] ∈ {-64}
+   [14][9] ∈ {-82}
+   [14][10] ∈ {-38}
+   [14][11] ∈ {86}
+   [14][12] ∈ {-80}
+   [14][13] ∈ {120}
+   [14][14] ∈ {-23}
+   [14][15] ∈ {-101}
+   [14][16] ∈ {-103}
+   [14][17] ∈ {51}
+   [14][18] ∈ {-102}
+   [14][19] ∈ {75}
+   [14][20] ∈ {-128}
+   [14][21] ∈ {39}
+   [14][22] ∈ {-89}
+   [14][23] ∈ {-46}
+   [14][24] ∈ {-96}
+   [14][25] ∈ {-128}
+   [14][26] ∈ {-110}
+   [15][0] ∈ {-41}
+   [15][1] ∈ {43}
+   [15][2] ∈ {114}
+   [15][3] ∈ {-63}
+   [15][4] ∈ {-74}
+   [15][5] ∈ {97}
+   [15][6] ∈ {-89}
+   [15][7] ∈ {62}
+   [15][8] ∈ {-27}
+   [15][9] ∈ {-48}
+   [15][10] ∈ {75}
+   [15][11] ∈ {39}
+   [15][12] ∈ {-75}
+   [15][13] ∈ {36}
+   [15][14] ∈ {104}
+   [15][15] ∈ {125}
+   [15][16] ∈ {-17}
+   [15][17] ∈ {-56}
+   [15][18] ∈ {28}
+   [15][19] ∈ {49}
+   [15][20] ∈ {35}
+   [15][21] ∈ {124}
+   [15][22] ∈ {-12}
+   [15][23] ∈ {-91}
+   [15][24] ∈ {41}
+   [15][25] ∈ {-65}
+   [15][26] ∈ {-122}
+   [16][0] ∈ {105}
+   [16][1] ∈ {68}
+   [16][2] ∈ {-88}
+   [16][3] ∈ {-31}
+   [16][4] ∈ {-47}
+   [16][5] ∈ {-97}
+   [16][6] ∈ {64}
+   [16][7] ∈ {-21}
+   [16][8] ∈ {-123}
+   [16][9] ∈ {-66}
+   [16][10] ∈ {7}
+   [16][11] ∈ {-44}
+   [16][12] ∈ {-99}
+   [16][13] ∈ {0}
+   [16][14] ∈ {-77}
+   [16][15] ∈ {-122}
+   [16][16] ∈ {121}
+   [16][17] ∈ {-41}
+   [16][18] ∈ {8}
+   [16][19] ∈ {-22}
+   [16][20] ∈ {-76}
+   [16][21] ∈ {-50}
+   [16][22] ∈ {104}
+   [16][23] ∈ {87}
+   [16][24] ∈ {-81}
+   [16][25] ∈ {41}
+   [16][26] ∈ {-72}
+   [17][0] ∈ {93}
+   [17][1] ∈ {13}
+   [17][2] ∈ {-45}
+   [17][3] ∈ {-88}
+   [17][4] ∈ {96}
+   [17][5] ∈ {64}
+   [17][6] ∈ {-121}
+   [17][7] ∈ {-114}
+   [17][8] ∈ {55}
+   [17][9] ∈ {-12}
+   [17][10] ∈ {92}
+   [17][11] ∈ {120}
+   [17][12] ∈ {-4}
+   [17][13] ∈ {20}
+   [17][14] ∈ {-84}
+   [17][15] ∈ {79}
+   [17][16] ∈ {-97}
+   [17][17] ∈ {-63}
+   [17][18] ∈ {-23}
+   [17][19] ∈ {-22}
+   [17][20] ∈ {-93}
+   [17][21] ∈ {102}
+   [17][22] ∈ {59}
+   [17][23] ∈ {-112}
+   [17][24] ∈ {-36}
+   [17][25] ∈ {-70}
+   [17][26] ∈ {-93}
+   [18][0] ∈ {107}
+   [18][1] ∈ {-58}
+   [18][2] ∈ {-72}
+   [18][3] ∈ {115}
+   [18][4] ∈ {-73}
+   [18][5] ∈ {-4}
+   [18][6] ∈ {-57}
+   [18][7] ∈ {47}
+   [18][8] ∈ {110}
+   [18][9] ∈ {-106}
+   [18][10] ∈ {-42}
+   [18][11] ∈ {-51}
+   [18][12] ∈ {68}
+   [18][13] ∈ {55}
+   [18][14] ∈ {-23}
+   [18][15] ∈ {32}
+   [18][16] ∈ {-59}
+   [18][17] ∈ {-82}
+   [18][18] ∈ {109}
+   [18][19] ∈ {-116}
+   [18][20] ∈ {-13}
+   [18][21] ∈ {-90}
+   [18][22] ∈ {125}
+   [18][23] ∈ {95}
+   [18][24] ∈ {35}
+   [18][25] ∈ {0}
+   [18][26] ∈ {89}
+   [19][0] ∈ {-83}
+   [19][1] ∈ {-101}
+   [19][2] ∈ {-13}
+   [19][3] ∈ {-56}
+   [19][4] ∈ {-120}
+   [19][5] ∈ {45}
+   [19][6] ∈ {-127}
+   [19][7] ∈ {-83}
+   [19][8] ∈ {-34}
+   [19][9] ∈ {1}
+   [19][10] ∈ {-60}
+   [19][11] ∈ {48}
+   [19][12] ∈ {-42}
+   [19][13] ∈ {92}
+   [19][14] ∈ {44}
+   [19][15] ∈ {41}
+   [19][16] ∈ {70}
+   [19][17] ∈ {39}
+   [19][18] ∈ {-15}
+   [19][19] ∈ {-47}
+   [19][20] ∈ {85}
+   [19][21] ∈ {46}
+   [19][22] ∈ {-101}
+   [19][23] ∈ {45}
+   [19][24] ∈ {87}
+   [19][25] ∈ {-22}
+   [19][26] ∈ {-65}
+   [20][0] ∈ {-33}
+   [20][1] ∈ {108}
+   [20][2] ∈ {-64}
+   [20][3] ∈ {99}
+   [20][4] ∈ {40}
+   [20][5] ∈ {18}
+   [20][6] ∈ {-43}
+   [20][7] ∈ {-23}
+   [20][8] ∈ {-55}
+   [20][9] ∈ {-51}
+   [20][10] ∈ {93}
+   [20][11] ∈ {31}
+   [20][12] ∈ {46}
+   [20][13] ∈ {98}
+   [20][14] ∈ {19}
+   [20][15] ∈ {46}
+   [20][16] ∈ {19}
+   [20][17..18] ∈ {-3}
+   [20][19] ∈ {-90}
+   [20][20] ∈ {-103}
+   [20][21] ∈ {-15}
+   [20][22] ∈ {73}
+   [20][23] ∈ {-22}
+   [20][24] ∈ {29}
+   [20][25] ∈ {-4}
+   [20][26] ∈ {36}
+   [21][0] ∈ {93}
+   [21][1] ∈ {84}
+   [21][2] ∈ {24}
+   [21][3] ∈ {-53}
+   [21][4] ∈ {124}
+   [21][5] ∈ {64}
+   [21][6] ∈ {-19}
+   [21][7] ∈ {-105}
+   [21][8] ∈ {34}
+   [21][9] ∈ {19}
+   [21][10] ∈ {106}
+   [21][11] ∈ {67}
+   [21][12] ∈ {-72}
+   [21][13] ∈ {78}
+   [21][14] ∈ {18}
+   [21][15] ∈ {28}
+   [21][16] ∈ {9}
+   [21][17] ∈ {127}
+   [21][18] ∈ {24}
+   [21][19] ∈ {10}
+   [21][20] ∈ {12}
+   [21][21] ∈ {39}
+   [21][22] ∈ {33}
+   [21][23] ∈ {-20}
+   [21][24] ∈ {67}
+   [21][25] ∈ {-58}
+   [21][26] ∈ {-24}
+   [22][0] ∈ {102}
+   [22][1] ∈ {-12}
+   [22][2] ∈ {115}
+   [22][3] ∈ {70}
+   [22][4] ∈ {58}
+   [22][5] ∈ {0}
+   [22][6] ∈ {118}
+   [22][7] ∈ {48}
+   [22][8] ∈ {-105}
+   [22][9] ∈ {-77}
+   [22][10] ∈ {-52}
+   [22][11] ∈ {-13}
+   [22][12] ∈ {-102}
+   [22][13] ∈ {-63}
+   [22][14] ∈ {56}
+   [22][15] ∈ {98}
+   [22][16] ∈ {3}
+   [22][17] ∈ {-14}
+   [22][18] ∈ {-111}
+   [22][19] ∈ {-49}
+   [22][20] ∈ {-61}
+   [22][21] ∈ {109}
+   [22][22] ∈ {-68}
+   [22][23] ∈ {98}
+   [22][24] ∈ {95}
+   [22][25] ∈ {-114}
+   [22][26] ∈ {86}
+   [23][0] ∈ {127}
+   [23][1] ∈ {67}
+   [23][2] ∈ {-116}
+   [23][3] ∈ {18}
+   [23][4] ∈ {61}
+   [23][5] ∈ {-77}
+   [23][6] ∈ {82}
+   [23][7] ∈ {-125}
+   [23][8] ∈ {124}
+   [23][9] ∈ {53}
+   [23][10] ∈ {-124}
+   [23][11] ∈ {-44}
+   [23][12] ∈ {100}
+   [23][13] ∈ {121}
+   [23][14] ∈ {-98}
+   [23][15] ∈ {84}
+   [23][16] ∈ {-69}
+   [23][17] ∈ {105}
+   [23][18] ∈ {23}
+   [23][19] ∈ {120}
+   [23][20] ∈ {-1}
+   [23][21] ∈ {64}
+   [23][22] ∈ {30}
+   [23][23] ∈ {90}
+   [23][24] ∈ {123}
+   [23][25] ∈ {75}
+   [23][26] ∈ {-10}
+   [24][0] ∈ {119}
+   [24][1] ∈ {12}
+   [24][2] ∈ {-117}
+   [24][3] ∈ {25}
+   [24][4] ∈ {52}
+   [24][5] ∈ {-37}
+   [24][6] ∈ {-28}
+   [24][7] ∈ {46}
+   [24][8] ∈ {-14}
+   [24][9] ∈ {-22}
+   [24][10] ∈ {-112}
+   [24][11] ∈ {-82}
+   [24][12] ∈ {99}
+   [24][13] ∈ {103}
+   [24][14] ∈ {79}
+   [24][15] ∈ {26}
+   [24][16] ∈ {49}
+   [24][17] ∈ {109}
+   [24][18] ∈ {-65}
+   [24][19] ∈ {92}
+   [24][20] ∈ {-37}
+   [24][21] ∈ {-75}
+   [24][22] ∈ {4}
+   [24][23] ∈ {-118}
+   [24][24] ∈ {-65}
+   [24][25] ∈ {7}
+   [24][26] ∈ {47}
+   [25][0] ∈ {104}
+   [25][1] ∈ {93}
+   [25][2] ∈ {81}
+   [25][3] ∈ {-24}
+   [25][4] ∈ {60}
+   [25][5] ∈ {-80}
+   [25][6] ∈ {-19}
+   [25][7] ∈ {-42}
+   [25][8] ∈ {-74}
+   [25][9] ∈ {-12}
+   [25][10] ∈ {-77}
+   [25][11] ∈ {72}
+   [25][12] ∈ {-36}
+   [25][13] ∈ {69}
+   [25][14] ∈ {16}
+   [25][15] ∈ {-119}
+   [25][16] ∈ {-28}
+   [25][17] ∈ {91}
+   [25][18] ∈ {13}
+   [25][19] ∈ {113}
+   [25][20] ∈ {111}
+   [25][21] ∈ {42}
+   [25][22] ∈ {-74}
+   [25][23] ∈ {88}
+   [25][24] ∈ {-26}
+   [25][25] ∈ {-10}
+   [25][26] ∈ {-42}
+   [26][0] ∈ {101}
+   [26][1] ∈ {45}
+   [26][2] ∈ {59}
+   [26][3] ∈ {-99}
+   [26][4] ∈ {-122}
+   [26][5] ∈ {-24}
+   [26][6] ∈ {-74}
+   [26][7] ∈ {-84}
+   [26][8] ∈ {-122}
+   [26][9] ∈ {65}
+   [26][10] ∈ {-90}
+   [26][11] ∈ {55}
+   [26][12..13] ∈ {36}
+   [26][14] ∈ {-27}
+   [26][15] ∈ {102}
+   [26][16] ∈ {-108}
+   [26][17] ∈ {80}
+   [26][18] ∈ {45}
+   [26][19] ∈ {119}
+   [26][20] ∈ {-24}
+   [26][21] ∈ {-25}
+   [26][22] ∈ {34}
+   [26][23] ∈ {-11}
+   [26][24] ∈ {-70}
+   [26][25] ∈ {111}
+   [26][26] ∈ {118}
+  __FC_errno ∈ [--..--]
+  __fc_stdin ∈ {{ NULL ; &S___fc_stdin[0] }}
+  __fc_stdout ∈ {{ NULL ; &S___fc_stdout[0] }}
+  __fc_fopen[0..511] ∈ {0}
+  __p_fc_fopen ∈ {{ &__fc_fopen[0] }}
+  frontier[0..26] ∈ {0}
+  frontier_size ∈ {0}
+  came_from[0..26] ∈ {0}
+  current ∈ {0}
+  priority ∈ {0}
+  i ∈ {0}
+  j ∈ {0}
+  S___fc_stdin[0]{.__fc_stdio_id; .__fc_position; .__fc_error; .__fc_eof} ∈
+              [--..--]
+              [0].[bits 80 to 95] ∈ UNINITIALIZED
+              [0].__fc_flags ∈ [--..--]
+              [0].__fc_inode ∈ {{ NULL ; &S___fc_inode_0_S___fc_stdin[0] }}
+              [0].__fc_real_data ∈
+              {{ NULL ; &S___fc_real_data_0_S___fc_stdin[0] }}
+              {[0].__fc_real_data_max_size; [1]{.__fc_stdio_id; .__fc_position; .__fc_error; .__fc_eof}} ∈
+              [--..--]
+              [1].[bits 80 to 95] ∈ UNINITIALIZED
+              [1].__fc_flags ∈ [--..--]
+              [1].__fc_inode ∈ {{ NULL ; &S___fc_inode_1_S___fc_stdin[0] }}
+              [1].__fc_real_data ∈
+              {{ NULL ; &S___fc_real_data_1_S___fc_stdin[0] }}
+              [1].__fc_real_data_max_size ∈ [--..--]
+  S___fc_inode_0_S___fc_stdin[0..1] ∈ [--..--]
+  S___fc_real_data_0_S___fc_stdin[0..1] ∈ [--..--]
+  S___fc_inode_1_S___fc_stdin[0..1] ∈ [--..--]
+  S___fc_real_data_1_S___fc_stdin[0..1] ∈ [--..--]
+  S___fc_stdout[0]{.__fc_stdio_id; .__fc_position; .__fc_error; .__fc_eof} ∈
+               [--..--]
+               [0].[bits 80 to 95] ∈ UNINITIALIZED
+               [0].__fc_flags ∈ [--..--]
+               [0].__fc_inode ∈
+               {{ NULL ; &S___fc_inode_0_S___fc_stdout[0] }}
+               [0].__fc_real_data ∈
+               {{ NULL ; &S___fc_real_data_0_S___fc_stdout[0] }}
+               {[0].__fc_real_data_max_size; [1]{.__fc_stdio_id; .__fc_position; .__fc_error; .__fc_eof}} ∈
+               [--..--]
+               [1].[bits 80 to 95] ∈ UNINITIALIZED
+               [1].__fc_flags ∈ [--..--]
+               [1].__fc_inode ∈
+               {{ NULL ; &S___fc_inode_1_S___fc_stdout[0] }}
+               [1].__fc_real_data ∈
+               {{ NULL ; &S___fc_real_data_1_S___fc_stdout[0] }}
+               [1].__fc_real_data_max_size ∈ [--..--]
+  S___fc_inode_0_S___fc_stdout[0..1] ∈ [--..--]
+  S___fc_real_data_0_S___fc_stdout[0..1] ∈ [--..--]
+  S___fc_inode_1_S___fc_stdout[0..1] ∈ [--..--]
+  S___fc_real_data_1_S___fc_stdout[0..1] ∈ [--..--]
+[value] computing for function make_oriented <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:202.
+../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:69:[value] entering loop for the first time
+../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:78:[value] entering loop for the first time
+[value] Recording results for make_oriented
+[value] Done for function make_oriented
+[value] computing for function astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:203.
+[value] computing for function astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:197.
+[value] computing for function set_estimates <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:166.
+../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:136:[value] entering loop for the first time
+[value] Recording results for set_estimates
+[value] Done for function set_estimates
+[value] computing for function init_camefrom <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:167.
+../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:102:[value] entering loop for the first time
+[value] Recording results for init_camefrom
+[value] Done for function init_camefrom
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:168.
+[value] Recording results for insert
+[value] Done for function insert
+../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:171:[value] entering loop for the first time
+[value] computing for function remove_min <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:173.
+../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:118:[value] entering loop for the first time
+[value] Recording results for remove_min
+[value] Done for function remove_min
+../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:178:[value] entering loop for the first time
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] computing for function remove_min <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:173.
+[value] Recording results for remove_min
+[value] Done for function remove_min
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] computing for function remove_min <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:173.
+[value] Recording results for remove_min
+[value] Done for function remove_min
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] computing for function remove_min <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:173.
+[value] Recording results for remove_min
+[value] Done for function remove_min
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] computing for function heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:186.
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] computing for function absolute <- heuristic <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:161.
+[value] Recording results for absolute
+[value] Done for function absolute
+[value] Recording results for heuristic
+[value] Done for function heuristic
+[value] computing for function insert <- astarF <- astar <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/astar/thrd.c:187.
+[value] Recording results for insert
+[value] Done for function insert
+[value] Recording results for astarF
+[value] Done for function astarF
+[value] Recording results for astar
+[value] Done for function astar
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 10 (out of 10)
+          Semantically reached functions = 10
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          103 stmts in analyzed functions, 103 stmts analyzed (100.0%)
+          main: 3 stmts out of 3 (100.0%)
+          astar: 2 stmts out of 2 (100.0%)
+          astarF: 26 stmts out of 26 (100.0%)
+          heuristic: 8 stmts out of 8 (100.0%)
+          absolute: 5 stmts out of 5 (100.0%)
+          set_estimates: 10 stmts out of 10 (100.0%)
+          remove_min: 14 stmts out of 14 (100.0%)
+          insert: 3 stmts out of 3 (100.0%)
+          init_camefrom: 7 stmts out of 7 (100.0%)
+          make_oriented: 25 stmts out of 25 (100.0%)

@@ -1,0 +1,55 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/park_miller/thrd.c (with preprocessing)
+[metrics] Defined functions (2)
+          =====================
+           main (0 call); park_miller (1 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 10
+          Decision point = 1
+          Global variables = 1
+          If = 1
+          Loop = 0
+          Goto = 0
+          Assignment = 6
+          Exit point = 2
+          Function = 2
+          Function call = 1
+          Pointer dereferencing = 0
+          Cyclomatic complexity = 3
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  idum ∈ {-33}
+[value] computing for function park_miller <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/park_miller/thrd.c:41.
+[value] Recording results for park_miller
+[value] Done for function park_miller
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 2 (out of 2)
+          Semantically reached functions = 2
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          10 stmts in analyzed functions, 10 stmts analyzed (100.0%)
+          main: 2 stmts out of 2 (100.0%)
+          park_miller: 8 stmts out of 8 (100.0%)

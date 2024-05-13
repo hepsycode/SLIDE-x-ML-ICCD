@@ -1,0 +1,83 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/straight_sort/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 161 
+          Distinct operators: 32 
+          Total_operands: 55 
+          Distinct operands: 26 
+          Program length: 216 
+          Vocabulary size: 58 
+          Program volume: 1265.32 
+          Effort: 42826.35 
+          Program level: 0.03 
+          Difficulty level: 33.85 
+          Time to implement: 2379.24 
+          Bugs delivered: 0.41 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 1
+            for: 1
+            while: 1
+            ): 2
+            ,: 17
+            {: 2
+            (: 2
+            }: 2
+            []: 5
+            ;: 12
+            +: 2
+            &&: 1
+            -: 1
+            ++: 1
+            <: 1
+            =: 5
+            >: 1
+            --: 1
+            >=: 1
+            enum  { size16 }: 1
+            TARGET_TYPE: 1
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            straight_sort: 1
+            a: 4
+            Frama_C_bzero: 1
+            arr: 7
+            j: 6
+            size: 3
+            Frama_C_copy_block: 1
+            i: 8
+            FC_BUILTIN: 2
+            51: 1
+            22: 1
+            53: 1
+            113: 1
+            13: 2
+            91: 1
+            33: 1
+            1: 4
+            35: 1
+            88: 1
+            72: 2
+            16: 1
+            96: 1
+            0: 1
+            26: 1
+            106: 1
+            108: 1

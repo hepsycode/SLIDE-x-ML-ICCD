@@ -1,0 +1,79 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/gcd/thrd.c (with preprocessing)
+[metrics] Defined functions (3)
+          =====================
+           gcd (1 call); main (0 call); modulo (1 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 26
+          Decision point = 6
+          Global variables = 2
+          If = 6
+          Loop = 2
+          Goto = 1
+          Assignment = 9
+          Exit point = 3
+          Function = 3
+          Function call = 2
+          Pointer dereferencing = 0
+          Cyclomatic complexity = 9
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  m ∈ {80}
+  n ∈ {89}
+[value] computing for function gcd <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/gcd/thrd.c:44.
+../../../../../../../cc4cs_bambu/benchmarkBasic/gcd/thrd.c:31:[value] entering loop for the first time
+[value] computing for function modulo <- gcd <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/gcd/thrd.c:33.
+../../../../../../../cc4cs_bambu/benchmarkBasic/gcd/thrd.c:11:[value] entering loop for the first time
+[value] Recording results for modulo
+[value] Done for function modulo
+[value] computing for function modulo <- gcd <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/gcd/thrd.c:33.
+[value] Recording results for modulo
+[value] Done for function modulo
+[value] computing for function modulo <- gcd <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/gcd/thrd.c:33.
+[value] Recording results for modulo
+[value] Done for function modulo
+[value] computing for function modulo <- gcd <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/gcd/thrd.c:33.
+[value] Recording results for modulo
+[value] Done for function modulo
+[value] computing for function modulo <- gcd <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/gcd/thrd.c:33.
+[value] Recording results for modulo
+[value] Done for function modulo
+[value] Recording results for gcd
+[value] Done for function gcd
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 3 (out of 3)
+          Semantically reached functions = 3
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          26 stmts in analyzed functions, 21 stmts analyzed (80.8%)
+          main: 2 stmts out of 2 (100.0%)
+          modulo: 6 stmts out of 6 (100.0%)
+          gcd: 13 stmts out of 18 (72.2%)

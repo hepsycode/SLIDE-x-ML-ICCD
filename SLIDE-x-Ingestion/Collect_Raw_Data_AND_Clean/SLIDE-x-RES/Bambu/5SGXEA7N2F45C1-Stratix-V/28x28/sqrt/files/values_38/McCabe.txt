@@ -1,0 +1,98 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/sqrtfnc/thrd.c (with preprocessing)
+../../../../../../../cc4cs_bambu/benchmarkBasic/sqrtfnc/thrd.c:71:[kernel] warning: Floating-point constant 0.00001 is not represented exactly. Will use 0x1.4f8b588e368f1p-17. See documentation for option -warn-decimal-float
+[metrics] Defined functions (3)
+          =====================
+           main (0 call); myabs (1 call); sqrtfnc (1 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 29
+          Decision point = 5
+          Global variables = 1
+          If = 5
+          Loop = 1
+          Goto = 2
+          Assignment = 12
+          Exit point = 3
+          Function = 3
+          Function call = 2
+          Pointer dereferencing = 0
+          Cyclomatic complexity = 8
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value] Values of globals at initialization
+  val ∈ {80}
+[value] computing for function sqrtfnc <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/sqrtfnc/thrd.c:104.
+../../../../../../../cc4cs_bambu/benchmarkBasic/sqrtfnc/thrd.c:81:[value] entering loop for the first time
+[value] computing for function myabs <- sqrtfnc <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/sqrtfnc/thrd.c:91.
+[value] Recording results for myabs
+[value] Done for function myabs
+[value] computing for function myabs <- sqrtfnc <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/sqrtfnc/thrd.c:91.
+[value] Recording results for myabs
+[value] Done for function myabs
+[value] computing for function myabs <- sqrtfnc <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/sqrtfnc/thrd.c:91.
+[value] Recording results for myabs
+[value] Done for function myabs
+[value] computing for function myabs <- sqrtfnc <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/sqrtfnc/thrd.c:91.
+[value] Recording results for myabs
+[value] Done for function myabs
+[value] computing for function myabs <- sqrtfnc <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/sqrtfnc/thrd.c:91.
+[value] Recording results for myabs
+[value] Done for function myabs
+../../../../../../../cc4cs_bambu/benchmarkBasic/sqrtfnc/thrd.c:87:[kernel] warning: non-finite double value ([--. .. --.]):
+                  assert
+                  \is_finite((double)((double)((int)((int)val_0-(int)((int)x*(int)x)))/(double)
+                                       (2.0*(double)x)));
+../../../../../../../cc4cs_bambu/benchmarkBasic/sqrtfnc/thrd.c:87:[kernel] warning: overflow in conversion
+                  of (double)((int)val_0 - (int)x * (int)x) / (2.0 * (double)x) ([-1.79769313486e+308 .. 1.79769313486e+308])
+                  from floating-point to integer.
+                  assert
+                  -129 <
+                  (double)((int)((int)val_0-(int)((int)x*(int)x)))/(double)(2.0*(double)x);
+../../../../../../../cc4cs_bambu/benchmarkBasic/sqrtfnc/thrd.c:87:[kernel] warning: overflow in conversion
+                  of (double)((int)val_0 - (int)x * (int)x) / (2.0 * (double)x) ([-1.79769313486e+308 .. 1.79769313486e+308])
+                  from floating-point to integer.
+                  assert
+                  (double)((int)((int)val_0-(int)((int)x*(int)x)))/(double)(2.0*(double)x) <
+                  128;
+[value] computing for function myabs <- sqrtfnc <- main.
+        Called from ../../../../../../../cc4cs_bambu/benchmarkBasic/sqrtfnc/thrd.c:91.
+[value] Recording results for myabs
+[value] Done for function myabs
+[value] Recording results for sqrtfnc
+[value] Done for function sqrtfnc
+[value] Recording results for main
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 3 (out of 3)
+          Semantically reached functions = 3
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          29 stmts in analyzed functions, 28 stmts analyzed (96.6%)
+          main: 2 stmts out of 2 (100.0%)
+          myabs: 6 stmts out of 6 (100.0%)
+          sqrtfnc: 20 stmts out of 21 (95.2%)

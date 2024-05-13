@@ -1,0 +1,80 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing ../../../../../../../cc4cs_bambu/benchmarkBasic/straight_sort/thrd.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 156 
+          Distinct operators: 32 
+          Total_operands: 50 
+          Distinct operands: 23 
+          Program length: 206 
+          Vocabulary size: 55 
+          Program volume: 1190.96 
+          Effort: 41424.70 
+          Program level: 0.03 
+          Difficulty level: 34.78 
+          Time to implement: 2301.37 
+          Bugs delivered: 0.40 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 1
+            for: 1
+            while: 1
+            ): 2
+            ,: 12
+            {: 2
+            (: 2
+            }: 2
+            []: 5
+            ;: 12
+            +: 2
+            &&: 1
+            -: 1
+            ++: 1
+            <: 1
+            =: 5
+            >: 1
+            --: 1
+            >=: 1
+            enum  { size11 }: 1
+            TARGET_TYPE: 1
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            unsigned: 14
+            char: 6
+            int8_t: 2
+            uint8_t: 1
+            
+          Operands
+          --------
+            straight_sort: 1
+            a: 4
+            Frama_C_bzero: 1
+            arr: 7
+            j: 6
+            size: 3
+            Frama_C_copy_block: 1
+            i: 8
+            FC_BUILTIN: 2
+            11: 1
+            110: 1
+            89: 1
+            113: 1
+            102: 1
+            105: 1
+            1: 4
+            35: 1
+            0: 1
+            47: 1
+            52: 1
+            48: 1
+            37: 1
+            71: 1

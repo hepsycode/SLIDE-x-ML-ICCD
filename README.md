@@ -14,16 +14,17 @@ SLIDE-x-ML is an open-source Python tool that facilitates the System-Level HW/SW
 SLIDE-x consists of the following components:
 
 1. **SLIDE-x-Ingestion**: Extensible Python Dataset Ingestion component for collecting datasets generated with the SLIDE-x Profiling/Simulation tool. <!-- It also offers functionalities for implementing unified HW/SW metrics (e.g., CC4CS, CC4IR, CC4SSA, CC4OPT, Affinity), performing statistical analysis, and comparing different platforms. --> The SLIDE-x-Ingestion is composed of:
-    - **Collect Raw Data & Clean**: Clean and store the dataset as a CSV file for interoperability between tools (from Python to Matlab or other tools)
-2. **SLIDE-x-Feature-Engineering**: Extensible Python component dedicated to the steps of feature creation, data analysis, and feature selection to create datasets useful for ML prediction. The SLIDE-x-Feature-Engineering is composed of:
-    - **SILDE-x-Feature-Creation**: WIP
-    - **SILDE-x-Data-Analysis**: WIP (TODO)
-    - **SILDE-x-Feature-Selection**: WIP
+    - **Collect Raw Data & Clean**: Clean and store the dataset as a CSV file for interoperability between tools (from Python to Matlab or other tools). The folder contains SLIDE-x-RES results extracted using the SLIDE-x framework accessible at the following link: https://github.com/hepsycode/SLIDE-x
+2. **SLIDE-x-Feature-Engineering**: Extensible Python component dedicated to feature creation, data analysis, and feature selection to create datasets useful for ML prediction. The SLIDE-x-Feature-Engineering is composed of:
+    - **SILDE-x-Feature-Creation**: Input data are categorized into scalars, arrays, and matrices. All the preceding data are also characterized by their ranges.  While scalar input data, array input data, and range definitions are extracted as-is from the SLIDe-x-RES
+files, input data matrices are treated similarly to images in a Convolutional Neural Network. Features are extracted using convolution and subsampling operations.
+    - **SILDE-x-Data-Analysis**: Data Analysis (i.e., correlation and heatmaps) are applied to the SLIDE-x-RES framework dataset (comprising 99 features, including 28 features from arrays and 32 values from matrices reduced with CNN)
+    - **SILDE-x-Feature-Selection**: Four regressor models are employed for feature analysis, average value of regression model results reduced by a confidence interval of 99%, is utilized as the lower bound to select the most important features.
 3. **SLIDE-x-Model-Engineering**: HW/SW ML-based component for creating System-Level HW/SW Co-Design models using machine learning frameworks and tools. The SLIDE-x-Model-Engineering is composed of:
-    - **SILDE-x-Data-Preparation**: WIP
-    - **SILDE-x-Model-Training**: WIP (Best algorithm Selection and Hyperparameter tuning).
-    - **SILDE-x-Model-Validation**: WIP
-    - **SILDE-x-Model-Export**: WIP
+    - **SILDE-x-Data-Preparation**: Following the feature analysis process, the most significant features have been considered, and a dataset for each target and FPGA is created.
+    - **SILDE-x-Model-Training**: ML algorithms have been trained to predict HLS simulation reports.
+    - **SILDE-x-Model-Validation**: ML validation metrics are used to identify the best algorithm and hyperparameter configuration.
+    - **SILDE-x-Model-Export**: ML models are deployed for subsequent use in an HW/SW co-design simulation environment.
 
 ### WEBSITE
 [www.HEPSYCODE.com](https://hepsycode.github.io/)

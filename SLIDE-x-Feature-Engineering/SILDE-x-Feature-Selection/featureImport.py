@@ -13,7 +13,6 @@ from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.ensemble import AdaBoostRegressor
 from sklearn.ensemble import RandomForestRegressor
 
-
 def feature_importances_histo(clf, file_name_path, file_name_generalScore, X_train, y_train=None,
                               top_n=10, figsize=(8, 8), print_table=False, title="Feature Importances"):
     __name__ = "feature_importances_histo"
@@ -44,7 +43,7 @@ def feature_importances_histo(clf, file_name_path, file_name_generalScore, X_tra
     plt.xlabel('Feature Importance Score')
     plt.rcParams.update({'font.size': 5})
     # plt.show()
-    plt.savefig(os.path.join(file_name_path, title + file_name_generalScore))
+    # plt.savefig(os.path.join(file_name_path, title + file_name_generalScore))
 
     if print_table:
         from IPython.display import display
@@ -52,7 +51,7 @@ def feature_importances_histo(clf, file_name_path, file_name_generalScore, X_tra
         display(feat_imp.sort_values(by='feature', ascending=False))
 
     return feat_imp
-
+    
 ESTIMATORS = 250
 
 #from google.colab import files
@@ -64,9 +63,11 @@ import os
 
 # assign directory
 directory = 'Dataset\csv\Train'
+directory_Val = 'Dataset\csv\Val'
+# filename = 'Artix-7.csv'
 
 # iterate over files in that directory
-for filename in os.listdir(directory):
+for filename in os.listdir(directory): # INDENT
     f = os.path.join(directory, filename)
     fileTrainName = f.split('\\')
     # checking if it is a file
@@ -86,7 +87,7 @@ for filename in os.listdir(directory):
     print(listHeader[49])
     y = df[["DSP", "BRAM", "Flip_Flop", "Area", "min_Slack", "Max_Freq","clockCycles"]]
     print(y)
-    X = df.drop(['Column1', 'DEVICE', 'BOARD', 'FUNCTION', 'DATA_TYPE', 'DSP', 'BRAM', 'Flip_Flop', 'Area', 'min_Slack', 'Max_Freq', 'Time', 'Energy', 'assemblyInstr', 'clockCycles', 'CC4CS'], axis=1)
+    X = df.drop(['ID_VAL', 'DEVICE', 'BOARD', 'FUNCTION', 'DATA_TYPE', 'DSP', 'BRAM', 'Flip_Flop', 'Area', 'min_Slack', 'Max_Freq', 'Time', 'Energy', 'assemblyInstr', 'clockCycles', 'CC4CS'], axis=1)
     print(X)
 
     #temporary dataframe for results
@@ -96,7 +97,7 @@ for filename in os.listdir(directory):
 
     for y_series_name, y_series in y.items():
 
-        X_train, X_test, y_train, y_test = train_test_split(X, y_series, test_size=0.30, shuffle=False)
+        X_train, X_test, y_train, y_test = train_test_split(X, y_series, test_size=0.20, shuffle=False)
 
         ## Main Function
 
@@ -145,21 +146,57 @@ for filename in os.listdir(directory):
         plt.axvline(x=0.001)
         plt.rcParams.update({'font.size': 5})
         # plt.show()
-        file_name_png = 'Mean' + fileTrainNameNoFormat[0] + y_series_name + '.csv'
-        plt.savefig(os.path.join(file_name_path, file_name_png))
+        file_name_png = 'Mean' + fileTrainNameNoFormat[0] + y_series_name + '.png'
+        # plt.savefig(os.path.join(file_name_path, file_name_png), format='png')
 
         print("\n=============   Feature Importance Mean Score   =============")
         print(dfavg)
         dfpruned = dfavg[~(dfavg['avg'] < 0.05)]
         print("\n=============   Feature Pruned by Score   =============")
         print(dfpruned)
+        file_name_dataset_train_test_pruned = 'DatasetReduced/Pruned/' + fileTrainNameNoFormat[0] + '_' + y_series_name + '.csv' 
+        dfpruned.to_csv(file_name_dataset_train_test_pruned, encoding='utf-8')
+
+        df_pruned = pd.read_csv(file_name_dataset_train_test_pruned, encoding='utf-8')
+        columnPruned = df_pruned[df_pruned.columns[0]].to_numpy()
+        list_Pruned = columnPruned.tolist()
+        print(list_Pruned)
 
         dfavg.plot.barh(title='Feature Importance Mean Score',logx=True, figsize=(8, 8))
         plt.xscale('log')
         plt.axvline(x=0.001, color='r', linestyle='--')
         plt.rcParams.update({'font.size': 5})
         # plt.show()
-        file_name_png = 'MeanRed' + fileTrainNameNoFormat[0] + y_series_name + '.csv'
-        plt.savefig(os.path.join(file_name_path, file_name_png))
+        file_name_png = 'MeanRed' + fileTrainNameNoFormat[0] + y_series_name + '.png'
+        # plt.savefig(os.path.join(file_name_path, file_name_png), format='png')
 
         # remove features from df and save dataset file
+        file_name_dataset_train = 'DatasetReduced/Train/' + fileTrainNameNoFormat[0] + '_' + y_series_name + '.csv' 
+        df_X_train = pd.DataFrame(X_train)
+        # df_X_train = df_X_train_1.drop(list_Pruned)
+        # df_X_train.loc[:,~df_X_train.columns.str.contains('|'.join(list_Pruned))]
+        for itemColTrain in list_Pruned:
+            df_X_train = df_X_train.drop(str(itemColTrain), axis=1)       
+        df_y_train = pd.DataFrame(y_train)
+        df_final_train = pd.concat([df_X_train, df_y_train], axis=1)
+        df_final_train.to_csv(file_name_dataset_train)
+
+        file_name_dataset_test = 'DatasetReduced/Test/' + fileTrainNameNoFormat[0] + '_' + y_series_name + '.csv'
+        df_X_test = pd.DataFrame(X_test)
+        # df_X_test = df_X_test_1.drop(list_Pruned)
+        # df_X_test.loc[:,~df_X_test.columns.str.contains('|'.join(list_Pruned))]
+        for itemColTest in list_Pruned:
+            df_X_test = df_X_test.drop(str(itemColTest), axis=1) 
+        df_y_test = pd.DataFrame(y_test)
+        df_final_test = pd.concat([df_X_test, df_y_test], axis=1)
+        df_final_test.to_csv(file_name_dataset_test)
+
+        # if os.path.exists(file_name_dataset_train_test_pruned):
+        #     os.remove(file_name_dataset_train_test_pruned)
+        # else:
+        #     print(file_name_dataset_train_test_pruned)
+            
+        # FINAL TOTAL
+        file_name_dataset_total = 'DatasetReduced/Total/' + fileTrainNameNoFormat[0] + '_' + y_series_name + '.csv'
+        resultTotal = pd.concat([df_final_train, df_final_test], axis=0)
+        resultTotal.to_csv(file_name_dataset_total)

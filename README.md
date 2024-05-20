@@ -64,10 +64,10 @@ We currently support:
     - (please take care to use \[SLICE-x SUPPORT\] as object
  2. Issues on GitHub
 
+<!--
 ## Additional information
 Research publications are available at https://hepsycode.github.io/ and http://www.pomante.net/sito_gg/Publications.htm
 
-<!--
 ## How to Cite?
 If you use SLIDE-x-ML in your research, please cite:
 ```

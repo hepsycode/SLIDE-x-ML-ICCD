@@ -27,7 +27,10 @@ files, input data matrices are treated similarly to images in a Convolutional Ne
     - **SILDE-x-Model-Export**: ML models are deployed for subsequent use in an HW co-design simulation environment.
 
 ### WEBSITE
+**REMOVED FOR DOUBLE BLIND REVIEW**
+<!--
 [www.HEPSYCODE.com](https://hepsycode.github.io/)
+-->
 
 ### DOWNLOAD
 SLIDE-x-ML is open-source and freely available on GitHub: https://github.com/hepsycode/SLIDE-x-ML-ICCD.
@@ -52,8 +55,9 @@ You can use the code from these repositories to experiment, test, build, and cre
 For any bug or doubt, contact us or open an issue.
 
 ### SUPPORT
-We currently support:
+We currently support: **REMOVED FOR DOUBLE BLIND REVIEW**
 
+<!--
  1. Email: 
     - Vittoriano Muttillo:
        - vittoriano.muttillo@guest.univaq.it,
@@ -63,11 +67,14 @@ We currently support:
     	- v.stoico@vu.nl
     - (please take care to use \[SLICE-x SUPPORT\] as object
  2. Issues on GitHub
+ -->
+
+
+## Additional information
+**REMOVED FOR DOUBLE BLIND REVIEW**
+<!-- Research publications are available at https://hepsycode.github.io/ and http://www.pomante.net/sito_gg/Publications.htm  -->
 
 <!--
-## Additional information
-Research publications are available at https://hepsycode.github.io/ and http://www.pomante.net/sito_gg/Publications.htm
-
 ## How to Cite?
 If you use SLIDE-x-ML in your research, please cite:
 ```

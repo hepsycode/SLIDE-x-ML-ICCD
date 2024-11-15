@@ -174,7 +174,6 @@ nameCSV = "EV.csv";
 trainModelSave = strcat(Target,nameCSV);
 writetable(T,trainModelSave);
 
-%{
 %% Save Error EVPN
 NewColEVPN = ["MSPE";"MPE";"NRMSEAve";"NRMSEMaxMin";"NRMSESd";"NRMSEIQ"];
 EVPN = [NewColEVPN EVPN];
@@ -186,7 +185,6 @@ T.Properties.VariableNames(1:20) = {'Metrics','LR','FT','MT','CT','SVM-L', 'SVM-
 nameCSVEVPN = "EVPN.csv";
 trainModelSaveEVPN = strcat(Target,nameCSVEVPN);
 writetable(T,trainModelSaveEVPN);
-%}
 
 %% Save Training Time
 NewColEV = "TestTime";
